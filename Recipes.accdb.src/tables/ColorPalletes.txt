@@ -1,0 +1,56 @@
+﻿Theme	Role	HexCode	SortOrder
+Coastal Calm	Accent	#D8E3E7	3
+Coastal Calm	Primary	#A2D5C6	1
+Coastal Calm	Secondary	#077187	2
+Coastal Calm	Shadow	#CAD7DF	5
+Coastal Calm	Surface	#F4F8FB	4
+Digital Blueprint	Accent	#F3A712	3
+Digital Blueprint	Background	#F5F7FA	
+Digital Blueprint	Button	#2978B5	
+Digital Blueprint	ButtonHover	#1F5980	
+Digital Blueprint	FontPrimary	#1B263B	
+Digital Blueprint	FontSecondary	#4A4A4A	
+Digital Blueprint	Primary	#2978B5	1
+Digital Blueprint	Secondary	#125169	2
+Digital Blueprint	Shadow	#D1D9E6	5
+Digital Blueprint	Surface	#FFFFFF	4
+Emerald Glow	Accent	#EAF4EB	3
+Emerald Glow	Primary	#A0E3A3	1
+Emerald Glow	Secondary	#3F8A3F	2
+Emerald Glow	Shadow	#C5D7C6	5
+Emerald Glow	Surface	#F2F8F3	4
+Lagoon Dream	Accent	#EDF7FA	3
+Lagoon Dream	Primary	#8FBFD1	1
+Lagoon Dream	Secondary	#517C89	2
+Lagoon Dream	Shadow	#C3D3DE	5
+Lagoon Dream	Surface	#F0F4F8	4
+Midnight Console	Accent	#00FFAB	3
+Midnight Console	Background	#111A26	
+Midnight Console	Button	#00FFAB	
+Midnight Console	ButtonHover	#00CC8F	
+Midnight Console	FontPrimary	#E8EDEE	
+Midnight Console	FontSecondary	#A9B1BB	
+Midnight Console	Primary	#0B1A2C	1
+Midnight Console	Secondary	#142D4C	2
+Midnight Console	Shadow	#00000080	5
+Midnight Console	Surface	#1E2A38	4
+Minted Breeze	Accent	#DEF2F1	3
+Minted Breeze	Primary	#B8E0D2	1
+Minted Breeze	Secondary	#3AAFA9	2
+Minted Breeze	Shadow	#C1DCDC	5
+Minted Breeze	Surface	#EEF6F7	4
+Neon Terminal	Accent	#FF6EC7	3
+Neon Terminal	Background	#18181F	
+Neon Terminal	Button	#FF6EC7	
+Neon Terminal	ButtonHover	#E055B0	
+Neon Terminal	FontPrimary	#F8F8F2	
+Neon Terminal	FontSecondary	#BFBFBF	
+Neon Terminal	Primary	#2D2D34	1
+Neon Terminal	Secondary	#1E1E26	2
+Neon Terminal	Shadow	#00000070	5
+Neon Terminal	Surface	#24242E	4
+Teal Harmony	Accent	#DCEFF1	3
+Teal Harmony	Primary	#70B8B0	1
+Teal Harmony	Secondary	#2C7A7B	2
+Teal Harmony	Shadow	#B0C9CA	5
+Teal Harmony	Surface	#E8F5F6	4

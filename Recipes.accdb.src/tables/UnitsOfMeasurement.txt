@@ -1,0 +1,19 @@
+﻿UnitID	Unit	Abbreviation	ApproximateMetricEquivalent	Category	Notes
+1	Teaspoon	tsp	5 mL	Volume	—
+2	Tablespoon	tbsp	15 mL	Volume	3 tsp
+3	Fluid Ounce	fl oz	29.6 mL	Volume	—
+4	Cup	c	240 mL (US) / 250 mL (metric)	Volume	16 tbsp
+5	Pint	pt	473 mL	Volume	2 cups
+6	Quart	qt	946 mL	Volume	2 pints
+7	Gallon	gal	3.785 L	Volume	4 quarts
+8	Milliliter	mL	—	Volume	Metric system
+9	Liter	L	—	Volume	Metric system
+10	Ounce	oz	28.35 g	Weight	—
+11	Pound	lb	453.6 g	Weight	16 oz
+12	Gram	g	—	Weight	Metric system
+13	Kilogram	kg	—	Weight	Metric system
+14	Pinch	—	~0.6 mL (~⅛ tsp)	Informal/Small	Quick sprinkle
+15	Dash	—	~0.3 mL (~1⁄16 tsp)	Informal/Small	Slight shake
+16	Smidgen	—	~0.15 mL (~1⁄32 tsp)	Informal/Small	Tiny amount
+17	Stick (Butter)	—	113 g (4 oz)	Informal/Small	Common in US recipes
+18	Drop	—	Not standardized	Informal/Small	Used for liquids like vanilla or lemon juice

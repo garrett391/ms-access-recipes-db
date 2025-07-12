@@ -1,0 +1,5 @@
+﻿CREATE TABLE [Ingredients] (
+  [IngredientID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Ingredient] VARCHAR (255),
+  [Desc] LONGTEXT
+)

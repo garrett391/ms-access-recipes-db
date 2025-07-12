@@ -1,0 +1,8 @@
+﻿PreparationStyleID	PreparationStyle	Desc
+1	Chopped	Involves cutting food into irregular, bite-sized pieces, typically around ½ to ¾ inches. The emphasis is on functionality rather than uniform appearance.
+2	Diced	This technique focuses on creating small, uniform cubes, usually ¼ inch for small dice and ½ inch for medium dice. Dicing is often preferred for ingredients that need to cook evenly and distribute flavor consistently.
+3	Minced	This is the finest level of chopping, producing tiny, almost granular pieces, typically smaller than ⅛ inch. Mincing is ideal for aromatics like garlic or ginger, where the goal is to release maximum flavor throughout a dish.
+4	Julienned	Also known as the matchstick cut, this involves cutting food into thin, uniform strips, usually ⅛ inches thick and 2 to 3 inches long. Julienne cuts are often used for ingredients that need to cook quickly or as a garnish.
+5	Brunoised	This is a very small dice, creating tiny cubes that are typically ⅛ inches on all sides. Brunoise cuts are often used for garnishes or to add finely diced vegetables to dishes where they'll cook down significantly.
+6	Chiffonaded	This technique is used for cutting leafy greens or herbs into thin ribbons by stacking the leaves, rolling them tightly, and then slicing them across.
+7	Sliced	Like slicing a cucumber.

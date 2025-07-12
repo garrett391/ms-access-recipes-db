@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "cook-book_32",
+    "FileName": "cook-book_32.png",
+    "Extension": "png",
+    "ContentHash": "d7c48f3"
+  }
+}

@@ -1,0 +1,12 @@
+﻿IngredientID	Ingredient	Desc
+1	Strawberry	
+2	Avocado	
+3	Cucumber	
+4	Baby Spinach	
+5	Baby Lettuce	
+6	Baby Greens	
+7	Pecan	
+8	Feta Cheese	
+9	Lemon Juice	
+10	Extra Virgin Olive Oil	
+11	x	
