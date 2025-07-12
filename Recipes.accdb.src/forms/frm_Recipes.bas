@@ -117,7 +117,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =1222
+            Height =1230
             BackColor =15129041
             Name ="FormHeader"
             AlternateBackThemeColorIndex =1
@@ -357,8 +357,8 @@ Begin Form
                     Left =19365
                     Top =30
                     Height =432
+                    FontSize =12
                     TabIndex =4
-                    ForeColor =3876379
                     Name ="cmd_OpenIngredients"
                     Caption ="Ingredients"
                     OnClick ="[Event Procedure]"
@@ -374,16 +374,28 @@ Begin Form
                     ColumnStart =4
                     ColumnEnd =4
                     LayoutGroup =1
-                    ForeThemeColorIndex =-1
+                    ForeThemeColorIndex =1
                     ForeTint =100.0
                     Gradient =0
                     BackColor =11892777
                     BackThemeColorIndex =-1
                     BackTint =100.0
+                    BorderColor =11892777
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
                     HoverColor =8411423
                     HoverThemeColorIndex =-1
                     HoverTint =100.0
+                    PressedColor =8411423
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
                     GroupTable =1
+                    QuickStyle =32
+                    QuickStyleMask =-119
                 End
                 Begin TextBox
                     EnterKeyBehavior = NotDefault
