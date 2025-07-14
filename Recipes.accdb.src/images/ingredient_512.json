@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "ingredient_512",
+    "FileName": "ingredient_512.png",
+    "Extension": "png",
+    "ContentHash": "fa55778"
+  }
+}
