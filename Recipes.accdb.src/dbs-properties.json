@@ -85,7 +85,7 @@
       "Type": 4
     },
     "NavPane Closed": {
-      "Value": 1,
+      "Value": 0,
       "Type": 4
     },
     "NavPane Sort By": {
@@ -153,7 +153,7 @@
       "Type": 1
     },
     "StartUpForm": {
-      "Value": "frm_Welcome",
+      "Value": "frm_Menu",
       "Type": 10
     },
     "StartUpShowDBWindow": {
