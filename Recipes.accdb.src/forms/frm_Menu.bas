@@ -12,7 +12,7 @@ Begin Form
     GridY =24
     Width =16980
     DatasheetFontHeight =11
-    ItemSuffix =9
+    ItemSuffix =10
     Right =27810
     Bottom =17445
     RecSrcDt = Begin
@@ -166,27 +166,6 @@ Begin Form
                     LayoutCachedWidth =3180
                     LayoutCachedHeight =10920
                     BorderThemeColorIndex =-1
-                End
-                Begin Label
-                    OverlapFlags =215
-                    TextAlign =2
-                    Left =600
-                    Top =420
-                    Width =2160
-                    Height =780
-                    FontSize =14
-                    ForeColor =5263440
-                    Name ="lbl_Header"
-                    Caption ="C && G Recipes Database!"
-                    FontName ="Segoe UI Semibold"
-                    OnClick ="[Event Procedure]"
-                    LayoutCachedLeft =600
-                    LayoutCachedTop =420
-                    LayoutCachedWidth =2760
-                    LayoutCachedHeight =1200
-                    ThemeFontIndex =0
-                    ForeThemeColorIndex =-1
-                    ForeTint =100.0
                 End
                 Begin CommandButton
                     OverlapFlags =223
@@ -397,6 +376,89 @@ Begin Form
                     LayoutCachedLeft =3180
                     LayoutCachedWidth =16980
                     LayoutCachedHeight =10920
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =420
+                    Top =300
+                    Width =2400
+                    Height =780
+                    FontSize =14
+                    TabIndex =4
+                    ForeColor =5263440
+                    Name ="cmd_Header"
+                    Caption ="C && G Recipes Database!"
+                    OnClick ="[Event Procedure]"
+                    FontName ="Segoe UI Semibold"
+                    Picture ="couple_24.png"
+                    ImageData = Begin
+                        0x89504e470d0a1a0a0000000d4948445200000018000000180806000000e0773d ,
+                        0xf80000000473424954080808087c0864880000000970485973000000b1000000 ,
+                        0xb101c62d498d0000001974455874536f667477617265007777772e696e6b7363 ,
+                        0x6170652e6f72679bee3c1a000005b2494441544889ad556b6c145514feee9d3b ,
+                        0x333bb38fee7677db6e1f16a8055b0ab42814db2a687d92187c540d6240130d3e ,
+                        0x1289558b86801a63c4f888888a464250d4f8e021286ad552a3568db4a86d8516 ,
+                        0x5aa5742ddd76dfdddd767776e6fac38a542bf68727b9bfcef9beef9e73ee3997 ,
+                        0x606ae69a61cdd86f16444f28956ce7308c3c49add1390fb745fce703f0fd1b90 ,
+                        0x4c85fd2cd5b6654b65edea85ae1cd21ef61b3ae728b765d283c7bab1fe44e79e ,
+                        0x4391c0b5ff866553112084c82a630400e6da5d1400a01b5028030551ce8415a6 ,
+                        0x2210d192873bc381baeb0a8bad22fd833f1e0aa1fe68ebd837e1a16b00f8a7c2 ,
+                        0x7346739a4c97ccb63bbd8796aee06d3557f34576777c9ad5baecbf70137aa030 ,
+                        0x566353a5b5845027003081489220704d33f6f687a31b01149458edcd0c54ee18 ,
+                        0x095e00a0671c2a035001a400c42713100441a82bc9c9dc7ce7c5f3ddaa249e0a ,
+                        0x48a6757cdbd3cfbfe83a71ac2f102d01c0c75d1c4069b6d5f48e4d11dd32a322 ,
+                        0xe71c494d279a616cef0b8ed603e34d765bd48f45462f5a553d87b9adea8414cd ,
+                        0xb2884b674f27b164aa7868245e379ad2df1d774d2b70a84ddb562eccc9b7ff85 ,
+                        0x49a7357c7374608dd3ac74d66d6fdd46019496e5bbe79d37ddc3984027ad2313 ,
+                        0x0414b91dc463b7fc59f37c9bccda2f2fcd9e400e008c895854944d77b57b5f01 ,
+                        0x5045015832149949b2095d83c149050808044a40404c00e0b14a8fdf589e6d61 ,
+                        0x4c9efc429284ca820c362d53b98102f01e0f46346f740c478763f8f29817a1c4 ,
+                        0x18e2496dc219d3d2a76544e6077585b4fc1244744cfb870005609104a89290cb ,
+                        0x5451f4f4f8c2ae35cb2fc6fadb5662ebae7d38f0530712c9d42940321643cb91 ,
+                        0x1e2343956500486828e81fd1f1e2da7bb1fae94d5858e8804da600197f338681 ,
+                        0xe3be0044ca1496e772ac6bb876a9e087805022019bc38eb79f7a0c00301808e2 ,
+                        0xb3ef5a71655101ee7f7507fdb1b7af622034b2f8a60babd4ee401845c5c578f6 ,
+                        0xa1068822c3583205ce39befeb113a54e1b0e3736c3a043e7d3f8987660dbe75f ,
+                        0x8d124220500a9324fd952aa1506419695dc74fc7bd3c9c181d04307a32142294 ,
+                        0x503041c0d6f7f7a3a67c0e2ea93c1755f3cad07eac173565b390d60d18862ed1 ,
+                        0x8150e885ef7b8e5fdfd2fef3a03b1643dd926a3cfbc67b683ddc8d23bff6a1ae ,
+                        0x74260e1eee822f12ddd3e70f2d01207b4ff6a507860691954a61c7bafbf0f2ce ,
+                        0x7df0fa86d1dcfa0376adbd079d5dbd88c78248a6460d0a00baaeef6feff9a5b7 ,
+                        0x2d96e04414e10b04f1c82bdb7176411e3459c4c6bd9f264e06236b008c0070d5 ,
+                        0x9eed600b3c26ec6cef045515042251acdaf00472dd2e108b192f361ec0adf333 ,
+                        0x6191d8845d9753989bddf3cec60d46bab589f343cdbce3b5cdbcb6a22c31333f ,
+                        0xfbf6d3e2aa56547882cd779ccb6b66e5f11d8f3dc8ff8cf737becb57d656f307 ,
+                        0x6a67f10f6eade0e76499037fff0fcc8559aea18aa24255d3759cf0f979479ff7 ,
+                        0x06003b4f1f0b8f4dfafebec5d3cacf71abaca1f137e46665431219fa87fca8cc ,
+                        0x21b87266265e6f1b303a07e30f13d16c9e27989c6f329325139c533b1fc9e87f ,
+                        0xe95113c0b1febd4fb4673e3d3842640b4f114a311adb920efcba0e409e89b1ae ,
+                        0x058585c9de80dfd6b7f569910914db9b5af8a6dd8d090184f962d14e6f347a9e ,
+                        0x2065789acaef7a7d766ef50a6b4e659dc518ea66c5160e9b59c186ddcd42deaa ,
+                        0x5795bcaae5aa50be4c09ff766401f7757f34c3e97af2c3dbd7cca9bfe80ad566 ,
+                        0x52845d3fb4c1244b787eefe7e4ad9b574b772f5ac2bcc3c3391d43fe26ca940c ,
+                        0x3b53eda7f2cfb8ac01f55ffab064f347c0e2fbc14c5600809511e8455526886a ,
+                        0xa5ccc45965b9f904006e59508d8599d3d1dcd285e7ae5a8e2c8b0d441271f98c ,
+                        0x625ae4725ccdfede044136c37169fd3fc69f8000840294324226fe234b4be662 ,
+                        0x69c9dc893c84420095275f9fffa31141368714e759c9dc0b6eeed6e21169f8d0 ,
+                        0x07d3270b340811c692a35623727275b6496cc8b1399c6722d6d39a23adf38dbf ,
+                        0x0398b13755dcad4ea60000000049454e44ae426082
+                    End
+                    BackStyle =0
+
+                    LayoutCachedLeft =420
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =2820
+                    LayoutCachedHeight =1080
+                    PictureCaptionArrangement =5
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    BackThemeColorIndex =1
+                    BackTint =100.0
+                    OldBorderStyle =0
+                    BorderThemeColorIndex =0
+                    BorderTint =50.0
+                    ThemeFontIndex =0
+                    Overlaps =1
                 End
             End
         End

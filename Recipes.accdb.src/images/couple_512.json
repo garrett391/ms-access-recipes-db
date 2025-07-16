@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "couple_512",
+    "FileName": "couple_512.png",
+    "Extension": "png",
+    "ContentHash": "06dbd29"
+  }
+}

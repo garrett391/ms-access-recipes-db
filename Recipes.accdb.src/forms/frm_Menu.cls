@@ -14,9 +14,15 @@ Private Enum toggleBtnColors
     togClickForeColor = 16777215
 End Enum
 
-Private Sub toggleClickedButton(btn As Access.Control)
-' Emulates toggle buttons where the selected button has specific formatting
-' This is necessary because toggle buttons don't allow pictures and captions which we want, so we need to reinvent this with command buttons.
+Private Sub toggleClickedButton(Optional btn As Access.Control)
+' Emulates toggle buttons where the selected button has unique formatting.
+' This is necessary because toggle buttons don't allow pictures and captions at the same time (which we want),
+' so we need to reinvent this with command buttons.
+
+    If btn Is Nothing Then
+        Set btn = Screen.ActiveControl
+    End If
+
     Dim ctl As Control
 
     For Each ctl In Me.Controls
@@ -36,18 +42,17 @@ Private Sub toggleClickedButton(btn As Access.Control)
     Me!cmd_TakeFocus.SetFocus
 End Sub
 
+Private Sub cmd_Header_Click()
+    Call toggleClickedButton
+    Me!sbfrm.SourceObject = "frm_Welcome"
+End Sub
+
 Private Sub cmd_Ingredients_Click()
-    Call toggleClickedButton(Me!cmd_Ingredients)
+    Call toggleClickedButton
     Me!sbfrm.SourceObject = "frm_Ingredients"
 End Sub
 
 Private Sub cmd_Recipes_Click()
-    Call toggleClickedButton(Me!cmd_Recipes)
+    Call toggleClickedButton
     Me!sbfrm.SourceObject = "frm_Recipes"
-End Sub
-
-
-Private Sub lbl_Header_Click()
-    Call toggleClickedButton(Me!lbl_Header)
-    Me!sbfrm.SourceObject = "frm_Welcome"
 End Sub
