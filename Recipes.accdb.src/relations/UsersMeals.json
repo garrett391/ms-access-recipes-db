@@ -5,7 +5,7 @@
   },
   "Items": {
     "Name": "UsersMeals",
-    "Attributes": 4352,
+    "Attributes": 0,
     "Table": "Users",
     "ForeignTable": "Meals",
     "Fields": [

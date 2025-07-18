@@ -5,7 +5,7 @@
   },
   "Items": {
     "Name": "RecipesRecipeIngredients1",
-    "Attributes": 4352,
+    "Attributes": 0,
     "Table": "Recipes",
     "ForeignTable": "RecipeIngredients",
     "Fields": [

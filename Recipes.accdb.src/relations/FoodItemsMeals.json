@@ -5,7 +5,7 @@
   },
   "Items": {
     "Name": "FoodItemsMeals",
-    "Attributes": 4352,
+    "Attributes": 0,
     "Table": "FoodItems",
     "ForeignTable": "Meals",
     "Fields": [

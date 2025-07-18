@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [Meals] (
   [MealID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [UserID] LONG CONSTRAINT [UsersMeals] REFERENCES [Users] ([UserID]) ON UPDATE CASCADE  ON DELETE CASCADE ,
+  [UserID] LONG CONSTRAINT [UsersMeals] REFERENCES [Users] ([UserID]),
   [MealDate] DATETIME,
-  [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]) ON UPDATE CASCADE  ON DELETE CASCADE ,
+  [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]),
   [Protein] LONG,
   [Sugar] LONG,
   [Calories] LONG

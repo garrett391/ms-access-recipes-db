@@ -7,10 +7,10 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =25163
+    Width =26663
     DatasheetFontHeight =11
-    ItemSuffix =39
-    Right =-30361
+    ItemSuffix =48
+    Right =26295
     Bottom =17445
     RecSrcDt = Begin
         0xdd47967b1863e640
@@ -99,6 +99,23 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Segoe UI"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
         Begin UnboundObjectFrame
             SpecialEffect =2
             OldBorderStyle =1
@@ -143,33 +160,6 @@ Begin Form
                     LayoutCachedTop =810
                     LayoutCachedWidth =1080
                     LayoutCachedHeight =1200
-                    LayoutGroup =1
-                    ThemeFontIndex =0
-                    ForeTint =75.0
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    TextAlign =2
-                    Left =1140
-                    Top =810
-                    Width =7455
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    ForeColor =4210752
-                    Name ="lbl_Recipe"
-                    Caption ="Recipe Name"
-                    FontName ="Segoe UI Semibold"
-                    GroupTable =1
-                    LayoutCachedLeft =1140
-                    LayoutCachedTop =810
-                    LayoutCachedWidth =8595
-                    LayoutCachedHeight =1200
-                    ColumnStart =1
-                    ColumnEnd =1
                     LayoutGroup =1
                     ThemeFontIndex =0
                     ForeTint =75.0
@@ -283,10 +273,37 @@ Begin Form
                     LayoutCachedWidth =960
                     LayoutCachedHeight =660
                 End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =1140
+                    Top =810
+                    Width =7455
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    ForeColor =4210752
+                    Name ="lkbl_FoodItemID"
+                    Caption ="Food Item"
+                    FontName ="Segoe UI Semibold"
+                    GroupTable =1
+                    LayoutCachedLeft =1140
+                    LayoutCachedTop =810
+                    LayoutCachedWidth =8595
+                    LayoutCachedHeight =1200
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =75.0
+                    GroupTable =1
+                End
             End
         End
         Begin Section
-            Height =492
+            Height =449
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -300,7 +317,8 @@ Begin Form
                     Left =360
                     Top =30
                     Width =720
-                    Height =432
+                    Height =389
+                    TabIndex =1
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -313,42 +331,9 @@ Begin Form
                     LayoutCachedLeft =360
                     LayoutCachedTop =30
                     LayoutCachedWidth =1080
-                    LayoutCachedHeight =462
+                    LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
-                    LayoutGroup =1
-                    ForeThemeColorIndex =-1
-                    ForeTint =100.0
-                    GroupTable =1
-                End
-                Begin TextBox
-                    OldBorderStyle =0
-                    OverlapFlags =85
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =1140
-                    Top =30
-                    Width =7455
-                    Height =432
-                    ColumnWidth =2880
-                    TabIndex =1
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    ForeColor =0
-                    Name ="Recipe"
-                    ControlSource ="Recipe"
-                    GroupTable =1
-
-                    LayoutCachedLeft =1140
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =8595
-                    LayoutCachedHeight =462
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =1
-                    ColumnEnd =1
                     LayoutGroup =1
                     ForeThemeColorIndex =-1
                     ForeTint =100.0
@@ -364,7 +349,7 @@ Begin Form
                     Left =8655
                     Top =30
                     Width =7455
-                    Height =432
+                    Height =389
                     TabIndex =2
                     LeftMargin =44
                     TopMargin =22
@@ -378,7 +363,7 @@ Begin Form
                     LayoutCachedLeft =8655
                     LayoutCachedTop =30
                     LayoutCachedWidth =16110
-                    LayoutCachedHeight =462
+                    LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2
@@ -392,7 +377,7 @@ Begin Form
                     OverlapFlags =85
                     Left =23685
                     Top =30
-                    Height =432
+                    Height =389
                     FontSize =12
                     TabIndex =4
                     Name ="cmd_OpenIngredients"
@@ -404,7 +389,7 @@ Begin Form
                     LayoutCachedLeft =23685
                     LayoutCachedTop =30
                     LayoutCachedWidth =25125
-                    LayoutCachedHeight =462
+                    LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
                     ColumnStart =4
@@ -443,7 +428,7 @@ Begin Form
                     Left =16170
                     Top =30
                     Width =7455
-                    Height =432
+                    Height =389
                     TabIndex =3
                     LeftMargin =44
                     TopMargin =22
@@ -457,7 +442,7 @@ Begin Form
                     LayoutCachedLeft =16170
                     LayoutCachedTop =30
                     LayoutCachedWidth =23625
-                    LayoutCachedHeight =462
+                    LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
                     ColumnStart =3
@@ -465,6 +450,41 @@ Begin Form
                     LayoutGroup =1
                     ForeThemeColorIndex =-1
                     ForeTint =100.0
+                    GroupTable =1
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1140
+                    Top =30
+                    Width =7455
+                    Height =389
+                    ForeColor =0
+                    Name ="cbo_FoodItemID"
+                    ControlSource ="FoodItemID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="FoodItems"
+                    ColumnWidths ="0"
+                    GroupTable =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+
+                    LayoutCachedLeft =1140
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8595
+                    LayoutCachedHeight =419
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeShade =100.0
                     GroupTable =1
                 End
             End

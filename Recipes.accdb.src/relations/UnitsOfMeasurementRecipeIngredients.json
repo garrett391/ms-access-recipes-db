@@ -5,7 +5,7 @@
   },
   "Items": {
     "Name": "UnitsOfMeasurementRecipeIngredients",
-    "Attributes": 4352,
+    "Attributes": 0,
     "Table": "UnitsOfMeasurement",
     "ForeignTable": "RecipeIngredients",
     "Fields": [
