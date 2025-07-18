@@ -434,7 +434,8 @@ Begin Form
                     Name ="IngredientID"
                     ControlSource ="IngredientID"
                     RowSourceType ="Table/Query"
-                    RowSource ="Ingredients"
+                    RowSource ="SELECT Ingredients.IngredientID, [Ingredient] & (\" | \"+[Manufacturer]) AS Expr"
+                        "1 FROM Ingredients; "
                     ColumnWidths ="0"
                     GroupTable =1
                     LeftMargin =44

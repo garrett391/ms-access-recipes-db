@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "FoodItemsRecipes",
+    "Attributes": 0,
+    "Table": "FoodItems",
+    "ForeignTable": "Recipes",
+    "Fields": [
+      {
+        "Name": "FoodItemID",
+        "ForeignName": "FoodItemID"
+      }
+    ]
+  }
+}

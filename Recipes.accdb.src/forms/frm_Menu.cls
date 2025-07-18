@@ -42,17 +42,39 @@ Private Sub toggleClickedButton(Optional btn As Access.Control)
     Me!cmd_TakeFocus.SetFocus
 End Sub
 
+
+Private Sub setSubForm()
+    Dim newSrcObject As String
+
+    Select Case Screen.ActiveControl.Name
+    Case "cmd_Header"
+        newSrcObject = "frm_Welcome"
+    Case "cmd_Ingredients"
+        newSrcObject = "frm_Ingredients"
+    Case "cmd_Recipes"
+        newSrcObject = "frm_Recipes"
+    Case Else
+        MsgBox "There is not a subform configure for this button."
+        newSrcObject = ""
+    End Select
+
+    If Me!sbfrm.SourceObject <> newSrcObject Then
+        Me!sbfrm.SourceObject = newSrcObject
+    End If
+End Sub
+
+
 Private Sub cmd_Header_Click()
+    Call setSubForm
     Call toggleClickedButton
-    Me!sbfrm.SourceObject = "frm_Welcome"
 End Sub
 
 Private Sub cmd_Ingredients_Click()
+    Call setSubForm
     Call toggleClickedButton
-    Me!sbfrm.SourceObject = "frm_Ingredients"
 End Sub
 
 Private Sub cmd_Recipes_Click()
+    Call setSubForm
     Call toggleClickedButton
-    Me!sbfrm.SourceObject = "frm_Recipes"
 End Sub

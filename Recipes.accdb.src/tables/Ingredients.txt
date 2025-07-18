@@ -1,12 +1,16 @@
-﻿IngredientID	Ingredient	Desc
-1	Strawberry	
-2	Avocado	
-3	Cucumber	
-4	Baby Spinach	
-5	Baby Lettuce	
-6	Baby Greens	
-7	Pecan	
-8	Feta Cheese	
-9	Lemon Juice	
-10	Extra Virgin Olive Oil	
-11		
+﻿IngredientID	Manufacturer	Ingredient	Desc	Protein	Sugar	Calories	UrlLink
+1		Strawberry					
+2		Avocado					
+3		Cucumber					
+4		Baby Spinach					
+5		Baby Lettuce					
+6		Baby Greens					
+7		Pecan					
+8		Feta Cheese					
+9		Lemon Juice					
+10		Extra Virgin Olive Oil					
+11	Sprouts	Turkey Breast Slices		11	0	50	https://shop.sprouts.com/store/sprouts/products/72211-applegate-natural-oven-roasted-turkey-breast-7oz
+12	Sprouts	Colby Jack Cheese, Sliced		6	0	90	https://shop.sprouts.com/store/sprouts/products/19103623-sprouts-sliced-colby-jack-cheese-8-oz
+13	Daves Killer Bread	Burger Buns, 21 Whole Grains and Seeds		6	6	150	https://www.daveskillerbread.com/21wgs-burger-buns
+14	Primal Kitchen	Mayo with Avocado Oil		0	0	100	https://www.primalkitchen.com/products/squeeze-mayo-with-avocado-oil
+15	Optimum Nutrition Inc	Gold Standard Whey Powder		24	2	120	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein

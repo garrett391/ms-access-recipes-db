@@ -7,10 +7,10 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =20843
+    Width =25163
     DatasheetFontHeight =11
-    ItemSuffix =35
-    Right =27810
+    ItemSuffix =39
+    Right =-30361
     Bottom =17445
     RecSrcDt = Begin
         0xdd47967b1863e640
@@ -125,66 +125,81 @@ Begin Form
             Begin
                 Begin Label
                     OverlapFlags =85
+                    TextAlign =2
                     Left =360
                     Top =810
-                    Width =1440
+                    Width =720
                     Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label0"
-                    Caption ="RecipeID"
+                    ForeColor =4210752
+                    Name ="lbl_RecipeID"
+                    Caption ="ID"
+                    FontName ="Segoe UI Semibold"
                     GroupTable =1
                     LayoutCachedLeft =360
                     LayoutCachedTop =810
-                    LayoutCachedWidth =1800
+                    LayoutCachedWidth =1080
                     LayoutCachedHeight =1200
                     LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =75.0
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =1860
+                    TextAlign =2
+                    Left =1140
                     Top =810
-                    Width =3525
+                    Width =7455
                     Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label1"
-                    Caption ="Recipe"
+                    ForeColor =4210752
+                    Name ="lbl_Recipe"
+                    Caption ="Recipe Name"
+                    FontName ="Segoe UI Semibold"
                     GroupTable =1
-                    LayoutCachedLeft =1860
+                    LayoutCachedLeft =1140
                     LayoutCachedTop =810
-                    LayoutCachedWidth =5385
+                    LayoutCachedWidth =8595
                     LayoutCachedHeight =1200
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =75.0
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =12405
+                    TextAlign =2
+                    Left =8655
                     Top =810
-                    Width =6900
+                    Width =7455
                     Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label2"
-                    Caption ="Desc"
+                    ForeColor =4210752
+                    Name ="lbl_Desc"
+                    Caption ="Description"
+                    FontName ="Segoe UI Semibold"
                     GroupTable =1
-                    LayoutCachedLeft =12405
+                    LayoutCachedLeft =8655
                     LayoutCachedTop =810
-                    LayoutCachedWidth =19305
+                    LayoutCachedWidth =16110
                     LayoutCachedHeight =1200
-                    ColumnStart =3
-                    ColumnEnd =3
+                    ColumnStart =2
+                    ColumnEnd =2
                     LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =75.0
                     GroupTable =1
                 End
                 Begin Label
@@ -195,7 +210,7 @@ Begin Form
                     Width =9585
                     Height =460
                     FontSize =18
-                    ForeColor =4868682
+                    ForeColor =4144959
                     Name ="Auto_Header0"
                     Caption ="Recipes"
                     FontName ="Segoe UI Semibold"
@@ -213,14 +228,14 @@ Begin Form
                     ForeTint =100.0
                 End
                 Begin EmptyCell
-                    Left =19365
+                    Left =23685
                     Top =810
                     Height =390
                     Name ="EmptyCell14"
                     GroupTable =1
-                    LayoutCachedLeft =19365
+                    LayoutCachedLeft =23685
                     LayoutCachedTop =810
-                    LayoutCachedWidth =20805
+                    LayoutCachedWidth =25125
                     LayoutCachedHeight =1200
                     ColumnStart =4
                     ColumnEnd =4
@@ -229,24 +244,29 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =5445
+                    TextAlign =2
+                    Left =16170
                     Top =810
-                    Width =6900
+                    Width =7455
                     Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label16"
-                    Caption ="Instructions"
+                    ForeColor =4210752
+                    Name ="lbl_Instructions"
+                    Caption ="Setup Instructions"
+                    FontName ="Segoe UI Semibold"
                     GroupTable =1
-                    LayoutCachedLeft =5445
+                    LayoutCachedLeft =16170
                     LayoutCachedTop =810
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =23625
                     LayoutCachedHeight =1200
-                    ColumnStart =2
-                    ColumnEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =75.0
                     GroupTable =1
                 End
                 Begin Image
@@ -273,34 +293,42 @@ Begin Form
             BackThemeColorIndex =1
             Begin
                 Begin TextBox
+                    OldBorderStyle =0
                     OverlapFlags =85
+                    TextAlign =2
                     IMESentenceMode =3
                     Left =360
                     Top =30
+                    Width =720
                     Height =432
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
+                    ForeColor =0
                     Name ="txt_RecipeID"
                     ControlSource ="RecipeID"
                     GroupTable =1
 
                     LayoutCachedLeft =360
                     LayoutCachedTop =30
-                    LayoutCachedWidth =1800
+                    LayoutCachedWidth =1080
                     LayoutCachedHeight =462
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
                     GroupTable =1
                 End
                 Begin TextBox
+                    OldBorderStyle =0
                     OverlapFlags =85
+                    TextAlign =2
                     IMESentenceMode =3
-                    Left =1860
+                    Left =1140
                     Top =30
-                    Width =3525
+                    Width =7455
                     Height =432
                     ColumnWidth =2880
                     TabIndex =1
@@ -308,53 +336,61 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
+                    ForeColor =0
                     Name ="Recipe"
                     ControlSource ="Recipe"
                     GroupTable =1
 
-                    LayoutCachedLeft =1860
+                    LayoutCachedLeft =1140
                     LayoutCachedTop =30
-                    LayoutCachedWidth =5385
+                    LayoutCachedWidth =8595
                     LayoutCachedHeight =462
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
                     GroupTable =1
                 End
                 Begin TextBox
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
+                    OldBorderStyle =0
                     OverlapFlags =85
+                    TextAlign =2
                     IMESentenceMode =3
-                    Left =12405
+                    Left =8655
                     Top =30
-                    Width =6900
+                    Width =7455
                     Height =432
-                    TabIndex =3
+                    TabIndex =2
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
+                    ForeColor =0
                     Name ="Desc"
                     ControlSource ="Desc"
                     GroupTable =1
 
-                    LayoutCachedLeft =12405
+                    LayoutCachedLeft =8655
                     LayoutCachedTop =30
-                    LayoutCachedWidth =19305
+                    LayoutCachedWidth =16110
                     LayoutCachedHeight =462
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =3
-                    ColumnEnd =3
+                    ColumnStart =2
+                    ColumnEnd =2
                     LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
                     GroupTable =1
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =19365
+                    Left =23685
                     Top =30
                     Height =432
                     FontSize =12
@@ -365,9 +401,9 @@ Begin Form
                     GroupTable =1
 
                     CursorOnHover =1
-                    LayoutCachedLeft =19365
+                    LayoutCachedLeft =23685
                     LayoutCachedTop =30
-                    LayoutCachedWidth =20805
+                    LayoutCachedWidth =25125
                     LayoutCachedHeight =462
                     RowStart =1
                     RowEnd =1
@@ -400,30 +436,35 @@ Begin Form
                 Begin TextBox
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
+                    OldBorderStyle =0
                     OverlapFlags =85
+                    TextAlign =2
                     IMESentenceMode =3
-                    Left =5445
+                    Left =16170
                     Top =30
-                    Width =6900
+                    Width =7455
                     Height =432
-                    TabIndex =2
+                    TabIndex =3
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
+                    ForeColor =0
                     Name ="Instructions"
                     ControlSource ="Instructions"
                     GroupTable =1
 
-                    LayoutCachedLeft =5445
+                    LayoutCachedLeft =16170
                     LayoutCachedTop =30
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =23625
                     LayoutCachedHeight =462
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =2
-                    ColumnEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
                     GroupTable =1
                 End
             End
