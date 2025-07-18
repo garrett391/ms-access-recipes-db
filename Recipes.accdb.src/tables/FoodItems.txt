@@ -1,0 +1,14 @@
+﻿FoodItemID	FoodName	Manufacturer	Protein	Sugar	Calories	UrlLink
+1	Smokey BBQ Beef Stick	Chomps	10	0	100	https://chomps.com/products/bbq-beef-jerky-stick
+2	Original Beef Stick	Chomps	10	0	100	https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original
+3	Jalapeño Beef Stick	Chomps	10	0	100	https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno
+4	Original Turkey Stick	Chomps	12	0	80	https://chomps.com/products/gluten-free-snack-turkey-jerky-stick-original
+5	Burrito, Egg & Green Chile	Evol	12	2	320	https://smartlabel.conagra.com/891627002542-0002-en-US/index.html
+6	Mozzarella Cheese Stick	Sargento	5	0	45	https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick
+7	Chocolate Sea Salt Protein Bar	RXBAR	12	0	200	https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html
+8	Mini Energy Drink	Alani	0	0	5	https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush
+9	Regular Protein Shake	C&G	48	0	240	
+10	Simple Daves Bread Turkey Sandwhich	C&G	23	6	390	
+11	Driscoll's Blackberries	C&G	2	7	60	
+12	Strawberry Poppy Seed Salad	C&G				
+13	Peanut Butter Cup Lite Shake	Chuze Fitness	30		270	

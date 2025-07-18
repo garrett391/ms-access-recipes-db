@@ -45,7 +45,13 @@
       "ColorPalletes": {
         "Format": "Tab Delimited"
       },
+      "FoodItems": {
+        "Format": "Tab Delimited"
+      },
       "Ingredients": {
+        "Format": "Tab Delimited"
+      },
+      "Meals": {
         "Format": "Tab Delimited"
       },
       "PreparationStyles": {
