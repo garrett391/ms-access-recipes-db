@@ -12,3 +12,5 @@
 11	Driscoll's Blackberries	C&G	2	7	60	
 12	Strawberry Poppy Seed Salad	C&G				
 13	Peanut Butter Cup Lite Shake	Chuze Fitness	30		270	
+14	Grande Iced Caramel Macchiato	Starbucks	10	34	250	https://www.starbucks.com/menu/product/413/iced/nutrition
+15	Chick-n-Strips	Chick-fil-A	9		100	https://www.chick-fil-a.com/menu/chick-n-strips

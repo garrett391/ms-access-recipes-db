@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "fast-food-512",
+    "FileName": "fast-food-512.png",
+    "Extension": "png",
+    "ContentHash": "f5ee775"
+  }
+}

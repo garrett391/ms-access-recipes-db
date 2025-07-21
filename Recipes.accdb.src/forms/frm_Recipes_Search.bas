@@ -500,4 +500,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "frm_Recipes.cls"
+' See "frm_Recipes_Search.cls"
