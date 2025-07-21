@@ -51,6 +51,8 @@ Private Sub setSubForm()
         newSrcObject = "frm_Welcome"
     Case "cmd_FoodItems"
         newSrcObject = "frm_FoodItems_Search"
+    Case "cmd_MealTracking"
+        newSrcObject = "frm_Meals_Search"
     Case "cmd_Ingredients"
         newSrcObject = "frm_Ingredients_Search"
     Case "cmd_Recipes"
@@ -66,20 +68,31 @@ Private Sub setSubForm()
 End Sub
 
 
-Private Sub cmd_FoodItems_Click()
-    Call setSubForm
-    Call toggleClickedButton
-End Sub
+
 
 Private Sub cmd_Header_Click()
     Call setSubForm
     Call toggleClickedButton
 End Sub
 
+
+Private Sub cmd_MealTracking_Click()
+    Call setSubForm
+    Call toggleClickedButton
+End Sub
+
+
+Private Sub cmd_FoodItems_Click()
+    Call setSubForm
+    Call toggleClickedButton
+End Sub
+
+
 Private Sub cmd_Ingredients_Click()
     Call setSubForm
     Call toggleClickedButton
 End Sub
+
 
 Private Sub cmd_Recipes_Click()
     Call setSubForm

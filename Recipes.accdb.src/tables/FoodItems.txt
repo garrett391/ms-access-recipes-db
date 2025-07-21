@@ -14,3 +14,5 @@
 13	Peanut Butter Cup Lite Shake	Chuze Fitness	30		270	
 14	Grande Iced Caramel Macchiato	Starbucks	10	34	250	https://www.starbucks.com/menu/product/413/iced/nutrition
 15	Chick-n-Strips	Chick-fil-A	9		100	https://www.chick-fil-a.com/menu/chick-n-strips
+16	20 FL OZ Coca-Cola	The Coca-Cola Company	0	65	240	https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3
+17	Chick-fil-A Sauce	Chick-fil-A	0	6	140	https://www.chick-fil-a.com/menu/chick-fil-a-sauce
