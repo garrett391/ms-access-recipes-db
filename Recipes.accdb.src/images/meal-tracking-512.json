@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "meal-tracking-512",
+    "FileName": "meal-tracking-512.png",
+    "Extension": "png",
+    "ContentHash": "32639ef"
+  }
+}

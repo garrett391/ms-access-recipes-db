@@ -9,4 +9,6 @@ FROM
   INNER JOIN Meals ON Users.UserID = Meals.UserID
 GROUP BY
   Users.FirstName,
-  Meals.MealDate;
+  Meals.MealDate
+ORDER BY
+  Meals.MealDate DESC;

@@ -20,6 +20,10 @@ Begin Joins
     Expression ="Users.UserID = Meals.UserID"
     Flag =1
 End
+Begin OrderBy
+    Expression ="Meals.MealDate"
+    Flag =1
+End
 Begin Groups
     Expression ="Users.FirstName"
     GroupLevel =0
@@ -61,12 +65,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1500
+    Right =2244
     Bottom =1180
     Left =-1
     Top =-1
-    Right =1484
-    Bottom =901
+    Right =1754
+    Bottom =884
     Left =0
     Top =0
     ColumnsShown =543

@@ -5,6 +5,15 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+Private Sub Form_Load()
+    If InStr(1, GetCurrentUser, "Garrett") Then
+        Me!cbo_UserID.DefaultValue = 2
+    Else
+        Me!cbo_UserID.DefaultValue = 1
+    End If
+End Sub
+
+
 Private Sub cbo_FoodItemID_AfterUpdate()
     Dim selectedFoodItemID As Long
     Dim servingAmount As Double

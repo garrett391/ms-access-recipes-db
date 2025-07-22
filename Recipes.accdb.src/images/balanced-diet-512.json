@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "balanced-diet-512",
+    "FileName": "balanced-diet-512.png",
+    "Extension": "png",
+    "ContentHash": "448b481"
+  }
+}
