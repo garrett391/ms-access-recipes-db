@@ -3,6 +3,8 @@
   [Manufacturer] VARCHAR (255),
   [Ingredient] VARCHAR (255),
   [Desc] LONGTEXT,
+  [UnitAmount] VARCHAR,
+  [UnitID] LONG CONSTRAINT [UnitsOfMeasurementIngredients] REFERENCES [UnitsOfMeasurement] ([UnitID]),
   [Protein] LONG,
   [Sugar] LONG,
   [Calories] LONG,

@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "UnitsOfMeasurementIngredients",
+    "Attributes": 0,
+    "Table": "UnitsOfMeasurement",
+    "ForeignTable": "Ingredients",
+    "Fields": [
+      {
+        "Name": "UnitID",
+        "ForeignName": "UnitID"
+      }
+    ]
+  }
+}
