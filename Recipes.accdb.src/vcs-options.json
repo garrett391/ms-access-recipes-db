@@ -48,6 +48,9 @@
       "FoodItems": {
         "Format": "Tab Delimited"
       },
+      "FoodManufacturers": {
+        "Format": "Tab Delimited"
+      },
       "Ingredients": {
         "Format": "Tab Delimited"
       },
