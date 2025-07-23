@@ -3,3 +3,4 @@
 3	10	Simple Daves Bread Turkey Sandwhich	Bread, Cheese, Turkey, Mayo	
 4	9	Regular Protein Shake	2 scoops of protein, creatine	
 5	11	Driscoll's Blackberries		
+6	27			Slice up sausage and heat on pan. Mix in with pasta and sauce

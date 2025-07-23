@@ -5,12 +5,26 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+Public faytFoodItems As New FindAsYouTypeCombo
+
+
+Private Sub Form_Open(Cancel As Integer)
+   faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , AnywhereInString, True, False
+End Sub
+
+
 Private Sub Form_Load()
     If InStr(1, GetCurrentUser, "Garrett") Then
         Me!cbo_UserID.DefaultValue = 2
     Else
         Me!cbo_UserID.DefaultValue = 1
     End If
+End Sub
+
+
+Private Sub cbo_FoodItemID_GotFocus()
+' GotFocus needs to be a subroutine due to requirements of FindAsYouTypeCombo class
+    Call DropDownActiveComboBox
 End Sub
 
 

@@ -3,7 +3,7 @@
   [FoodName] VARCHAR (255),
   [Manufacturer] VARCHAR (255),
   [ServingSize] VARCHAR (255),
-  [Protein] LONG,
+  [Protein] DOUBLE,
   [Sugar] LONG,
   [Calories] LONG,
   [UrlLink] LONGTEXT

@@ -14,6 +14,7 @@
 13	Daves Killer Bread	Burger Buns, 21 Whole Grains and Seeds				6	6	150	https://www.daveskillerbread.com/21wgs-burger-buns
 14	Primal Kitchen	Mayo with Avocado Oil				0	0	100	https://www.primalkitchen.com/products/squeeze-mayo-with-avocado-oil
 15	Optimum Nutrition Inc	Gold Standard Whey Powder				24	2	120	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
-16	Driscoll's	Blackberries	1 cup			2	7	60	https://www.driscolls.com/berries/blackberries/nutrition
-17	Banza	Penne Past				11	0	190	https://www.eatbanza.com/products/banza-chickpea-penne
-18	Raos			0	4				https://www.raos.com/products/marinara-sauce
+16	Driscoll's	Blackberries		1	4	2	7	60	https://www.driscolls.com/berries/blackberries/nutrition
+17	Banza	Penne Past		2	10	11	0	190	https://www.eatbanza.com/products/banza-chickpea-penne
+18	Rao's Marinara Sauce	Raos		0.5	4	2	0	100	https://www.raos.com/products/marinara-sauce
+19	Sabatinos	Chicken Sausage, Paleo Organic Basil & Cracked Black Pepper	1 link	85	12	16	0	160	https://www.sabatinosgourmet.com/products-1/paleo-organic-basil-cracked-black-pepper-chicken-sausage

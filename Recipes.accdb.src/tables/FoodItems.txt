@@ -25,3 +25,6 @@
 24	Cheddar Cheese Stick	Galbani	1 Stick	6	0	100	https://galbanicheese.com/our-cheeses/dairy-aisle-cheeses-snack-cheese/cheddar-snack-cheese
 25	Apple Pie Larabar	Larabar	1 Bar (45g)	4	0	200	https://www.larabar.com/our-products/larabar/apple-pie
 26	Chocolate Chip Cookie Dough Larabar	Larabar	1 Bar (45g)	3	3	210	https://www.larabar.com/our-products/larabar/chocolate-chip-cookie-dough
+27	Protein Pasta, Sausage and Raos Sauce	C&G	1 Bowl	24.5	0	385	
+28	Fruit Cup Diced Peaches	Del Monte	1 Cup (113g)	0	13	60	https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks
+29	Mavericks Burger	Mavericks Beach Club		37	6	809	https://maverickssd.com/menu/# (nutrition is web estimate)

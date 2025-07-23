@@ -119,7 +119,7 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="Protein" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+        <xsd:element name="Protein" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="1125"></od:fieldProperty>

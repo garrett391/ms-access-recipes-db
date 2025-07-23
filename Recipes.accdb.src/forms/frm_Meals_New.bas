@@ -14,7 +14,7 @@ Begin Form
     Width =12383
     DatasheetFontHeight =11
     ItemSuffix =34
-    Left =4740
+    Left =630
     Top =3555
     Right =31035
     Bottom =21000
@@ -22,6 +22,7 @@ Begin Form
         0x33680f565b64e640
     End
     RecordSource ="Meals"
+    OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
@@ -240,7 +241,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="MealDate"
+                    Name ="txt_MealDate"
                     ControlSource ="MealDate"
                     GroupTable =1
                     BottomPadding =150
@@ -267,8 +268,8 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label6"
-                            Caption ="MealDate"
+                            Name ="lbl_MealDate"
+                            Caption ="Meal Date"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
@@ -518,10 +519,11 @@ Begin Form
                     ControlSource ="FoodItemID"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT FoodItems.FoodItemID, FoodItems.FoodName, FoodItems.Manufacturer, FoodIte"
-                        "ms.Protein, FoodItems.Sugar, FoodItems.Calories FROM FoodItems; "
+                        "ms.Protein, FoodItems.Sugar, FoodItems.Calories FROM FoodItems ORDER BY FoodItem"
+                        "s.FoodName; "
                     ColumnWidths ="0;3600;2880;1440;1440;1440"
                     AfterUpdate ="[Event Procedure]"
-                    OnGotFocus ="=DropDownActiveComboBox()"
+                    OnGotFocus ="[Event Procedure]"
                     GroupTable =1
                     BottomPadding =150
                     LeftMargin =44
@@ -554,8 +556,8 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label9"
-                            Caption ="FoodItemID"
+                            Name ="lbl_FoodItemID"
+                            Caption ="Food Item"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
