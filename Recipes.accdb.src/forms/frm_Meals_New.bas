@@ -14,7 +14,7 @@ Begin Form
     Width =12383
     DatasheetFontHeight =11
     ItemSuffix =34
-    Left =630
+    Left =4740
     Top =3555
     Right =31035
     Bottom =21000
@@ -298,6 +298,7 @@ Begin Form
                     BottomMargin =22
                     Name ="txt_Servings"
                     ControlSource ="Servings"
+                    AfterUpdate ="[Event Procedure]"
                     GroupTable =1
                     BottomPadding =150
 
@@ -519,8 +520,8 @@ Begin Form
                     ControlSource ="FoodItemID"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT FoodItems.FoodItemID, FoodItems.FoodName, FoodItems.Manufacturer, FoodIte"
-                        "ms.Protein, FoodItems.Sugar, FoodItems.Calories FROM FoodItems ORDER BY FoodItem"
-                        "s.FoodName; "
+                        "ms.Protein, FoodItems.[AddedSugar], FoodItems.Calories FROM FoodItems ORDER BY F"
+                        "oodItems.FoodName; "
                     ColumnWidths ="0;3600;2880;1440;1440;1440"
                     AfterUpdate ="[Event Procedure]"
                     OnGotFocus ="[Event Procedure]"

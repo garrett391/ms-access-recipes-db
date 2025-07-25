@@ -136,7 +136,7 @@ Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterF
    End If
    Exit Sub
 errLabel:
-    MsgBox Err.Number & " " & Err.description & " In initializefiltercombo."
+    MsgBox Err.Number & " " & Err.Description & " In initializefiltercombo."
 End Sub
 '**************************************************************************************************************
 '------------------------------------------------Class Procedures ---------------------------------------------
@@ -176,7 +176,7 @@ errLable:
   If Err.Number = 3061 Then
     MsgBox "Will not Filter. Verify Field Name is Correct."
   Else
-    MsgBox Err.Number & "  " & Err.description & " In Filterlist."
+    MsgBox Err.Number & "  " & Err.Description & " In Filterlist."
   End If
 End Sub
 
@@ -223,7 +223,7 @@ errLable:
   If Err.Number = 3061 Then
     MsgBox "Will not Filter. Verify Field Name is Correct."
   Else
-    MsgBox Err.Number & "  " & Err.description
+    MsgBox Err.Number & "  " & Err.Description
   End If
 End Sub
 

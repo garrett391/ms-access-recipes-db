@@ -182,8 +182,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label4"
-                    Caption ="Sugar"
+                    Name ="lbl_AddedSugar"
+                    Caption ="Added Sugar"
                     GroupTable =1
                     LayoutCachedLeft =12750
                     LayoutCachedTop =660
@@ -421,8 +421,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Sugar"
-                    ControlSource ="Sugar"
+                    Name ="txt_AddedSugar"
+                    ControlSource ="AddedSugar"
                     GroupTable =1
 
                     LayoutCachedLeft =12750

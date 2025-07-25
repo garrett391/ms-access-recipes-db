@@ -1,4 +1,4 @@
-﻿FoodItemID	FoodName	Manufacturer	ServingSize	Protein	Sugar	Calories	UrlLink
+﻿FoodItemID	FoodName	Manufacturer	ServingSize	Protein	AddedSugar	Calories	UrlLink
 1	Smokey BBQ Beef Stick	Chomps		10	0	100	https://chomps.com/products/bbq-beef-jerky-stick
 2	Original Beef Stick	Chomps		10	0	100	https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original
 3	Jalapeño Beef Stick	Chomps		10	0	100	https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno
@@ -28,3 +28,9 @@
 27	Protein Pasta, Sausage and Raos Sauce	C&G	1 Bowl	24.5	0	385	
 28	Fruit Cup Diced Peaches	Del Monte	1 Cup (113g)	0	13	60	https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks
 29	Mavericks Burger	Mavericks Beach Club		37	6	809	https://maverickssd.com/menu/# (nutrition is web estimate)
+30	Honeycrisp Apples		1 apple (182g)	0	19	95	https://www.nutritionix.com/food/honeycrisp-apples
+31	Taco		1 Taco	9.4	2	210	https://www.nutritionix.com/food/tacos
+32	Turkey Burger	C&G	1 Burger	34	4	540	https://www.nutritionix.com/food/turkey-burger
+33	Mint Chocolate Chip Bars	Yasso	1 Bar (65 G)	5	13	100	https://www.yasso.com/p/mint-chocolate-chip-bars.html/00851035003234
+34	Coconut Chocolate Protein Bar	RXBAR	1 Bar (52G)	12	0	200	https://shop.rxbar.com/shop/coconut-chocolate-protein-bars-box-of-12.html
+35	Lemon Drop Martini	C&G	1 Cup				
