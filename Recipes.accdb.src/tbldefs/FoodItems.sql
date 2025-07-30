@@ -6,5 +6,6 @@
   [Protein] DOUBLE,
   [AddedSugar] LONG,
   [Calories] LONG,
+  [FoodDescription] LONGTEXT,
   [UrlLink] LONGTEXT
 )

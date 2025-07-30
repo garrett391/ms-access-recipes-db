@@ -2,19 +2,65 @@
 Option Compare Database
 Option Explicit
 
-Function GetUSDAFoodData(searchQuery As String, Optional apiKey As String = "DEMO_KEY") As String
+Function GetUSDAFoodData(searchQuery As String, _
+                        Optional apiKey As String = "DEMO_KEY", _
+                        Optional dataTypes As String = "", _
+                        Optional pageSize As Integer = 50, _
+                        Optional pageNumber As Integer = 1, _
+                        Optional sortBy As String = "", _
+                        Optional sortOrder As String = "", _
+                        Optional brandOwner As String = "") As String
     ' Function to execute GET request to USDA Food Data Central API
+    ' Parameters:
+    '   searchQuery: Required search terms
+    '   apiKey: API key (default: DEMO_KEY)
+    '   dataTypes: Comma-separated list (e.g., "Branded,Foundation")
+    '   pageSize: Results per page (1-200, default: 50)
+    '   pageNumber: Page number (default: 1)
+    '   sortBy: Sort field (dataType.keyword, lowercaseDescription.keyword, fdcId, publishedDate)
+    '   sortOrder: Sort direction (asc, desc)
+    '   brandOwner: Brand owner filter for Branded foods
     ' Returns JSON response as string
 
     Dim http As Object
     Dim url As String
     Dim response As String
+    Dim params As String
 
     ' Create HTTP object
     Set http = CreateObject("MSXML2.XMLHTTP")
 
-    ' Build the URL with proper encoding
+    ' Start building URL with required parameters
     url = "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=" & apiKey & "&query=" & EncodeURL(searchQuery)
+
+    ' Add optional parameters if provided
+    If dataTypes <> "" Then
+        url = url & "&dataType=" & BuildDataTypeParam(dataTypes)
+    End If
+
+    If pageSize <> 50 And pageSize >= 1 And pageSize <= 200 Then
+        url = url & "&pageSize=" & pageSize
+    End If
+
+    If pageNumber <> 1 And pageNumber >= 1 Then
+        url = url & "&pageNumber=" & pageNumber
+    End If
+
+    If sortBy <> "" Then
+        If IsValidSortBy(sortBy) Then
+            url = url & "&sortBy=" & sortBy
+        End If
+    End If
+
+    If sortOrder <> "" Then
+        If sortOrder = "asc" Or sortOrder = "desc" Then
+            url = url & "&sortOrder=" & sortOrder
+        End If
+    End If
+
+    If brandOwner <> "" Then
+        url = url & "&brandOwner=" & EncodeURL(brandOwner)
+    End If
 
     ' Configure and send the request
     On Error GoTo ErrorHandler
@@ -42,6 +88,50 @@ ErrorHandler:
     GetUSDAFoodData = "Error: " & Err.Description
     Set http = Nothing
 End Function
+
+Function BuildDataTypeParam(dataTypes As String) As String
+    ' Convert comma-separated dataTypes to proper URL format
+    ' Input: "Branded,Foundation" or "Foundation,SR Legacy"
+    ' Output: "Branded,Foundation" or "Foundation,SR%20Legacy"
+
+    Dim types() As String
+    Dim i As Integer
+    Dim result As String
+
+    types = Split(dataTypes, ",")
+
+    For i = 0 To UBound(types)
+        types(i) = Trim(types(i))
+        ' Validate data type
+        If IsValidDataType(types(i)) Then
+            If result <> "" Then result = result & ","
+            result = result & EncodeURL(types(i))
+        End If
+    Next i
+
+    BuildDataTypeParam = result
+End Function
+
+Function IsValidDataType(dataType As String) As Boolean
+    ' Validate data type against allowed values
+    Select Case dataType
+        Case "Branded", "Foundation", "Survey (FNDDS)", "SR Legacy"
+            IsValidDataType = True
+        Case Else
+            IsValidDataType = False
+    End Select
+End Function
+
+Function IsValidSortBy(sortBy As String) As Boolean
+    ' Validate sortBy parameter against allowed values
+    Select Case sortBy
+        Case "dataType.keyword", "lowercaseDescription.keyword", "fdcId", "publishedDate"
+            IsValidSortBy = True
+        Case Else
+            IsValidSortBy = False
+    End Select
+End Function
+
 
 Function EncodeURL(str As String) As String
     ' Simple URL encoding function for query parameters
@@ -118,17 +208,53 @@ Function EncodeURL(str As String) As String
 End Function
 
 Sub TestUSDAAPI()
-    ' Example usage of the GetUSDAFoodData function
+    ' Example usage of the GetUSDAFoodData function with various parameters
     Dim jsonResponse As String
 
-    ' Call the API with "Cheddar Cheese" search query
+    ' Basic search
+    Debug.Print "=== Basic Search ==="
     jsonResponse = GetUSDAFoodData("Cheddar Cheese")
+    Debug.Print Left(jsonResponse, 200) & "..."
 
-    ' Display the response (you can also write to a table or process further)
-    Debug.Print jsonResponse
+    ' Advanced search with multiple parameters
+    Debug.Print vbCrLf & "=== Advanced Search ==="
+    jsonResponse = GetUSDAFoodData( _
+        searchQuery:="cheddar cheese", _
+        dataTypes:="Foundation,SR Legacy", _
+        pageSize:=10, _
+        pageNumber:=1, _
+        sortBy:="lowercaseDescription.keyword", _
+        sortOrder:="asc" _
+    )
+    Debug.Print Left(jsonResponse, 200) & "..."
 
-    ' Optional: Display in a message box (be careful with large responses)
-    ' MsgBox Left(jsonResponse, 1000) & "..." ' Show first 1000 characters
+    ' Branded food search
+    Debug.Print vbCrLf & "=== Branded Food Search ==="
+    jsonResponse = GetUSDAFoodData( _
+        searchQuery:="crackers", _
+        dataTypes:="Branded", _
+        pageSize:=5, _
+        brandOwner:="Kellogg Company" _
+    )
+    Debug.Print Left(jsonResponse, 200) & "..."
+End Sub
+
+Sub TestUSDAAPIDetailed()
+    ' More detailed example showing how to use different parameter combinations
+    Dim jsonResponse As String
+
+    ' Search for Foundation foods only, sorted by publication date
+    jsonResponse = GetUSDAFoodData( _
+        searchQuery:="apple", _
+        dataTypes:="Foundation", _
+        pageSize:=25, _
+        sortBy:="publishedDate", _
+        sortOrder:="desc" _
+    )
+
+    ' Process the response
+    Debug.Print "Foundation Apple Foods (most recent first):"
+    Debug.Print ParseFoodDataJSON(jsonResponse)
 End Sub
 
 Function ParseFoodDataJSON(jsonString As String) As String

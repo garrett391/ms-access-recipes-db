@@ -13,7 +13,7 @@ Private Sub populateNutritionalValues()
     servingAmount = Nz(Me!txt_Servings, 1)
 
     Me!txt_Protein.Value = servingAmount * Nz(DLookup("Protein", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
-    Me!txt_Sugar.Value = servingAmount * Nz(DLookup("Sugar", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
+    Me!txt_Sugar.Value = servingAmount * Nz(DLookup("AddedSugar", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
     Me!txt_Calories.Value = servingAmount * Nz(DLookup("Calories", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
 End Sub
 

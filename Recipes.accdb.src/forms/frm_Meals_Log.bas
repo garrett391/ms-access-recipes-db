@@ -12,9 +12,9 @@ Begin Form
     ItemSuffix =102
     Left =4740
     Top =3555
-    Right =31035
-    Bottom =21000
-    Filter ="[MealDate] = #7/17/2025#"
+    Right =19785
+    Bottom =20775
+    Filter ="[MealDate] = #7/24/2025#"
     RecSrcDt = Begin
         0x66503257f763e640
     End
@@ -388,7 +388,7 @@ Begin Form
                     TabIndex =1
                     ForeColor =5855577
                     Name ="Text25"
-                    ControlSource ="=Sum([Sugar])"
+                    ControlSource ="=Sum([AddedSugar])"
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
@@ -579,7 +579,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="txt_Sugar"
-                    ControlSource ="Sugar"
+                    ControlSource ="AddedSugar"
                     GroupTable =1
 
                     LayoutCachedLeft =11520

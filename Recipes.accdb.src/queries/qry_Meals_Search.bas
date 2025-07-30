@@ -10,7 +10,7 @@ Begin OutputColumns
     Alias ="TotalProtein"
     Expression ="Sum(Meals.Protein)"
     Alias ="TotalSugar"
-    Expression ="Sum(Meals.Sugar)"
+    Expression ="Sum(Meals.[AddedSugar])"
     Alias ="TotalCalories"
     Expression ="Sum(Meals.Calories)"
 End

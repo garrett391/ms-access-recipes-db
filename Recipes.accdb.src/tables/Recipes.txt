@@ -4,3 +4,5 @@
 4	9	Regular Protein Shake	2 scoops of protein, creatine	
 5	11	Driscoll's Blackberries		
 6	27			Slice up sausage and heat on pan. Mix in with pasta and sauce
+7	36			Dry wings. Cover in powder and sauces. Bake for 20 min each side at 425.
+8	37			

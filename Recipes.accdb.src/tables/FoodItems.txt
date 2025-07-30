@@ -1,36 +1,40 @@
-﻿FoodItemID	FoodName	Manufacturer	ServingSize	Protein	AddedSugar	Calories	UrlLink
-1	Smokey BBQ Beef Stick	Chomps		10	0	100	https://chomps.com/products/bbq-beef-jerky-stick
-2	Original Beef Stick	Chomps		10	0	100	https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original
-3	Jalapeño Beef Stick	Chomps		10	0	100	https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno
-4	Original Turkey Stick	Chomps		12	0	80	https://chomps.com/products/gluten-free-snack-turkey-jerky-stick-original
-5	Burrito, Egg & Green Chile	Evol		12	2	320	https://smartlabel.conagra.com/891627002542-0002-en-US/index.html
-6	Mozzarella Cheese Stick	Sargento		5	0	45	https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick
-7	Chocolate Sea Salt Protein Bar	RXBAR	1 Bar (52 G)	12	0	200	https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html
-8	Mini Energy Drink	Alani		0	0	5	https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush
-9	Regular Protein Shake	C&G		48	0	240	
-10	Simple Daves Bread Turkey Sandwhich	C&G		23	6	390	
-11	Driscoll's Blackberries	C&G		2	7	60	
-12	Strawberry Poppy Seed Salad	C&G					
-13	Peanut Butter Cup Lite Shake	Chuze Fitness		30		270	
-14	Grande Iced Caramel Macchiato	Starbucks		10	34	250	https://www.starbucks.com/menu/product/413/iced/nutrition
-15	Chick-n-Strips	Chick-fil-A		9		100	https://www.chick-fil-a.com/menu/chick-n-strips
-16	20 FL OZ Coca-Cola	The Coca-Cola Company		0	65	240	https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3
-17	Chick-fil-A Sauce	Chick-fil-A		0	6	140	https://www.chick-fil-a.com/menu/chick-fil-a-sauce
-18	Fuego Potato Chips	Siete Foods	1oz (28g) = 14 chips	3	0	140	https://sietefoods.com/products/fuego-potato-chips
-19	Sea Salt Vinegar Potato Chips	Siete Foods	1oz (28g) = 15 chips	2	0	140	https://sietefoods.com/products/sea-salt-vinegar-serrano-chips
-20	Blueberry Protein Bar	RXBAR	1 Bar (52 G)	12	0	180	https://shop.rxbar.com/shop/blueberry-protein-bars-box-of-12.html
-21	Moody's California Burrito	Moody's Food Truck	1 Burrito	33	5	657	https://www.moodysfoodtrucks.com/
-22	AlohaMacs Milk Chocolate	Hawaiin Host	2 Pieces (26g)	2	10	140	https://hawaiianhost.com/products/alohamacs-milk-2pc
-23	Maui Caramacs	Hawaiin Host	2 Pieces (27g)	1	10	120	https://hawaiianhost.com/products/maui-caramacs-2pc
-24	Cheddar Cheese Stick	Galbani	1 Stick	6	0	100	https://galbanicheese.com/our-cheeses/dairy-aisle-cheeses-snack-cheese/cheddar-snack-cheese
-25	Apple Pie Larabar	Larabar	1 Bar (45g)	4	0	200	https://www.larabar.com/our-products/larabar/apple-pie
-26	Chocolate Chip Cookie Dough Larabar	Larabar	1 Bar (45g)	3	3	210	https://www.larabar.com/our-products/larabar/chocolate-chip-cookie-dough
-27	Protein Pasta, Sausage and Raos Sauce	C&G	1 Bowl	24.5	0	385	
-28	Fruit Cup Diced Peaches	Del Monte	1 Cup (113g)	0	13	60	https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks
-29	Mavericks Burger	Mavericks Beach Club		37	6	809	https://maverickssd.com/menu/# (nutrition is web estimate)
-30	Honeycrisp Apples		1 apple (182g)	0	19	95	https://www.nutritionix.com/food/honeycrisp-apples
-31	Taco		1 Taco	9.4	2	210	https://www.nutritionix.com/food/tacos
-32	Turkey Burger	C&G	1 Burger	34	4	540	https://www.nutritionix.com/food/turkey-burger
-33	Mint Chocolate Chip Bars	Yasso	1 Bar (65 G)	5	13	100	https://www.yasso.com/p/mint-chocolate-chip-bars.html/00851035003234
-34	Coconut Chocolate Protein Bar	RXBAR	1 Bar (52G)	12	0	200	https://shop.rxbar.com/shop/coconut-chocolate-protein-bars-box-of-12.html
-35	Lemon Drop Martini	C&G	1 Cup				
+﻿FoodItemID	FoodName	Manufacturer	ServingSize	Protein	AddedSugar	Calories	FoodDescription	UrlLink
+1	Smokey BBQ Beef Stick	Chomps		10	0	100		https://chomps.com/products/bbq-beef-jerky-stick
+2	Original Beef Stick	Chomps		10	0	100		https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original
+3	Jalapeño Beef Stick	Chomps		10	0	100		https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno
+4	Original Turkey Stick	Chomps		12	0	80		https://chomps.com/products/gluten-free-snack-turkey-jerky-stick-original
+5	Burrito, Egg & Green Chile	Evol		12	2	320		https://smartlabel.conagra.com/891627002542-0002-en-US/index.html
+6	Mozzarella Cheese Stick	Sargento		5	0	45		https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick
+7	Chocolate Sea Salt Protein Bar	RXBAR	1 Bar (52 G)	12	0	200		https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html
+8	Mini Energy Drink	Alani		0	0	5		https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush
+9	Regular Protein Shake	C&G		48	0	240		
+10	Simple Daves Bread Turkey Sandwhich	C&G		23	6	390		
+11	Driscoll's Blackberries	C&G		2	7	60		
+12	Strawberry Poppy Seed Salad	C&G						
+13	Peanut Butter Cup Lite Shake	Chuze Fitness		30		270		
+14	Grande Iced Caramel Macchiato	Starbucks		10	34	250		https://www.starbucks.com/menu/product/413/iced/nutrition
+15	Chick-n-Strips	Chick-fil-A		9		100		https://www.chick-fil-a.com/menu/chick-n-strips
+16	20 FL OZ Coca-Cola	The Coca-Cola Company		0	65	240		https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3
+17	Chick-fil-A Sauce	Chick-fil-A		0	6	140		https://www.chick-fil-a.com/menu/chick-fil-a-sauce
+18	Fuego Potato Chips	Siete Foods	1oz (28g) = 14 chips	3	0	140		https://sietefoods.com/products/fuego-potato-chips
+19	Sea Salt Vinegar Potato Chips	Siete Foods	1oz (28g) = 15 chips	2	0	140		https://sietefoods.com/products/sea-salt-vinegar-serrano-chips
+20	Blueberry Protein Bar	RXBAR	1 Bar (52 G)	12	0	180		https://shop.rxbar.com/shop/blueberry-protein-bars-box-of-12.html
+21	Moody's California Burrito	Moody's Food Truck	1 Burrito	33	5	657		https://www.moodysfoodtrucks.com/
+22	AlohaMacs Milk Chocolate	Hawaiin Host	2 Pieces (26g)	2	10	140		https://hawaiianhost.com/products/alohamacs-milk-2pc
+23	Maui Caramacs	Hawaiin Host	2 Pieces (27g)	1	10	120		https://hawaiianhost.com/products/maui-caramacs-2pc
+24	Cheddar Cheese Stick	Galbani	1 Stick	6	0	100		https://galbanicheese.com/our-cheeses/dairy-aisle-cheeses-snack-cheese/cheddar-snack-cheese
+25	Apple Pie Larabar	Larabar	1 Bar (45g)	4	0	200		https://www.larabar.com/our-products/larabar/apple-pie
+26	Chocolate Chip Cookie Dough Larabar	Larabar	1 Bar (45g)	3	3	210		https://www.larabar.com/our-products/larabar/chocolate-chip-cookie-dough
+27	Protein Pasta, Sausage and Raos Sauce	C&G	1 Bowl	24.5	0	385		
+28	Fruit Cup Diced Peaches	Del Monte	1 Cup (113g)	0	13	60		https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks
+29	Mavericks Burger	Mavericks Beach Club		37	6	809		https://maverickssd.com/menu/# (nutrition is web estimate)
+30	Honeycrisp Apples		1 apple (182g)	0	19	95		https://www.nutritionix.com/food/honeycrisp-apples
+31	Taco		1 Taco	9.4	2	210		https://www.nutritionix.com/food/tacos
+32	Turkey Burger	C&G	1 Burger	34	4	540		https://www.nutritionix.com/food/turkey-burger
+33	Mint Chocolate Chip Bars	Yasso	1 Bar (65 G)	5	13	100		https://www.yasso.com/p/mint-chocolate-chip-bars.html/00851035003234
+34	Coconut Chocolate Protein Bar	RXBAR	1 Bar (52G)	12	0	200		https://shop.rxbar.com/shop/coconut-chocolate-protein-bars-box-of-12.html
+35	Lemon Drop Martini	C&G	1 Cup					
+36	Baked Chicken Drumstick	C&G	1 Leg	22	0	167		
+37	Garrett's standard coffee	C&G	1 Yeti (20 Oz)	1	1	45	Coffee, half & half and sweetener.	
+38	Peanut Butter Chocolate Chip Bar	Larabar	1 Bar (45 g)	5	4	220		https://www.larabar.com/our-products/larabar/peanut-butter-chocolate-chip
+40	Cuties	Cuties	2 celmentines (168g)	1	0	90		https://cutiescitrus.com/products/cuties/

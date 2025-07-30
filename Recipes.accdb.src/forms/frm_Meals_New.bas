@@ -408,7 +408,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="txt_Sugar"
-                    ControlSource ="Sugar"
+                    ControlSource ="AddedSugar"
                     GroupTable =1
                     BottomPadding =150
 
@@ -435,7 +435,7 @@ Begin Form
                             RightMargin =44
                             BottomMargin =22
                             Name ="Label18"
-                            Caption ="Sugar"
+                            Caption ="AddedSugar"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360

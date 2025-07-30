@@ -5,6 +5,6 @@
   [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]),
   [Servings] DOUBLE,
   [Protein] LONG,
-  [Sugar] LONG,
+  [AddedSugar] LONG,
   [Calories] LONG
 )

@@ -2,7 +2,7 @@
   Users.FirstName,
   Meals.MealDate,
   Sum(Meals.Protein) AS TotalProtein,
-  Sum(Meals.Sugar) AS TotalSugar,
+  Sum(Meals.[AddedSugar]) AS TotalSugar,
   Sum(Meals.Calories) AS TotalCalories
 FROM
   Users
