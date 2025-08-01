@@ -8,6 +8,11 @@
       "SummaryInfo": {
         "Title": "Database"
       }
+    },
+    "Tables": {
+      "MeasurementLocations": {
+        "Description": "https://www.verywellfit.com/how-to-take-your-body-measurements-1231126"
+      }
     }
   }
 }

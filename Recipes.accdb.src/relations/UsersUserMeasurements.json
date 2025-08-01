@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "UsersUserMeasurements",
+    "Attributes": 0,
+    "Table": "Users",
+    "ForeignTable": "UserMeasurements",
+    "Fields": [
+      {
+        "Name": "UserID",
+        "ForeignName": "UserID"
+      }
+    ]
+  }
+}
