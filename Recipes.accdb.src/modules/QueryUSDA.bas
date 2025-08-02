@@ -263,7 +263,7 @@ Function ParseFoodDataJSON(jsonString As String) As String
 
     Dim result As String
     Dim pos As Integer
-    Dim foodName As String
+    Dim FoodName As String
     Dim startPos As Integer
     Dim endPos As Integer
 
@@ -276,8 +276,8 @@ Function ParseFoodDataJSON(jsonString As String) As String
         endPos = InStr(startPos, jsonString, """")
 
         If endPos > startPos Then
-            foodName = Mid(jsonString, startPos, endPos - startPos)
-            result = result & "• " & foodName & vbCrLf
+            FoodName = Mid(jsonString, startPos, endPos - startPos)
+            result = result & "• " & FoodName & vbCrLf
         End If
 
         pos = endPos + 1

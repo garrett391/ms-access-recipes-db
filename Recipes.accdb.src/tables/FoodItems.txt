@@ -38,3 +38,8 @@
 37	Garrett's standard coffee	C&G	1 Yeti (20 Oz)	1	1	45	Coffee, half & half and sweetener.	
 38	Peanut Butter Chocolate Chip Bar	Larabar	1 Bar (45 g)	5	4	220		https://www.larabar.com/our-products/larabar/peanut-butter-chocolate-chip
 40	Cuties	Cuties	2 celmentines (168g)	1	0	90		https://cutiescitrus.com/products/cuties/
+41	Pepperoni Frozen Pizza	Raos	1/4 Pizza (146 g)	13	1	310		https://www.raos.com/products/pepperoni-pizza
+42	Chocolate Coconut Almonds	Trader Joes	8 pieces (32g)	3	11	170		
+43	Roltini Singles with mozzarella & prosciutto	Volpi	1 package (43)	12	0	140		https://www.volpifoods.com/products/snacks/roltini-singles/roltini-singles-mozzarella-prosciutto/
+44	Tater Tots		10 tots (84g)	1.8	0	161		https://www.nutritionix.com/food/tater-tots
+45	Cheeseburger		1 cheeseburger	30	7	535		https://www.nutritionix.com/food/cheeseburger
