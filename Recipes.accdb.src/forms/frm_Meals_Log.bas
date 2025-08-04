@@ -12,8 +12,8 @@ Begin Form
     ItemSuffix =102
     Left =4740
     Top =3555
-    Right =19785
-    Bottom =20775
+    Right =31035
+    Bottom =21000
     Filter ="[MealDate] = #7/24/2025#"
     RecSrcDt = Begin
         0x66503257f763e640
@@ -671,6 +671,7 @@ Begin Form
                         "ms.Protein, FoodItems.[AddedSugar], FoodItems.Calories FROM FoodItems; "
                     ColumnWidths ="0;2880;2880;1440;1440;1440"
                     AfterUpdate ="[Event Procedure]"
+                    OnGotFocus ="=DropDownActiveComboBox()"
                     GroupTable =1
                     LeftMargin =44
                     TopMargin =22

@@ -10,12 +10,12 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =12840
+    Width =12848
     DatasheetFontHeight =11
     ItemSuffix =29
-    Left =4740
-    Top =3555
-    Right =31035
+    Left =645
+    Top =3570
+    Right =11820
     Bottom =21000
     RecSrcDt = Begin
         0xb7674830ed65e640
@@ -291,7 +291,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="FoodItemID"
+                    Name ="txt_FoodItemID"
                     ControlSource ="FoodItemID"
                     GroupTable =1
                     BottomPadding =150
@@ -316,7 +316,7 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label0"
+                            Name ="lbl_FoodItemID"
                             Caption ="FoodItemID"
                             GroupTable =1
                             BottomPadding =150
@@ -338,12 +338,12 @@ Begin Form
                     Width =10575
                     Height =645
                     ColumnWidth =4380
-                    TabIndex =2
+                    TabIndex =1
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="FoodName"
+                    Name ="txt_FoodName"
                     ControlSource ="FoodName"
                     GroupTable =1
                     BottomPadding =150
@@ -370,7 +370,7 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label3"
+                            Name ="lbl_FoodName"
                             Caption ="FoodName"
                             GroupTable =1
                             BottomPadding =150
@@ -732,12 +732,12 @@ Begin Form
                     Top =1755
                     Width =10575
                     Height =389
-                    TabIndex =1
-                    Name ="Manufacturer"
+                    TabIndex =2
+                    Name ="cbo_Manufacturer"
                     ControlSource ="Manufacturer"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT DISTINCT    FoodItems.ManufacturerFROM    FoodItemsWHERE    FoodItems.Man"
-                        "ufacturer Is Not Null"
+                    RowSource ="SELECT DISTINCT FoodItems.Manufacturer FROM FoodItems WHERE FoodItems.Manufactur"
+                        "er Is Not Null; "
                     OnGotFocus ="=DropDownActiveComboBox()"
                     GroupTable =1
                     BottomPadding =150
@@ -771,7 +771,7 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label6"
+                            Name ="lbl_Manufacturer"
                             Caption ="Manufacturer"
                             GroupTable =1
                             BottomPadding =150

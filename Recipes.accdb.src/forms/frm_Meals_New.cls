@@ -9,7 +9,7 @@ Public faytFoodItems As New FindAsYouTypeCombo
 
 Private Sub populateNutritionalValues()
     Dim selectedFoodItemID As Long
-    Dim servingAmount As Double
+    Dim servingAmount      As Double
 
     selectedFoodItemID = Nz(Me!cbo_FoodItemID, 0)
     servingAmount = Nz(Me!txt_Servings, 1)

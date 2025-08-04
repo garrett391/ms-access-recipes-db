@@ -11,7 +11,7 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =12383
+    Width =12473
     DatasheetFontHeight =11
     ItemSuffix =34
     Left =4740
@@ -173,7 +173,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="MealID"
+                    Name ="txt_MealID"
                     ControlSource ="MealID"
                     BottomPadding =150
 
@@ -196,7 +196,7 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label0"
+                            Name ="lbl_MealID"
                             Caption ="MealID"
                             BottomPadding =150
                             LayoutCachedLeft =7755
@@ -211,7 +211,7 @@ Begin Form
                     Left =360
                     Width =659
                     Height =597
-                    Name ="Image32"
+                    Name ="img_Header"
                     Picture ="balanced-diet-512"
 
                     LayoutCachedLeft =360
@@ -232,7 +232,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1770
+                    Left =1860
                     Top =915
                     Width =10575
                     Height =390
@@ -246,9 +246,9 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =915
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =1305
                     RowStart =1
                     RowEnd =1
@@ -262,7 +262,7 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =915
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
@@ -274,7 +274,7 @@ Begin Form
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =915
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =1305
                             RowStart =1
                             RowEnd =1
@@ -287,7 +287,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1770
+                    Left =1860
                     Top =2055
                     Width =10575
                     Height =390
@@ -302,9 +302,9 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =2055
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =2445
                     RowStart =3
                     RowEnd =3
@@ -318,19 +318,19 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =2055
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label12"
+                            Name ="lbl_Servings"
                             Caption ="Servings"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =2055
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =2445
                             RowStart =3
                             RowEnd =3
@@ -343,7 +343,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1770
+                    Left =1860
                     Top =2625
                     Width =10575
                     Height =390
@@ -357,9 +357,9 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =2625
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =3015
                     RowStart =4
                     RowEnd =4
@@ -373,19 +373,19 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =2625
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label15"
+                            Name ="lbl_Protein"
                             Caption ="Protein"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =2625
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =3015
                             RowStart =4
                             RowEnd =4
@@ -398,7 +398,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1770
+                    Left =1860
                     Top =3195
                     Width =10575
                     Height =390
@@ -412,9 +412,9 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =3195
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =3585
                     RowStart =5
                     RowEnd =5
@@ -428,19 +428,19 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =3195
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label18"
-                            Caption ="AddedSugar"
+                            Name ="lbl_AddedSugar"
+                            Caption ="Added Sugar"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =3195
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =3585
                             RowStart =5
                             RowEnd =5
@@ -453,7 +453,7 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =1770
+                    Left =1860
                     Top =3765
                     Width =10575
                     Height =390
@@ -467,9 +467,9 @@ Begin Form
                     GroupTable =1
                     BottomPadding =150
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =3765
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =4155
                     RowStart =6
                     RowEnd =6
@@ -483,19 +483,19 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =3765
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label21"
+                            Name ="lbl_Calories"
                             Caption ="Calories"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =3765
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =4155
                             RowStart =6
                             RowEnd =6
@@ -509,9 +509,9 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =1
                     IMESentenceMode =3
-                    ColumnCount =6
-                    ListWidth =10800
-                    Left =1770
+                    ColumnCount =7
+                    ListWidth =12240
+                    Left =1860
                     Top =1485
                     Width =10575
                     Height =390
@@ -520,9 +520,9 @@ Begin Form
                     ControlSource ="FoodItemID"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT FoodItems.FoodItemID, FoodItems.FoodName, FoodItems.Manufacturer, FoodIte"
-                        "ms.Protein, FoodItems.[AddedSugar], FoodItems.Calories FROM FoodItems ORDER BY F"
-                        "oodItems.FoodName; "
-                    ColumnWidths ="0;3600;2880;1440;1440;1440"
+                        "ms.ServingSize, FoodItems.Protein, FoodItems.AddedSugar, FoodItems.Calories FROM"
+                        " FoodItems ORDER BY FoodItems.FoodName; "
+                    ColumnWidths ="0;3600;2880;1440;1440;1440;1440"
                     AfterUpdate ="[Event Procedure]"
                     OnGotFocus ="[Event Procedure]"
                     GroupTable =1
@@ -532,9 +532,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =1485
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =1875
                     RowStart =2
                     RowEnd =2
@@ -551,7 +551,7 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =1485
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
@@ -563,7 +563,7 @@ Begin Form
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =1485
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =1875
                             RowStart =2
                             RowEnd =2
@@ -577,7 +577,7 @@ Begin Form
                     TextAlign =1
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =1770
+                    Left =1860
                     Top =345
                     Width =10575
                     Height =390
@@ -595,9 +595,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =1770
+                    LayoutCachedLeft =1860
                     LayoutCachedTop =345
-                    LayoutCachedWidth =12345
+                    LayoutCachedWidth =12435
                     LayoutCachedHeight =735
                     ColumnStart =1
                     ColumnEnd =1
@@ -612,19 +612,19 @@ Begin Form
                             TextAlign =1
                             Left =360
                             Top =345
-                            Width =1348
+                            Width =1440
                             Height =390
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label3"
+                            Name ="lbl_UserID"
                             Caption ="UserID"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
                             LayoutCachedTop =345
-                            LayoutCachedWidth =1708
+                            LayoutCachedWidth =1800
                             LayoutCachedHeight =735
                             LayoutGroup =1
                             GroupTable =1

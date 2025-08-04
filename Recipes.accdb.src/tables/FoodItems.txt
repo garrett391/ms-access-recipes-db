@@ -43,3 +43,6 @@
 43	Roltini Singles with mozzarella & prosciutto	Volpi	1 package (43)	12	0	140		https://www.volpifoods.com/products/snacks/roltini-singles/roltini-singles-mozzarella-prosciutto/
 44	Tater Tots		10 tots (84g)	1.8	0	161		https://www.nutritionix.com/food/tater-tots
 45	Cheeseburger		1 cheeseburger	30	7	535		https://www.nutritionix.com/food/cheeseburger
+46	Colby-Jack Cheese Stick	Trader Joes	1 stick (24g)	5	0	90		https://www.fooducate.com/product/Trader-Joe-s-Cheese-Snack-Sticks-Colby-Jack/5C34508C-601B-88E0-495D-BEC5F1540930
+47	Thai-Style Coconut Chicken	Kevin's Natural Foods	5 oz (140g)	20	3	180	This mild but flavorful curry will make a great meal for the entire family! Tender chicken breast strips in a rich and creamy blend of coconut milk, basil and Thai spices.	https://www.kevinsnaturalfoods.com/products/thai-style-coconut-chicken
+48	Brown Rice		0.5 cup (98g)	2.3	0	109		https://www.nutritionix.com/food/brown-rice

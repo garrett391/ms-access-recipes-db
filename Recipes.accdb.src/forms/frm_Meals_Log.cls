@@ -5,6 +5,8 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+Public faytFoodItems As New FindAsYouTypeCombo
+
 Private Sub populateNutritionalValues()
     Dim selectedFoodItemID As Long
     Dim servingAmount As Double
@@ -26,6 +28,8 @@ Private Sub Form_Open(Cancel As Integer)
         Me!txt_MealDate.Enabled = False
         Me!lbl_Header.Caption = "Meals for " & Me.OpenArgs
     End If
+
+    faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , AnywhereInString, True, False
 End Sub
 
 
