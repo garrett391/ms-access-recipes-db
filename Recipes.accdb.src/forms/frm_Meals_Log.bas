@@ -7,9 +7,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =14498
+    Width =15278
     DatasheetFontHeight =11
-    ItemSuffix =102
+    ItemSuffix =106
     Left =4740
     Top =3555
     Right =31035
@@ -60,6 +60,32 @@ Begin Form
             BorderShade =65.0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Segoe UI"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
         End
         Begin TextBox
             AddColon = NotDefault
@@ -481,10 +507,44 @@ Begin Form
                     LayoutCachedHeight =590
                     TabIndex =3
                 End
+                Begin EmptyCell
+                    Left =14520
+                    Top =660
+                    Width =720
+                    Height =390
+                    Name ="EmptyCell103"
+                    GroupTable =1
+                    LayoutCachedLeft =14520
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =15240
+                    LayoutCachedHeight =1050
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =14520
+                    Top =1110
+                    Width =720
+                    Height =345
+                    Name ="EmptyCell104"
+                    GroupTable =1
+                    LayoutCachedLeft =14520
+                    LayoutCachedTop =1110
+                    LayoutCachedWidth =15240
+                    LayoutCachedHeight =1455
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =1
+                End
             End
         End
         Begin Section
-            Height =449
+            Height =450
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -706,6 +766,7 @@ Begin Form
                     BottomMargin =22
                     Name ="txt_Servings"
                     ControlSource ="Servings"
+                    AfterUpdate ="[Event Procedure]"
                     DefaultValue ="1"
                     GroupTable =1
 
@@ -718,6 +779,78 @@ Begin Form
                     ColumnStart =3
                     ColumnEnd =3
                     LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =14520
+                    Top =30
+                    Width =720
+                    Height =389
+                    TabIndex =8
+                    Name ="cmd_Delete"
+                    Caption ="Command102"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Delete Record"
+                    GroupTable =1
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000008080803980808096868686d6 ,
+                        0x828282f7808080ff828282f8868686d68585859c808080390000000000000000 ,
+                        0x0000000000000000000000000000000000000000808080ff808080ff808080ff ,
+                        0x808080ff808080ff808080ff808080ff808080ff808080ff0000000000000000 ,
+                        0x0000000000000000000000000000000080808006818181fbcbcbcbffe6e6e6ff ,
+                        0xf9f9f9fffffffffff9f9f9ffe6e6e6ffcbcbcbff808080ff0000000000000000 ,
+                        0x000000000000000000000000000000008080801e898989edffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffff868686fc8080801500000000 ,
+                        0x0000000000000000000000000000000080808036939393e6ffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffff929292fc8080802d00000000 ,
+                        0x00000000000000000000000000000000808080519f9f9fe3ffffffffe0e5d4ff ,
+                        0x90a468ff90a468ff90a468ffdce2cfffffffffffa0a0a0fe8383834400000000 ,
+                        0x0000000000000000000000000000000080808069afafafe5ffffffffadbc8fff ,
+                        0xcfd7bdffffffffffd8dfcaffa6b686fffefefdffadadadff9393936a00000000 ,
+                        0x0000000000000000000000000000000080808081bebebeecfffffffff6f8f3ff ,
+                        0xa0b17dffc2cdacff9eb07cfff3f5efffffffffffb9b9b9ff9999998e00000000 ,
+                        0x000000000000000000000000000000008080809ccececef9ffffffffffffffff ,
+                        0xeff2eaffbbc7a3ffebefe4ffffffffffffffffffc5c5c5ff979797ad00000000 ,
+                        0x00000000000000000000000000000000838383b8ddddddffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffcfcfcfff969696c700000000 ,
+                        0x00000000000000000000000000000000848484d3e9e9e9ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffddddddff929292dc00000000 ,
+                        0x00000000000000000000000000000000838383edccccccff9b9b9bff808080ff ,
+                        0x808080ff808080ff808080ff808080ff9b9b9bffc2c2c2ff8d8d8ded00000000 ,
+                        0x00000000000000000000000080808003808080ffa4a4a4ffdededeffffffffff ,
+                        0xffffffffffffffffffffffffffffffffdededeffa4a4a4ff808080ff00000000 ,
+                        0x00000000000000000000000000000000808080ff9c9c9ccddbdbdbe7ffffffff ,
+                        0xffffffffffffffffffffffffffffffffddddddf4a4a4a4dd808080ff00000000 ,
+                        0x00000000000000000000000000000000000000008080804e808080bd808080ff ,
+                        0x808080ff808080ff808080ff808080ff808080bd8080804e0000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =14520
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =15240
+                    LayoutCachedHeight =419
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    Gradient =0
+                    BackThemeColorIndex =1
+                    BackTint =100.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =65.0
+                    HoverColor =13816815
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =7961551
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
                     GroupTable =1
                 End
             End

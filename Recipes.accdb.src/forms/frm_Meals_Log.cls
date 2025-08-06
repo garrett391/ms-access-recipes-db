@@ -25,7 +25,7 @@ Private Sub Form_Open(Cancel As Integer)
         Me.Filter = "[MealDate] = #" & Me.OpenArgs & "#"
         Me.FilterOn = True
         Me!txt_MealDate.DefaultValue = "#" & Me.OpenArgs & "#"
-        Me!txt_MealDate.Enabled = False
+'        Me!txt_MealDate.Enabled = False
         Me!lbl_Header.Caption = "Meals for " & Me.OpenArgs
     End If
 
@@ -33,6 +33,24 @@ Private Sub Form_Open(Cancel As Integer)
 End Sub
 
 
+Private Sub txt_Servings_AfterUpdate()
+    populateNutritionalValues
+End Sub
+
+
 Private Sub cbo_FoodItemID_AfterUpdate()
     populateNutritionalValues
+End Sub
+
+
+Private Sub cmd_Delete_Click()
+    If MsgBox("Are you sure you want to delete this record?", vbYesNoCancel, "Delete record?") <> vbYes Then
+        Exit Sub
+    End If
+
+    If Me.NewRecord = False Then
+        DoCmd.RunCommand acCmdDeleteRecord
+    Else
+        Me.Undo
+    End If
 End Sub

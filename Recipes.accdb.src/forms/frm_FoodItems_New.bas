@@ -13,7 +13,7 @@ Begin Form
     Width =12848
     DatasheetFontHeight =11
     ItemSuffix =29
-    Left =645
+    Left =4755
     Top =3570
     Right =11820
     Bottom =21000
@@ -623,7 +623,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="FoodDescription"
+                    Name ="txt_FoodDescription"
                     ControlSource ="FoodDescription"
                     GroupTable =1
                     BottomPadding =150
@@ -650,8 +650,8 @@ Begin Form
                             TopMargin =22
                             RightMargin =44
                             BottomMargin =22
-                            Name ="Label21"
-                            Caption ="FoodDescription"
+                            Name ="lbl_FoodDescription"
+                            Caption ="Food Description"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360
