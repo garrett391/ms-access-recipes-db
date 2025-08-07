@@ -11,7 +11,7 @@
     "Fields": [
       {
         "Name": "UnitID",
-        "ForeignName": "UnitID"
+        "ForeignName": "ServingUnitID"
       }
     ]
   }

@@ -5,8 +5,9 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Dim RecipeID As Long
+Public faytIngredients As New FindAsYouTypeCombo
 
+Dim RecipeID As Long
 
 Private Sub SetDynamicProperties()
     Me.RecordSource = "SELECT * FROM RecipeIngredients WHERE RecipeID = " & Me.OpenArgs
@@ -25,4 +26,12 @@ Private Sub Form_Open(Cancel As Integer)
         RecipeID = CLng(Me.OpenArgs)
         Call SetDynamicProperties
     End If
+
+    faytIngredients.InitalizeFilterCombo Me!cbo_IngredientID, , AnywhereInString, True, False
+End Sub
+
+
+Private Sub cbo_IngredientID_GotFocus()
+' This sub is needed since the combo box is being used with WithEvents in faytIngredients
+    Call DropDownActiveComboBox
 End Sub

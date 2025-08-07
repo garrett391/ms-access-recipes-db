@@ -9,11 +9,11 @@ Begin Form
     GridY =24
     Width =17303
     DatasheetFontHeight =11
-    ItemSuffix =61
-    Right =27810
+    ItemSuffix =81
+    Right =26295
     Bottom =17445
     RecSrcDt = Begin
-        0xbf282de44c63e640
+        0x012369447766e640
     End
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
@@ -104,28 +104,6 @@ Begin Form
             BackThemeColorIndex =2
             BackTint =20.0
             Begin
-                Begin Label
-                    OverlapFlags =85
-                    Left =4185
-                    Top =690
-                    Width =4320
-                    Height =360
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label2"
-                    Caption ="IngredientID"
-                    GroupTable =1
-                    LayoutCachedLeft =4185
-                    LayoutCachedTop =690
-                    LayoutCachedWidth =8505
-                    LayoutCachedHeight =1050
-                    ColumnStart =2
-                    ColumnEnd =2
-                    LayoutGroup =1
-                    GroupTable =1
-                End
                 Begin Image
                     SizeMode =0
                     Left =300
@@ -287,7 +265,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =12945
+                    Left =11310
                     Top =690
                     Width =4320
                     Height =360
@@ -298,12 +276,12 @@ Begin Form
                     Name ="Label11"
                     Caption ="PreparationStyleID"
                     GroupTable =1
-                    LayoutCachedLeft =12945
+                    LayoutCachedLeft =11310
                     LayoutCachedTop =690
-                    LayoutCachedWidth =17265
+                    LayoutCachedWidth =15630
                     LayoutCachedHeight =1050
-                    ColumnStart =4
-                    ColumnEnd =4
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -317,35 +295,13 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label18"
-                    Caption ="Quantity"
+                    Name ="lbl_Servings"
+                    Caption ="Servings"
                     GroupTable =1
                     LayoutCachedLeft =330
                     LayoutCachedTop =690
                     LayoutCachedWidth =1770
                     LayoutCachedHeight =1050
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =1830
-                    Top =690
-                    Width =2295
-                    Height =360
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label25"
-                    Caption ="UnitID"
-                    GroupTable =1
-                    LayoutCachedLeft =1830
-                    LayoutCachedTop =690
-                    LayoutCachedWidth =4125
-                    LayoutCachedHeight =1050
-                    ColumnStart =1
-                    ColumnEnd =1
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -392,7 +348,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =8565
+                    Left =6930
                     Top =690
                     Width =4320
                     Height =360
@@ -403,12 +359,34 @@ Begin Form
                     Name ="Label54"
                     Caption ="SubRecipeID"
                     GroupTable =1
-                    LayoutCachedLeft =8565
+                    LayoutCachedLeft =6930
                     LayoutCachedTop =690
-                    LayoutCachedWidth =12885
+                    LayoutCachedWidth =11250
                     LayoutCachedHeight =1050
-                    ColumnStart =3
-                    ColumnEnd =3
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =1830
+                    Top =690
+                    Width =5040
+                    Height =360
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="lbl_IngredientID"
+                    Caption ="Ingredient"
+                    GroupTable =1
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =6870
+                    LayoutCachedHeight =1050
+                    ColumnStart =1
+                    ColumnEnd =1
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -426,65 +404,31 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =4185
+                    Left =11310
                     Top =30
                     Width =4320
                     Height =389
-                    TabIndex =2
-                    Name ="IngredientID"
-                    ControlSource ="IngredientID"
-                    RowSourceType ="Table/Query"
-                    RowSource ="SELECT Ingredients.IngredientID, [Ingredient] & (\" | \"+[Manufacturer]) AS Expr"
-                        "1 FROM Ingredients; "
-                    ColumnWidths ="0"
-                    GroupTable =1
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-
-                    LayoutCachedLeft =4185
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =8505
-                    LayoutCachedHeight =419
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =2
-                    ColumnEnd =2
-                    LayoutGroup =1
-                    ForeThemeColorIndex =0
-                    ForeTint =75.0
-                    ForeShade =100.0
-                    GroupTable =1
-                End
-                Begin ComboBox
-                    OverlapFlags =85
-                    IMESentenceMode =3
-                    ColumnCount =2
-                    Left =12945
-                    Top =30
-                    Width =4320
-                    Height =389
-                    TabIndex =4
+                    TabIndex =3
                     Name ="PreparationStyleID"
                     ControlSource ="PreparationStyleID"
                     RowSourceType ="Table/Query"
                     RowSource ="PreparationStyles"
                     ColumnWidths ="0"
+                    OnGotFocus ="=DropDownActiveComboBox()"
                     GroupTable =1
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =12945
+                    LayoutCachedLeft =11310
                     LayoutCachedTop =30
-                    LayoutCachedWidth =17265
+                    LayoutCachedWidth =15630
                     LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =4
-                    ColumnEnd =4
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
                     ForeThemeColorIndex =0
                     ForeTint =75.0
@@ -501,8 +445,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Quantity"
-                    ControlSource ="Quantity"
+                    Name ="txt_Servings"
+                    ControlSource ="Servings"
                     GroupTable =1
 
                     LayoutCachedLeft =330
@@ -518,16 +462,57 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
+                    Left =6930
+                    Top =30
+                    Width =4320
+                    Height =389
+                    TabIndex =2
+                    Name ="cbo_SubRecipeID"
+                    ControlSource ="SubRecipeID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="Recipes"
+                    ColumnWidths ="0"
+                    StatusBarText ="Use if one of the ingredients is a recipe. Ie you're making Lasagna and the sub "
+                        "recipe is Bolognese Sauce"
+                    OnGotFocus ="=DropDownActiveComboBox()"
+                    GroupTable =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+
+                    LayoutCachedLeft =6930
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =11250
+                    LayoutCachedHeight =419
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    GroupTable =1
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =6480
                     Left =1830
                     Top =30
-                    Width =2295
+                    Width =5040
                     Height =389
                     TabIndex =1
-                    Name ="UnitID"
-                    ControlSource ="UnitID"
+                    Name ="cbo_IngredientID"
+                    ControlSource ="IngredientID"
                     RowSourceType ="Table/Query"
-                    RowSource ="UnitsOfMeasurement"
+                    RowSource ="SELECT Ingredients.IngredientID, ([Manufacturer] + \" \") & [Ingredient] AS Expr"
+                        "1 FROM Ingredients; "
                     ColumnWidths ="0"
+                    OnGotFocus ="[Event Procedure]"
                     GroupTable =1
                     LeftMargin =44
                     TopMargin =22
@@ -536,48 +521,12 @@ Begin Form
 
                     LayoutCachedLeft =1830
                     LayoutCachedTop =30
-                    LayoutCachedWidth =4125
+                    LayoutCachedWidth =6870
                     LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
                     ColumnEnd =1
-                    LayoutGroup =1
-                    ForeThemeColorIndex =0
-                    ForeTint =75.0
-                    ForeShade =100.0
-                    GroupTable =1
-                End
-                Begin ComboBox
-                    OverlapFlags =85
-                    IMESentenceMode =3
-                    ColumnCount =2
-                    Left =8565
-                    Top =30
-                    Width =4320
-                    Height =389
-                    TabIndex =3
-                    Name ="cbo_SubRecipeID"
-                    ControlSource ="SubRecipeID"
-                    RowSourceType ="Table/Query"
-                    RowSource ="Recipes"
-                    ColumnWidths ="0"
-                    StatusBarText ="Use if one of the ingredients is a recipe. Ie you're making Lasagna and the sub "
-                        "recipe is Bolognese Sauce"
-                    GroupTable =1
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-
-                    LayoutCachedLeft =8565
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =12885
-                    LayoutCachedHeight =419
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =3
-                    ColumnEnd =3
                     LayoutGroup =1
                     ForeThemeColorIndex =0
                     ForeTint =75.0

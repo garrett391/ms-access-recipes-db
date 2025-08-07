@@ -6,3 +6,4 @@
 5	Brunoised	This is a very small dice, creating tiny cubes that are typically ⅛ inches on all sides. Brunoise cuts are often used for garnishes or to add finely diced vegetables to dishes where they'll cook down significantly.
 6	Chiffonaded	This technique is used for cutting leafy greens or herbs into thin ribbons by stacking the leaves, rolling them tightly, and then slicing them across.
 7	Sliced	Like slicing a cucumber.
+8	Drizzled	Pouring a liquid slowly over something
