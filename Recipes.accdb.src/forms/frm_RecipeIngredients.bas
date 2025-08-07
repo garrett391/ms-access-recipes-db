@@ -9,9 +9,9 @@ Begin Form
     GridY =24
     Width =17303
     DatasheetFontHeight =11
-    ItemSuffix =81
-    Right =26295
-    Bottom =17445
+    ItemSuffix =90
+    Right =13590
+    Bottom =17430
     RecSrcDt = Begin
         0x012369447766e640
     End
@@ -265,7 +265,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =11310
+                    Left =12810
                     Top =690
                     Width =4320
                     Height =360
@@ -276,12 +276,12 @@ Begin Form
                     Name ="Label11"
                     Caption ="PreparationStyleID"
                     GroupTable =1
-                    LayoutCachedLeft =11310
+                    LayoutCachedLeft =12810
                     LayoutCachedTop =690
-                    LayoutCachedWidth =15630
+                    LayoutCachedWidth =17130
                     LayoutCachedHeight =1050
-                    ColumnStart =3
-                    ColumnEnd =3
+                    ColumnStart =4
+                    ColumnEnd =4
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -348,7 +348,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =6930
+                    Left =8430
                     Top =690
                     Width =4320
                     Height =360
@@ -359,18 +359,18 @@ Begin Form
                     Name ="Label54"
                     Caption ="SubRecipeID"
                     GroupTable =1
-                    LayoutCachedLeft =6930
+                    LayoutCachedLeft =8430
                     LayoutCachedTop =690
-                    LayoutCachedWidth =11250
+                    LayoutCachedWidth =12750
                     LayoutCachedHeight =1050
-                    ColumnStart =2
-                    ColumnEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =1830
+                    Left =3330
                     Top =690
                     Width =5040
                     Height =360
@@ -381,9 +381,24 @@ Begin Form
                     Name ="lbl_IngredientID"
                     Caption ="Ingredient"
                     GroupTable =1
+                    LayoutCachedLeft =3330
+                    LayoutCachedTop =690
+                    LayoutCachedWidth =8370
+                    LayoutCachedHeight =1050
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =1830
+                    Top =690
+                    Height =360
+                    Name ="EmptyCell89"
+                    GroupTable =1
                     LayoutCachedLeft =1830
                     LayoutCachedTop =690
-                    LayoutCachedWidth =6870
+                    LayoutCachedWidth =3270
                     LayoutCachedHeight =1050
                     ColumnStart =1
                     ColumnEnd =1
@@ -395,7 +410,6 @@ Begin Form
         Begin Section
             Height =449
             Name ="Detail"
-            AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
@@ -404,11 +418,11 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =11310
+                    Left =12810
                     Top =30
                     Width =4320
                     Height =389
-                    TabIndex =3
+                    TabIndex =4
                     Name ="PreparationStyleID"
                     ControlSource ="PreparationStyleID"
                     RowSourceType ="Table/Query"
@@ -421,14 +435,14 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =11310
+                    LayoutCachedLeft =12810
                     LayoutCachedTop =30
-                    LayoutCachedWidth =15630
+                    LayoutCachedWidth =17130
                     LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =3
-                    ColumnEnd =3
+                    ColumnStart =4
+                    ColumnEnd =4
                     LayoutGroup =1
                     ForeThemeColorIndex =0
                     ForeTint =75.0
@@ -462,11 +476,11 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =6930
+                    Left =8430
                     Top =30
                     Width =4320
                     Height =389
-                    TabIndex =2
+                    TabIndex =3
                     Name ="cbo_SubRecipeID"
                     ControlSource ="SubRecipeID"
                     RowSourceType ="Table/Query"
@@ -481,14 +495,14 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =6930
+                    LayoutCachedLeft =8430
                     LayoutCachedTop =30
-                    LayoutCachedWidth =11250
+                    LayoutCachedWidth =12750
                     LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =2
-                    ColumnEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
                     LayoutGroup =1
                     ForeThemeColorIndex =0
                     ForeTint =75.0
@@ -501,11 +515,11 @@ Begin Form
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =6480
-                    Left =1830
+                    Left =3330
                     Top =30
                     Width =5040
                     Height =389
-                    TabIndex =1
+                    TabIndex =2
                     Name ="cbo_IngredientID"
                     ControlSource ="IngredientID"
                     RowSourceType ="Table/Query"
@@ -519,18 +533,41 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
+                    LayoutCachedLeft =3330
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8370
+                    LayoutCachedHeight =419
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1830
+                    Top =30
+                    Height =389
+                    TabIndex =1
+                    Name ="Text81"
+                    ControlSource ="=\"servings of\""
+                    GroupTable =1
+
                     LayoutCachedLeft =1830
                     LayoutCachedTop =30
-                    LayoutCachedWidth =6870
+                    LayoutCachedWidth =3270
                     LayoutCachedHeight =419
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
-                    ForeThemeColorIndex =0
-                    ForeTint =75.0
-                    ForeShade =100.0
                     GroupTable =1
                 End
             End
