@@ -55,8 +55,6 @@ Private Sub setSubForm()
         newSrcObject = "frm_Meals_Search"
     Case "cmd_Ingredients"
         newSrcObject = "frm_Ingredients_Search"
-    Case "cmd_Recipes"
-        newSrcObject = "frm_Recipes_Search"
     Case Else
         MsgBox "There is not a subform configure for this button."
         newSrcObject = ""
@@ -89,12 +87,6 @@ End Sub
 
 
 Private Sub cmd_Ingredients_Click()
-    Call setSubForm
-    Call toggleClickedButton
-End Sub
-
-
-Private Sub cmd_Recipes_Click()
     Call setSubForm
     Call toggleClickedButton
 End Sub

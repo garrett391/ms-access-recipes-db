@@ -7,9 +7,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =24428
+    Width =26288
     DatasheetFontHeight =11
-    ItemSuffix =33
+    ItemSuffix =41
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
@@ -409,6 +409,22 @@ Begin Form
                     QuickStyle =32
                     QuickStyleMask =-631
                 End
+                Begin EmptyCell
+                    Left =24450
+                    Top =660
+                    Width =1800
+                    Height =390
+                    Name ="EmptyCell39"
+                    GroupTable =1
+                    LayoutCachedLeft =24450
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =26250
+                    LayoutCachedHeight =1050
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =1
+                End
             End
         End
         Begin Section
@@ -429,7 +445,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="FoodItemID"
+                    Name ="txt_FoodItemID"
                     ControlSource ="FoodItemID"
                     GroupTable =1
 
@@ -635,6 +651,101 @@ Begin Form
                     ColumnEnd =3
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =24450
+                    Top =30
+                    Width =1800
+                    Height =432
+                    FontSize =12
+                    TabIndex =8
+                    Name ="cmd_OpenIngredients"
+                    Caption =" Ingredients"
+                    OnClick ="[Event Procedure]"
+                    Picture ="cook-book_24.png"
+                    GroupTable =1
+                    ImageData = Begin
+                        0x89504e470d0a1a0a0000000d4948445200000018000000180806000000e0773d ,
+                        0xf80000000473424954080808087c0864880000000970485973000000b1000000 ,
+                        0xb101c62d498d0000001974455874536f667477617265007777772e696e6b7363 ,
+                        0x6170652e6f72679bee3c1a00000512494441544889ad95496c55551cc6bf73ce ,
+                        0x1ddf7d63270a954a29164a15214893a246887161d244e256133138ae58485c68 ,
+                        0x822e5d604c4c5c685c548dd138c421c4058488ca241565e82b7680021de8fcfa ,
+                        0xdebdefddf19ce3a27d2d2d6d4d8cdfeefcf39df33bf7ffffeebd0473ea7bb9bd ,
+                        0x4d82eec7ff2002d171df8747cf0280522e4a42360378a9bce652420840610464 ,
+                        0x95c3b81400081859704990b30016030020e002b78b1e66dc00a1100000851264 ,
+                        0x0c1d6be306344601003e17182d7ac8b93e222101002aa5489b1ad65a0634b600 ,
+                        0x9b078c38eeb6712790b54df70e3dfc446b58d9704f15334ddd1ecb4f67bff929 ,
+                        0xbc7a7560fdfa548cfcf1082f515faa6de2c1dcfd0f34172b37acaf02180aa313 ,
+                        0xf9ab478fa3bbabbfae26ae6d5b68170029df5626cead3919ab486fb752190b00 ,
+                        0x4055c0ac9f758910c1d4adfcb1c3efb1ec1e458d6574ed859d07886925004200 ,
+                        0xbd06000520c1ddbc37d5ddf559cd63fb5f2184080200b99e2f7e1541f1512b51 ,
+                        0x01dd882df48c99805e0d10159002bc70dd9f2ae4f52fbbbfc28b0f1d806925e6 ,
+                        0x7cb1592f5167813244d11e7f3f5eb7e7a072a5f3fb4f6dcfd966d1b901855194 ,
+                        0x7deba34995900a73f386fefae7dab7c2580b501d4c33755d29cdce2be498189a ,
+                        0x44c9f50100baaea2aa328544320d50033937da37d87722432548f59d830ef38e ,
+                        0x135395da75ad6d1a6e8e34f7bcf1c18c7df1dc6d400090f33ecf0fa12a14f1b8 ,
+                        0x0133a641d7154c4d1790edee45e44e824b292164355d1c3a09ad2a9df635b57f ,
+                        0xe4fc59e97a01e14218a1ed84700701112cc493730829c11883aa304809f87e88 ,
+                        0xa55a14533917b9e6379fdf7447d900500f112ddac8b9841bf8b0620628a528b9 ,
+                        0x1e22cee7aeb90280f3d91bf68d0ce2dad86d6ca9ab476522898419c352a5933a ,
+                        0xd6a72aeeaa2f68f6428b5a14041ea494a820faf44cd7cd81892bd7afc5544d2e ,
+                        0xb7ddf69c68b870a3bfbcee9dcc7646222c2df52d02482150cc4d73e7f51fb1f7 ,
+                        0x78a1a1f1666563e9db4ba796034cba79ff93f31dc31d178efc1989d0ed38fd43 ,
+                        0xf0f1efef8c0fe507ba560400803f3d43677c2f2321119e3c05b77f842d07a84f ,
+                        0xadb11c3b59379273eccea15f3a7737b6c99e61ee1eebfddabdd3a72cdd48523a ,
+                        0x319b6af2833da30955614ed3d33b372e07202038b4e7d94d1746fe4eaac29869 ,
+                        0x6fd9d5b4a9ba217b79f8afa955010050757077aa0a80aa1949d5b49252cebea0 ,
+                        0x4bc540d0baaeb906408d6de7b0315ddbb2b9e6a9967f059415061ec2c0032104 ,
+                        0x8a6acc7f46525aea2eafe01c6ec9865b021445850ac510d016009432e14bc571 ,
+                        0x020a4f280a24a051cee39ae0260d1361e0b23070c1f40cf66d6907a59407506c ,
+                        0x97531649c20824542223834a80470926a921ca4f305a52e3634487ca94a4c128 ,
+                        0x0c464008412804c64a1cc5284285c18bb586af11ca908bd4c00e9865a92c6d30 ,
+                        0x0693100822c18544814bf8820b29453cce004553a81d792864bb7b270607c7e2 ,
+                        0xf9423129a460520862c6cc62ebce965c73537da313712b9b6348a60d245545ad ,
+                        0x35a8bc9cedebffedccc50ac7712d4a89a494f24c2a516868a87376ecd85aad59 ,
+                        0xc426870fbd7ada0b82dd71cb806918d0340573bf098451847cde819432f7e4f6 ,
+                        0x8d1385cbddd52a63a8dcb57de2bb73ddd512c8a49271a84ab9d3124110c1f53c ,
+                        0x38450fa6a19d99cfc6cfcf3c7ea4188ad7561ab8a930d45a060060b4e8c18df8 ,
+                        0x8ae1b054faeedecf4f1c5a94a2ce5b53e34ec46f2475d55ff52fbf9a2450f043 ,
+                        0x3daeb0f172691e70697caaa0103a50656ab7fee3f100804937a88fa42894d7ff ,
+                        0x00410c494e6bc544fe0000000049454e44ae426082
+                    End
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =24450
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =26250
+                    LayoutCachedHeight =462
+                    PictureCaptionArrangement =5
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =11892777
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =11892777
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    HoverColor =8411423
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =8411423
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =1
+                    QuickStyle =32
+                    QuickStyleMask =-119
                 End
             End
         End

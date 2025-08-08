@@ -4,8 +4,9 @@
   [Manufacturer] VARCHAR (255),
   [ServingSize] VARCHAR (255),
   [Protein] DOUBLE,
-  [AddedSugar] LONG,
-  [Calories] LONG,
+  [AddedSugar] DOUBLE,
+  [Calories] DOUBLE,
   [FoodDescription] LONGTEXT,
-  [UrlLink] LONGTEXT
+  [UrlLink] LONGTEXT,
+  [CookingInstructions] LONGTEXT
 )

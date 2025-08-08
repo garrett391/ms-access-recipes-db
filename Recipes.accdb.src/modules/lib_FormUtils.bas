@@ -17,3 +17,11 @@ Public Function DropDownActiveComboBox()
 
     Set ctl = Nothing
 End Function
+
+
+Public Function OpenZoomBox()
+' This is a function and not a sub so it can be called using
+'       =OpenZoomBox()
+' in a controls event property
+    DoCmd.RunCommand acCmdZoomBox
+End Function

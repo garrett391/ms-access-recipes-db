@@ -146,7 +146,7 @@ Begin Form
                     Height =10920
                     BackColor =16579322
                     BorderColor =16514043
-                    Name ="Box0"
+                    Name ="box_SideBar"
                     VerticalAnchor =2
                     LayoutCachedWidth =3180
                     LayoutCachedHeight =10920
@@ -160,7 +160,7 @@ Begin Form
                     Width =0
                     Height =10920
                     BorderColor =10855845
-                    Name ="Line1"
+                    Name ="lin_SideBar"
                     VerticalAnchor =2
                     LayoutCachedLeft =3180
                     LayoutCachedWidth =3180
@@ -168,8 +168,9 @@ Begin Form
                     BorderThemeColorIndex =-1
                 End
                 Begin CommandButton
+                    Visible = NotDefault
                     OverlapFlags =223
-                    Top =2400
+                    Top =2880
                     Width =3180
                     Height =480
                     FontSize =12
@@ -177,7 +178,6 @@ Begin Form
                     ForeColor =5855577
                     Name ="cmd_Recipes"
                     Caption =" Recipes"
-                    OnClick ="[Event Procedure]"
                     Picture ="cook-book_24.png"
                     LeftPadding =60
                     RightPadding =75
@@ -231,9 +231,9 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedTop =2400
+                    LayoutCachedTop =2880
                     LayoutCachedWidth =3180
-                    LayoutCachedHeight =2880
+                    LayoutCachedHeight =3360
                     PictureCaptionArrangement =5
                     ForeThemeColorIndex =-1
                     ForeTint =100.0
@@ -263,7 +263,7 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =223
-                    Top =2880
+                    Top =2400
                     Width =3180
                     Height =480
                     FontSize =12
@@ -332,9 +332,9 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedTop =2880
+                    LayoutCachedTop =2400
                     LayoutCachedWidth =3180
-                    LayoutCachedHeight =3360
+                    LayoutCachedHeight =2880
                     PictureCaptionArrangement =5
                     ForeThemeColorIndex =-1
                     ForeTint =100.0

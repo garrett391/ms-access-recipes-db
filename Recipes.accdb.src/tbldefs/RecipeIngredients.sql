@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [RecipeIngredients] (
   [RecipeIngredientID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [RecipeID] LONG CONSTRAINT [RecipesRecipeIngredients] REFERENCES [Recipes] ([RecipeID]) ON DELETE CASCADE ,
+  [FoodItemID] LONG CONSTRAINT [FoodItemsRecipeIngredients] REFERENCES [FoodItems] ([FoodItemID]) ON DELETE CASCADE ,
   [Servings] DOUBLE,
   [IngredientID] LONG CONSTRAINT [IngredientsRecipeIngredients] REFERENCES [Ingredients] ([IngredientID]),
-  [SubRecipeID] LONG,
-  [PreparationStyleID] LONG CONSTRAINT [PreparationStylesRecipeIngredients] REFERENCES [PreparationStyles] ([PreparationStyleID])
+  [PreparationStyleID] LONG CONSTRAINT [PreparationStylesRecipeIngredients] REFERENCES [PreparationStyles] ([PreparationStyleID]),
+  [SubFoodItemID] LONG
 )

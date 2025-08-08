@@ -38,6 +38,11 @@ Private Sub txt_Servings_AfterUpdate()
 End Sub
 
 
+Private Sub cbo_FoodItemID_GotFocus()
+    Call DropDownActiveComboBox
+End Sub
+
+
 Private Sub cbo_FoodItemID_AfterUpdate()
     populateNutritionalValues
 End Sub

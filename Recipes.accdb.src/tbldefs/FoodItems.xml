@@ -38,7 +38,7 @@
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="1605"></od:fieldProperty>
-              <od:fieldProperty name="ColumnOrder" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
               <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
@@ -135,7 +135,7 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="AddedSugar" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+        <xsd:element name="AddedSugar" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
@@ -151,7 +151,7 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="Calories" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+        <xsd:element name="Calories" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="1215"></od:fieldProperty>
@@ -199,6 +199,31 @@
               <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="Description" type="10" value="The URL for this food item if applicable."></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="TextFormat" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AppendOnly" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CookingInstructions" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="AllowZeroLength" type="1" value="1"></od:fieldProperty>
               <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>

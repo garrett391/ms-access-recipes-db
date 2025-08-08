@@ -11,15 +11,14 @@
   <xsd:element name="RecipeIngredients">
     <xsd:annotation>
       <xsd:appinfo>
+        <od:index index-name="FoodItemID" index-key="FoodItemID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="FoodItemsRecipeIngredients" index-key="FoodItemID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="IngredientID" index-key="IngredientID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="IngredientsRecipeIngredients" index-key="IngredientID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="PreparationStyleID" index-key="PreparationStyleID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="PreparationStylesRecipeIngredients" index-key="PreparationStyleID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:index index-name="PrimaryKey" index-key="RecipeIngredientID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
-        <od:index index-name="RecipeID" index-key="RecipeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="RecipesRecipeIngredients" index-key="RecipeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="RecipesRecipeIngredients1" index-key="SubRecipeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
-        <od:index index-name="SubRecipeID" index-key="SubRecipeID " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="SubFoodItemID" index-key="SubFoodItemID " primary="no" unique="no" clustered="no" order="asc"></od:index>
         <od:tableProperty name="Orientation" type="2" value="0"></od:tableProperty>
         <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
         <od:tableProperty name="DefaultView" type="2" value="2"></od:tableProperty>
@@ -37,7 +36,7 @@
         <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"></od:tableProperty>
         <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"></od:tableProperty>
         <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"></od:tableProperty>
-        <od:tableProperty name="ValidationRule" type="12" value="IsNull([IngredientID]) Xor IsNull([SubRecipeID])"></od:tableProperty>
+        <od:tableProperty name="ValidationRule" type="12" value="IsNull([IngredientID]) Xor IsNull([SubFoodItemID])"></od:tableProperty>
         <od:tableProperty name="ValidationText" type="10" value="You can either choose an ingredient or a subrecipe."></od:tableProperty>
       </xsd:appinfo>
     </xsd:annotation>
@@ -56,7 +55,7 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="RecipeID" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+        <xsd:element name="FoodItemID" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
@@ -88,31 +87,14 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="IngredientID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+        <xsd:element name="IngredientID" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
               <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
-              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
-              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
-              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
-              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
-              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
-              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
-            </xsd:appinfo>
-          </xsd:annotation>
-        </xsd:element>
-        <xsd:element name="SubRecipeID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
-          <xsd:annotation>
-            <xsd:appinfo>
-              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
-              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
-              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
-              <od:fieldProperty name="Description" type="10" value="Use if one of the ingredients is a recipe. Ie you're making Lasagna and the sub recipe is Bolognese Sauce"></od:fieldProperty>
-              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
-              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
               <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
               <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
               <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
@@ -122,6 +104,22 @@
           </xsd:annotation>
         </xsd:element>
         <xsd:element name="PreparationStyleID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SubFoodItemID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
