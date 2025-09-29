@@ -4,7 +4,7 @@
   [MealDate] DATETIME,
   [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]),
   [Servings] DOUBLE,
-  [Protein] LONG,
-  [AddedSugar] LONG,
-  [Calories] LONG
+  [Protein] DOUBLE,
+  [AddedSugar] DOUBLE,
+  [Calories] DOUBLE
 )

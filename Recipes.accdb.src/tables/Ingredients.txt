@@ -27,9 +27,10 @@
 26	Knudsen	Half and Half Grade A Ultra-Pasteurized		2	2	1	0	40	
 27	Splenda	Zero Calorie Sweetner	1 Pack = 1 gram	1	12	0	1	0	
 28	Cuties	Clementines	2 clementine (168g)	168	12	1	0	90	https://cutiescitrus.com/products/cuties/
-29	Boursin	Garlic & Fine Herbs Cheese		29	12	2	0	120	https://www.boursin.com/product/garlic-fine-herbs/
+29	Boursin	Garlic & Fine Herbs Cheese	2 Tbsp (29g)	29	12	2	0	120	https://www.boursin.com/product/garlic-fine-herbs/
 30		Cherry Tomatoes		8	10	1.83	0	37	https://foods.fatsecret.com/calories-nutrition/generic/tomatoes-cherry?portionid=544962&portionamount=8.000
 31		Garlic Clove	1 clove	3	12	0.2	0	4.5	https://www.nutritionix.com/food/garlic/1-clove
 32		Salt		1	1	0	0	0	https://www.nutritionix.com/food/salt
 33		Ground Black Pepper		1	1	0.3	0	6.5	https://www.nutritionix.com/food/black-pepper/1-tsp-ground
 34		Fresh Basil		1	4	0.8	0	5.5	https://www.nutritionix.com/food/fresh-basil/1-cup
+35	Alta Dena	Vitamin D Whole Milk	1 cup (240ml)	1	4	8	0	160	https://altadenadairy.com/products/whole-milk-plastic-gallon/

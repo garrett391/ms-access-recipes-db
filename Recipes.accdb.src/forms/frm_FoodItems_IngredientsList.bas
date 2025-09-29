@@ -224,8 +224,8 @@ Begin Form
                     BottomMargin =22
                     BackColor =15527148
                     BorderColor =12765388
-                    Name ="lbl_SubRecipeID"
-                    Caption ="SubRecipeID"
+                    Name ="lbl_SubFoodItemID"
+                    Caption ="SubFoodItemID"
                     GroupTable =1
                     LayoutCachedLeft =8430
                     LayoutCachedTop =360
@@ -603,9 +603,11 @@ Begin Form
                     Width =4320
                     Height =389
                     TabIndex =2
-                    Name ="cbo_SubRecipeID"
+                    Name ="cbo_SubFoodItemID"
                     ControlSource ="SubFoodItemID"
                     RowSourceType ="Table/Query"
+                    RowSource ="SELECT FoodItems.FoodItemID, ([ServingSize]+\" \") & [FoodName] AS Expr1 FROM Fo"
+                        "odItems; "
                     ColumnWidths ="0"
                     StatusBarText ="Use if one of the ingredients is a recipe. Ie you're making Lasagna and the sub "
                         "recipe is Bolognese Sauce"
@@ -647,7 +649,7 @@ Begin Form
                     RowSource ="SELECT Ingredients.IngredientID, (CStr([Ingredients].[ServingAmount])+\" \"+[Uni"
                         "t]+\" \") & ([Ingredients].[Manufacturer]+\" \") & [Ingredients].[Ingredient] AS"
                         " Expr1 FROM UnitsOfMeasurement INNER JOIN Ingredients ON UnitsOfMeasurement.Unit"
-                        "ID = Ingredients.ServingUnitID; "
+                        "ID = Ingredients.ServingUnitID ORDER BY [Ingredients].[Ingredient]; "
                     ColumnWidths ="0"
                     OnGotFocus ="[Event Procedure]"
                     GroupTable =1

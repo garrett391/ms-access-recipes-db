@@ -3,11 +3,20 @@
   RecipeIngredients.FoodItemID,
   RecipeIngredients.Servings,
   RecipeIngredients.IngredientID,
-  RecipeIngredients.PreparationStyleID,
   RecipeIngredients.SubFoodItemID,
-  [Servings] * [Protein] AS CalculatedProtein,
-  [Servings] * [AddedSugar] AS CalculatedAddedSugar,
-  [Servings] * [Calories] AS CalculatedCalories
+  RecipeIngredients.PreparationStyleID,
+  [Servings] *(
+    Nz([Ingredients].[Protein], 0)+ Nz([FoodItems].[Protein], 0)
+  ) AS CalculatedProtein,
+  [Servings] *(
+    Nz([Ingredients].[AddedSugar], 0)+ Nz([FoodItems].[AddedSugar], 0)
+  ) AS CalculatedAddedSugar,
+  [Servings] *(
+    Nz([Ingredients].[Calories], 0)+ Nz([FoodItems].[Calories], 0)
+  ) AS CalculatedCalories
 FROM
-  Ingredients
-  INNER JOIN RecipeIngredients ON Ingredients.IngredientID = RecipeIngredients.IngredientID;
+  FoodItems
+  RIGHT JOIN (
+    Ingredients
+    RIGHT JOIN RecipeIngredients ON Ingredients.IngredientID = RecipeIngredients.IngredientID
+  ) ON FoodItems.FoodItemID = RecipeIngredients.SubFoodItemID;

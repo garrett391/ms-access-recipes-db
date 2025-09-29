@@ -3,6 +3,6 @@
   [FoodItemID] LONG CONSTRAINT [FoodItemsRecipeIngredients] REFERENCES [FoodItems] ([FoodItemID]) ON DELETE CASCADE ,
   [Servings] DOUBLE,
   [IngredientID] LONG CONSTRAINT [IngredientsRecipeIngredients] REFERENCES [Ingredients] ([IngredientID]),
-  [PreparationStyleID] LONG CONSTRAINT [PreparationStylesRecipeIngredients] REFERENCES [PreparationStyles] ([PreparationStyleID]),
-  [SubFoodItemID] LONG
+  [SubFoodItemID] LONG,
+  [PreparationStyleID] LONG CONSTRAINT [PreparationStylesRecipeIngredients] REFERENCES [PreparationStyles] ([PreparationStyleID])
 )

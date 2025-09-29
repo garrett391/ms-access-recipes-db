@@ -8,7 +8,7 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =12705
+    Width =12713
     DatasheetFontHeight =11
     ItemSuffix =14
     Right =27810
@@ -387,7 +387,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="Desc"
-                    ControlSource ="Desc"
+                    ControlSource ="ServingDescription"
                     GroupTable =1
                     BottomPadding =150
 
@@ -414,7 +414,7 @@ Begin Form
                             RightMargin =44
                             BottomMargin =22
                             Name ="Label6"
-                            Caption ="Desc"
+                            Caption ="ServingDescription"
                             GroupTable =1
                             BottomPadding =150
                             LayoutCachedLeft =360

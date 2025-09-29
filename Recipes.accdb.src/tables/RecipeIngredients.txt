@@ -1,11 +1,11 @@
-﻿RecipeIngredientID	FoodItemID	Servings	IngredientID	PreparationStyleID	SubFoodItemID
-1	12	1	1	1	
-2	12	0.5	3	7	
-3	12	0.5	2	7	
+﻿RecipeIngredientID	FoodItemID	Servings	IngredientID	SubFoodItemID	PreparationStyleID
+1	12	1	1		1
+2	12	0.5	3		7
+3	12	0.5	2		7
 4	12	1	4		
 5	12	1	5		
 6	12	1	6		
-7	12	1	7	2	
+7	12	1	7		2
 8	12	1	8		
 11	10	1	13		
 12	10	1	11		
@@ -15,7 +15,7 @@
 18	11	1	16		
 19	27	1	17		
 20	27	0.75	18		
-21	27	0.75	19	7	
+21	27	0.75	19		7
 22	36	1	21		
 23	36		22		
 24	36		23		
@@ -27,9 +27,12 @@
 30	52	5	29		
 31	52	4	17		
 33	52	1	30		
-35	52	3	31	3	
-36	52	1	10	8	
+35	52	3	31		3
+36	52	1	10		8
 38	52	0.5	32		
 39	52	0.5	33		
 41	52	1	34		
 42	52	2	4		
+43	59	0.25	35		9
+44	59	0.25	35		
+46	59	1		58	

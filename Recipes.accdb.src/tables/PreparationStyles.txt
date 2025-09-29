@@ -7,3 +7,4 @@
 6	Chiffonaded	This technique is used for cutting leafy greens or herbs into thin ribbons by stacking the leaves, rolling them tightly, and then slicing them across.
 7	Sliced	Like slicing a cucumber.
 8	Drizzled	Pouring a liquid slowly over something
+9	Frothed	Using an espresso machine, insert the steam wand just below the surface of the milk and create a whirlpool effect. Lower the pitcher to keep the wand just below the surface and continue frothing until the desired texture is achieved.

@@ -3,26 +3,31 @@ Option =0
 Begin InputTables
     Name ="RecipeIngredients"
     Name ="Ingredients"
+    Name ="FoodItems"
 End
 Begin OutputColumns
     Expression ="RecipeIngredients.RecipeIngredientID"
     Expression ="RecipeIngredients.FoodItemID"
     Expression ="RecipeIngredients.Servings"
     Expression ="RecipeIngredients.IngredientID"
-    Expression ="RecipeIngredients.PreparationStyleID"
     Expression ="RecipeIngredients.SubFoodItemID"
+    Expression ="RecipeIngredients.PreparationStyleID"
     Alias ="CalculatedProtein"
-    Expression ="[Servings]*[Protein]"
+    Expression ="[Servings]*(Nz([Ingredients].[Protein],0)+Nz([FoodItems].[Protein],0))"
     Alias ="CalculatedAddedSugar"
-    Expression ="[Servings]*[AddedSugar]"
+    Expression ="[Servings]*(Nz([Ingredients].[AddedSugar],0)+Nz([FoodItems].[AddedSugar],0))"
     Alias ="CalculatedCalories"
-    Expression ="[Servings]*[Calories]"
+    Expression ="[Servings]*(Nz([Ingredients].[Calories],0)+Nz([FoodItems].[Calories],0))"
 End
 Begin Joins
     LeftTable ="Ingredients"
     RightTable ="RecipeIngredients"
     Expression ="Ingredients.IngredientID = RecipeIngredients.IngredientID"
-    Flag =1
+    Flag =3
+    LeftTable ="FoodItems"
+    RightTable ="RecipeIngredients"
+    Expression ="FoodItems.FoodItemID = RecipeIngredients.SubFoodItemID"
+    Flag =3
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -75,12 +80,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1974
+    Right =2244
     Bottom =1180
     Left =-1
     Top =-1
-    Right =1958
-    Bottom =918
+    Right =1484
+    Bottom =901
     Left =0
     Top =0
     ColumnsShown =539
@@ -94,12 +99,21 @@ Begin
         Name =""
     End
     Begin
-        Left =817
-        Top =320
-        Right =1073
-        Bottom =569
+        Left =706
+        Top =154
+        Right =962
+        Bottom =403
         Top =0
         Name ="Ingredients"
+        Name =""
+    End
+    Begin
+        Left =705
+        Top =418
+        Right =962
+        Bottom =713
+        Top =0
+        Name ="FoodItems"
         Name =""
     End
 End
