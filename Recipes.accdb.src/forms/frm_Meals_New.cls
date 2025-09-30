@@ -21,7 +21,7 @@ End Sub
 
 
 Private Sub Form_Open(Cancel As Integer)
-   faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , AnywhereInString, True, False
+   faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , Anywhereinstring, True, False
 End Sub
 
 

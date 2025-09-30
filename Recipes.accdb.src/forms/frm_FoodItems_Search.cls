@@ -5,6 +5,14 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+Dim faytFoodItems As New FindAsYouTypeForm
+
+
+Private Sub Form_Open(Cancel As Integer)
+    faytFoodItems.Initialize Me, Me!txt_Search, ffrm_Anywhereinstring, False, "FoodName", "Manufacturer"
+End Sub
+
+
 Private Sub cmd_NewFoodItem_Click()
     DoCmd.OpenForm "frm_FoodItems_New", , , , acFormAdd, acDialog
     Me.Recordset.Requery

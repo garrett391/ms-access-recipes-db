@@ -85,7 +85,7 @@ Function GetUSDAFoodData(searchQuery As String, _
     Exit Function
 
 ErrorHandler:
-    GetUSDAFoodData = "Error: " & Err.Description
+    GetUSDAFoodData = "Error: " & Err.description
     Set http = Nothing
 End Function
 

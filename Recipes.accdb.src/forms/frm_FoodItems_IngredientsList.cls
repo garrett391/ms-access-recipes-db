@@ -27,7 +27,7 @@ Private Sub Form_Open(Cancel As Integer)
 '        Call SetDynamicProperties
 '    End If
 
-    faytIngredients.InitalizeFilterCombo Me!cbo_IngredientID, , AnywhereInString, True, False
+    faytIngredients.InitalizeFilterCombo Me!cbo_IngredientID, , Anywhereinstring, True, False
 End Sub
 
 

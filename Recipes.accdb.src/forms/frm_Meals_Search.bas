@@ -481,6 +481,12 @@ Begin Form
                     BottomMargin =22
                     Name ="txt_TotalSugar"
                     ControlSource ="TotalSugar"
+                    ConditionalFormat = Begin
+                        0x0100000068000000010000000000000004000000000000000300000001000000 ,
+                        0x00000000ef5b5700000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x3500300000000000
+                    End
                     GroupTable =1
 
                     LayoutCachedLeft =7095
@@ -492,6 +498,10 @@ Begin Form
                     ColumnStart =3
                     ColumnEnd =3
                     LayoutGroup =1
+                    ConditionalFormat14 = Begin
+                        0x01000100000000000000040000000100000000000000ef5b5700020000003500 ,
+                        0x3000000000000000000000000000000000000000000000
+                    End
                     GroupTable =1
                 End
                 Begin TextBox

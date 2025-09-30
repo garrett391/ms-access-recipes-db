@@ -59,3 +59,5 @@
 59	Cappucino	C&G	6 Fl Oz	4.1	0	85.4	1/3 Espresso, 1/3 warm milk, 1/3 froth milk	https://www.thespruceeats.com/how-to-make-cappuccinos-766116	Pull a double shot of espresso. Foam 4 fl oz of milk so you end up with half warm milk half froth. Pour into espresso.
 60	California Sushi Roll	Ralphs	1 serving (10 pieces)	10		280		https://www.ralphs.com/p/california-sushi-roll/0085375900858?msockid=01e08ee0f03560f11c2e9c08f1ce6156	
 61	Caramel Cone Ice Cream	Häagen Dazs	2/3 cup (135g)	5	27	400	Crunchy, chocolaty covered cone pieces and ribbons of caramel folded into caramel ice cream. Unforgettable, unapologetic indulgence.	https://www.icecream.com/us/en/brands/haagen-dazs/products/caramel-cone-ice-cream	
+62	Cheddy Mac and Sausage	C&G		30	0	420			
+63	Cheddy Mac	Goodles	2.6 oz dry mix (74g) about 1 cup prepared	14	0	260	Classic creamy cheddar mac tastes like your childhood, but eats like a balanced meal	https://www.goodles.com/products/cheddy-mac/	

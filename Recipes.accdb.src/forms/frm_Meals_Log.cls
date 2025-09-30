@@ -29,7 +29,7 @@ Private Sub Form_Open(Cancel As Integer)
         Me!lbl_Header.Caption = "Meals for " & Me.OpenArgs
     End If
 
-    faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , AnywhereInString, True, False
+    faytFoodItems.InitalizeFilterCombo Me!cbo_FoodItemID, , Anywhereinstring, True, False
 End Sub
 
 

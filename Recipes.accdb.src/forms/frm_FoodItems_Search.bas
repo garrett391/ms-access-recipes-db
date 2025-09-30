@@ -9,13 +9,14 @@ Begin Form
     GridY =24
     Width =26288
     DatasheetFontHeight =11
-    ItemSuffix =41
+    ItemSuffix =43
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
         0xb32440455a64e640
     End
     RecordSource ="FoodItems"
+    OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -297,7 +298,7 @@ Begin Form
                     LayoutCachedLeft =360
                     LayoutCachedWidth =1019
                     LayoutCachedHeight =598
-                    TabIndex =1
+                    TabIndex =2
                 End
                 Begin Label
                     OverlapFlags =85
@@ -424,6 +425,22 @@ Begin Form
                     ColumnEnd =8
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =9000
+                    Top =60
+                    Width =7500
+                    Height =432
+                    FontSize =12
+                    TabIndex =1
+                    Name ="txt_Search"
+
+                    LayoutCachedLeft =9000
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =16500
+                    LayoutCachedHeight =492
                 End
             End
         End

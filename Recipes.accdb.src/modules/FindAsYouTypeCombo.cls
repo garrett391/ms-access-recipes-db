@@ -10,7 +10,7 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-' Credit https://www.access-programmers.co.uk/forums/threads/find-filter-as-you-type-controls-combobox-listbox-form.327863/
+' Original Credit:https://www.access-programmers.co.uk/forums/threads/find-filter-as-you-type-controls-combobox-listbox-form.327863/
 
 'Class Module Name: FindAsYouTypeCombo
 'Purpose: Turn any combobox into a "Find As You Type" 'Combobox
@@ -60,7 +60,7 @@ Private mAutoCompleteEnabled As Boolean
 Private mHandleInternationalCharacters As Boolean
 Private mRowSource As String
 Public Enum SearchType
-  AnywhereInString = 0
+  Anywhereinstring = 0
   FromBeginning = 1
 End Enum
 
@@ -82,7 +82,7 @@ End Enum
 ' Date: 6/5/2021
 ' ----------------------------------------------------------------
 Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterFieldName As String = "All_Fields", _
-                      Optional TheSearchType As SearchType = SearchType.AnywhereInString, _
+                      Optional TheSearchType As SearchType = SearchType.Anywhereinstring, _
                       Optional HandleArrows As Boolean = True, _
                       Optional HandleInternationalCharacters As Boolean = True)
 
@@ -136,7 +136,7 @@ Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterF
    End If
    Exit Sub
 errLabel:
-    MsgBox Err.Number & " " & Err.Description & " In initializefiltercombo."
+    MsgBox Err.Number & " " & Err.description & " In initializefiltercombo."
 End Sub
 '**************************************************************************************************************
 '------------------------------------------------Class Procedures ---------------------------------------------
@@ -176,7 +176,7 @@ errLable:
   If Err.Number = 3061 Then
     MsgBox "Will not Filter. Verify Field Name is Correct."
   Else
-    MsgBox Err.Number & "  " & Err.Description & " In Filterlist."
+    MsgBox Err.Number & "  " & Err.description & " In Filterlist."
   End If
 End Sub
 
@@ -223,7 +223,7 @@ errLable:
   If Err.Number = 3061 Then
     MsgBox "Will not Filter. Verify Field Name is Correct."
   Else
-    MsgBox Err.Number & "  " & Err.Description
+    MsgBox Err.Number & "  " & Err.description
   End If
 End Sub
 
