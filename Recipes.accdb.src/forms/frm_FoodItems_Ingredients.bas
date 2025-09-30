@@ -11,7 +11,7 @@ Begin Form
     GridY =24
     Width =18225
     DatasheetFontHeight =11
-    ItemSuffix =132
+    ItemSuffix =138
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
@@ -219,11 +219,11 @@ Begin Form
             BackThemeColorIndex =1
             Begin
                 Begin TextBox
-                    OverlapFlags =87
+                    OverlapFlags =95
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =360
-                    Top =630
+                    Left =2473
+                    Top =1320
                     Width =2113
                     Height =390
                     ColumnWidth =1125
@@ -235,10 +235,10 @@ Begin Form
                     ControlSource ="Protein"
                     BottomPadding =150
 
-                    LayoutCachedLeft =360
-                    LayoutCachedTop =630
-                    LayoutCachedWidth =2473
-                    LayoutCachedHeight =1020
+                    LayoutCachedLeft =2473
+                    LayoutCachedTop =1320
+                    LayoutCachedWidth =4586
+                    LayoutCachedHeight =1710
                     ColumnStart =1
                     ColumnEnd =1
                     Begin
@@ -246,7 +246,7 @@ Begin Form
                             OverlapFlags =93
                             TextAlign =2
                             Left =360
-                            Top =240
+                            Top =1320
                             Width =2113
                             Height =390
                             LeftMargin =44
@@ -257,18 +257,18 @@ Begin Form
                             Caption ="Protein"
                             BottomPadding =150
                             LayoutCachedLeft =360
-                            LayoutCachedTop =240
+                            LayoutCachedTop =1320
                             LayoutCachedWidth =2473
-                            LayoutCachedHeight =630
+                            LayoutCachedHeight =1710
                         End
                     End
                 End
                 Begin TextBox
-                    OverlapFlags =87
+                    OverlapFlags =95
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =3000
-                    Top =630
+                    Left =2473
+                    Top =1710
                     Width =2113
                     Height =390
                     TabIndex =1
@@ -280,20 +280,20 @@ Begin Form
                     ControlSource ="AddedSugar"
                     BottomPadding =150
 
-                    LayoutCachedLeft =3000
-                    LayoutCachedTop =630
-                    LayoutCachedWidth =5113
-                    LayoutCachedHeight =1020
+                    LayoutCachedLeft =2473
+                    LayoutCachedTop =1710
+                    LayoutCachedWidth =4586
+                    LayoutCachedHeight =2100
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
                     ColumnEnd =1
                     Begin
                         Begin Label
-                            OverlapFlags =93
+                            OverlapFlags =95
                             TextAlign =2
-                            Left =3000
-                            Top =240
+                            Left =360
+                            Top =1710
                             Width =2113
                             Height =390
                             LeftMargin =44
@@ -303,10 +303,10 @@ Begin Form
                             Name ="lbl_AddedSugar"
                             Caption ="Added Sugar"
                             BottomPadding =150
-                            LayoutCachedLeft =3000
-                            LayoutCachedTop =240
-                            LayoutCachedWidth =5113
-                            LayoutCachedHeight =630
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =1710
+                            LayoutCachedWidth =2473
+                            LayoutCachedHeight =2100
                             RowStart =1
                             RowEnd =1
                         End
@@ -316,8 +316,8 @@ Begin Form
                     OverlapFlags =87
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =5640
-                    Top =630
+                    Left =2473
+                    Top =2100
                     Width =2113
                     Height =390
                     ColumnWidth =1215
@@ -330,20 +330,20 @@ Begin Form
                     ControlSource ="Calories"
                     BottomPadding =150
 
-                    LayoutCachedLeft =5640
-                    LayoutCachedTop =630
-                    LayoutCachedWidth =7753
-                    LayoutCachedHeight =1020
+                    LayoutCachedLeft =2473
+                    LayoutCachedTop =2100
+                    LayoutCachedWidth =4586
+                    LayoutCachedHeight =2490
                     RowStart =2
                     RowEnd =2
                     ColumnStart =1
                     ColumnEnd =1
                     Begin
                         Begin Label
-                            OverlapFlags =93
+                            OverlapFlags =95
                             TextAlign =2
-                            Left =5640
-                            Top =240
+                            Left =360
+                            Top =2100
                             Width =2113
                             Height =390
                             LeftMargin =44
@@ -353,10 +353,10 @@ Begin Form
                             Name ="lbl_Calories"
                             Caption ="Calories"
                             BottomPadding =150
-                            LayoutCachedLeft =5640
-                            LayoutCachedTop =240
-                            LayoutCachedWidth =7753
-                            LayoutCachedHeight =630
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =2100
+                            LayoutCachedWidth =2473
+                            LayoutCachedHeight =2490
                             RowStart =2
                             RowEnd =2
                         End
@@ -368,9 +368,9 @@ Begin Form
                     OverlapFlags =87
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =360
-                    Top =1680
-                    Width =12720
+                    Left =11520
+                    Top =540
+                    Width =6240
                     Height =1500
                     TabIndex =3
                     LeftMargin =44
@@ -382,10 +382,10 @@ Begin Form
                     OnDblClick ="=OpenZoomBox()"
                     BottomPadding =150
 
-                    LayoutCachedLeft =360
-                    LayoutCachedTop =1680
-                    LayoutCachedWidth =13080
-                    LayoutCachedHeight =3180
+                    LayoutCachedLeft =11520
+                    LayoutCachedTop =540
+                    LayoutCachedWidth =17760
+                    LayoutCachedHeight =2040
                     RowStart =3
                     RowEnd =3
                     ColumnStart =1
@@ -394,8 +394,8 @@ Begin Form
                         Begin Label
                             OverlapFlags =93
                             TextAlign =1
-                            Left =360
-                            Top =1320
+                            Left =11520
+                            Top =180
                             Width =5098
                             Height =360
                             LeftMargin =44
@@ -405,10 +405,10 @@ Begin Form
                             Name ="lbl_CookingInstructions"
                             Caption ="Cooking Instructions (Dbl click to zoom)"
                             BottomPadding =150
-                            LayoutCachedLeft =360
-                            LayoutCachedTop =1320
-                            LayoutCachedWidth =5458
-                            LayoutCachedHeight =1680
+                            LayoutCachedLeft =11520
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =16618
+                            LayoutCachedHeight =540
                             RowStart =3
                             RowEnd =3
                         End
@@ -452,8 +452,8 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =8100
-                    Top =585
+                    Left =1380
+                    Top =2520
                     Width =1920
                     Height =435
                     FontSize =12
@@ -499,10 +499,10 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =8100
-                    LayoutCachedTop =585
-                    LayoutCachedWidth =10020
-                    LayoutCachedHeight =1020
+                    LayoutCachedLeft =1380
+                    LayoutCachedTop =2520
+                    LayoutCachedWidth =3300
+                    LayoutCachedHeight =2955
                     PictureCaptionArrangement =5
                     ForeThemeColorIndex =1
                     ForeTint =100.0
@@ -525,6 +525,172 @@ Begin Form
                     PressedForeTint =100.0
                     QuickStyle =32
                     QuickStyleMask =-119
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =360
+                    Top =570
+                    Width =2113
+                    Height =390
+                    TabIndex =6
+                    Name ="txt_ServingSize"
+                    ControlSource ="ServingSize"
+
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =570
+                    LayoutCachedWidth =2473
+                    LayoutCachedHeight =960
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =360
+                            Top =180
+                            Width =2113
+                            Height =390
+                            Name ="lbl_ServingSize"
+                            Caption ="Serving Size"
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =2473
+                            LayoutCachedHeight =570
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2775
+                    Top =570
+                    Width =2383
+                    Height =390
+                    TabIndex =7
+                    Name ="txt_ServingsPerContainer"
+                    ControlSource ="ServingsPerContainer"
+
+                    LayoutCachedLeft =2775
+                    LayoutCachedTop =570
+                    LayoutCachedWidth =5158
+                    LayoutCachedHeight =960
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =2775
+                            Top =180
+                            Width =2383
+                            Height =390
+                            Name ="lbl_ServingsPerContainer"
+                            Caption ="Servings Per Container"
+                            LayoutCachedLeft =2775
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =5158
+                            LayoutCachedHeight =570
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =5820
+                    Top =2565
+                    Width =4980
+                    Height =345
+                    TabIndex =8
+                    Name ="Manufacturer"
+                    ControlSource ="Manufacturer"
+
+                    LayoutCachedLeft =5820
+                    LayoutCachedTop =2565
+                    LayoutCachedWidth =10800
+                    LayoutCachedHeight =2910
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =5820
+                            Top =2220
+                            Width =1395
+                            Height =345
+                            Name ="Label135"
+                            Caption ="Manufacturer"
+                            LayoutCachedLeft =5820
+                            LayoutCachedTop =2220
+                            LayoutCachedWidth =7215
+                            LayoutCachedHeight =2565
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =5820
+                    Top =540
+                    Width =4980
+                    Height =1500
+                    ColumnWidth =3570
+                    TabIndex =9
+                    Name ="FoodDescription"
+                    ControlSource ="FoodDescription"
+
+                    LayoutCachedLeft =5820
+                    LayoutCachedTop =540
+                    LayoutCachedWidth =10800
+                    LayoutCachedHeight =2040
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =5820
+                            Top =180
+                            Width =1725
+                            Height =345
+                            Name ="Label136"
+                            Caption ="FoodDescription"
+                            LayoutCachedLeft =5820
+                            LayoutCachedTop =180
+                            LayoutCachedWidth =7545
+                            LayoutCachedHeight =525
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =11520
+                    Top =2565
+                    Width =6240
+                    Height =345
+                    ColumnWidth =7425
+                    TabIndex =10
+                    Name ="UrlLink"
+                    ControlSource ="UrlLink"
+                    StatusBarText ="The URL for this food item if applicable."
+
+                    LayoutCachedLeft =11520
+                    LayoutCachedTop =2565
+                    LayoutCachedWidth =17760
+                    LayoutCachedHeight =2910
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =11520
+                            Top =2220
+                            Width =750
+                            Height =345
+                            Name ="Label137"
+                            Caption ="UrlLink"
+                            LayoutCachedLeft =11520
+                            LayoutCachedTop =2220
+                            LayoutCachedWidth =12270
+                            LayoutCachedHeight =2565
+                        End
+                    End
                 End
             End
         End

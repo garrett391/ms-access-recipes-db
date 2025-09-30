@@ -35,3 +35,5 @@
 34		Fresh Basil		1	4	0.8	0	5.5	https://www.nutritionix.com/food/fresh-basil/1-cup
 35	Alta Dena	Vitamin D Whole Milk	1 cup (240ml)	1	4	8	0	160	https://altadenadairy.com/products/whole-milk-plastic-gallon/
 36	Optimum Nutrition Inc	Gold Standard Vanilla Ice Cream Whey Powder	31 g (About 1 scoop)	31	12	24	2	120	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
+37	First Street	Baby Potatoes, Dutch Yellow	3/4 cup (113g)	0.75	4	2	0	80	https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-baby-potatoes-dutch-yellow-id-00041512173035
+38		Egg	1 large egg (50g)	50	12	6.3	0	72	https://www.nutritionix.com/food/eggs

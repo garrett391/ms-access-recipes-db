@@ -9,14 +9,14 @@ Public faytFoodItems As New FindAsYouTypeCombo
 
 Private Sub populateNutritionalValues()
     Dim selectedFoodItemID As Long
-    Dim servingAmount      As Double
+    Dim ServingAmount      As Double
 
     selectedFoodItemID = Nz(Me!cbo_FoodItemID, 0)
-    servingAmount = Nz(Me!txt_Servings, 1)
+    ServingAmount = Nz(Me!txt_Servings, 1)
 
-    Me!txt_Protein.Value = servingAmount * Nz(DLookup("Protein", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
-    Me!txt_Sugar.Value = servingAmount * Nz(DLookup("AddedSugar", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
-    Me!txt_Calories.Value = servingAmount * Nz(DLookup("Calories", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
+    Me!txt_Protein.Value = ServingAmount * Nz(DLookup("Protein", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
+    Me!txt_Sugar.Value = ServingAmount * Nz(DLookup("AddedSugar", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
+    Me!txt_Calories.Value = ServingAmount * Nz(DLookup("Calories", "FoodItems", "FoodItemID = " & selectedFoodItemID), 0)
 End Sub
 
 

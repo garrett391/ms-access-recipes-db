@@ -9,13 +9,14 @@ Begin Form
     GridY =24
     Width =24788
     DatasheetFontHeight =11
-    ItemSuffix =62
-    Right =30405
+    ItemSuffix =66
+    Right =26295
     Bottom =17445
     RecSrcDt = Begin
         0x1d6fdec01b63e640
     End
     RecordSource ="Ingredients"
+    OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -172,17 +173,16 @@ Begin Form
                     TextAlign =1
                     Left =1080
                     Top =60
-                    Width =8265
+                    Width =3480
                     Height =460
                     FontSize =18
                     Name ="lbl_Header"
                     Caption ="Base Ingredients"
                     FontName ="Segoe UI Semibold"
                     GroupTable =2
-                    HorizontalAnchor =2
                     LayoutCachedLeft =1080
                     LayoutCachedTop =60
-                    LayoutCachedWidth =9345
+                    LayoutCachedWidth =4560
                     LayoutCachedHeight =520
                     LayoutGroup =2
                     ThemeFontIndex =0
@@ -205,6 +205,7 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =958
                     LayoutCachedHeight =659
+                    TabIndex =1
                 End
                 Begin Label
                     OverlapFlags =85
@@ -340,6 +341,21 @@ Begin Form
                     ColumnEnd =5
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4740
+                    Top =60
+                    Width =7500
+                    Height =432
+                    FontSize =12
+                    Name ="txt_Search"
+
+                    LayoutCachedLeft =4740
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =12240
+                    LayoutCachedHeight =492
                 End
                 Begin Label
                     OverlapFlags =85
@@ -666,3 +682,5 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+' See "frm_Ingredients_Search.cls"

@@ -3,7 +3,10 @@
   Meals.MealDate,
   Sum(Meals.Protein) AS TotalProtein,
   Sum(Meals.AddedSugar) AS TotalSugar,
-  Sum(Meals.Calories) AS TotalCalories,
+  Round(
+    Sum(Meals.Calories),
+    2
+  ) AS TotalCalories,
   Round(
     Sum(Meals.Calories)/ Sum(Meals.Protein),
     2

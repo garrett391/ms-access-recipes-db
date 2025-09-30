@@ -3,6 +3,7 @@
   [FoodName] VARCHAR (255),
   [Manufacturer] VARCHAR (255),
   [ServingSize] VARCHAR (255),
+  [ServingsPerContainer] DOUBLE,
   [Protein] DOUBLE,
   [AddedSugar] DOUBLE,
   [Calories] DOUBLE,
