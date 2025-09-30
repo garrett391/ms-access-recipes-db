@@ -57,6 +57,9 @@
       "Meals": {
         "Format": "Tab Delimited"
       },
+      "MeasurementLocations": {
+        "Format": "Tab Delimited"
+      },
       "PreparationStyles": {
         "Format": "Tab Delimited"
       },
@@ -67,6 +70,12 @@
         "Format": "Tab Delimited"
       },
       "UnitsOfMeasurement": {
+        "Format": "Tab Delimited"
+      },
+      "UserMeasurements": {
+        "Format": "Tab Delimited"
+      },
+      "Users": {
         "Format": "Tab Delimited"
       },
       "USysRegInfo": {

@@ -7,7 +7,7 @@
 6	Mozzarella Cheese Stick	Sargento		5	0	45		https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick	
 7	Chocolate Sea Salt Protein Bar	RXBAR	1 Bar (52 G)	12	0	200		https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html	
 8	Mini Energy Drink	Alani		0	0	5		https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush	
-9	Regular Protein Shake	C&G		48	0	240	2 scoops of protein, creatine		
+9	Regular Protein Shake	C&G		48	4	240	2 scoops of protein, creatine		
 10	Simple Daves Bread Turkey Sandwhich	C&G		23	6	390	Bread, Cheese, Turkey, Mayo		
 11	Driscoll's Blackberries	C&G		2	7	60			
 12	Strawberry Poppy Seed Salad	C&G							Toss all ingredients together

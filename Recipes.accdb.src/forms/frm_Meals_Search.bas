@@ -7,9 +7,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =12737
+    Width =14813
     DatasheetFontHeight =11
-    ItemSuffix =30
+    ItemSuffix =37
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
@@ -258,18 +258,18 @@ Begin Form
                     ForeTint =100.0
                 End
                 Begin EmptyCell
-                    Left =10395
+                    Left =12465
                     Top =660
-                    Width =2304
+                    Width =2310
                     Height =390
                     Name ="EmptyCell20"
                     GroupTable =1
-                    LayoutCachedLeft =10395
+                    LayoutCachedLeft =12465
                     LayoutCachedTop =660
-                    LayoutCachedWidth =12699
+                    LayoutCachedWidth =14775
                     LayoutCachedHeight =1050
-                    ColumnStart =5
-                    ColumnEnd =5
+                    ColumnStart =6
+                    ColumnEnd =6
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -378,6 +378,29 @@ Begin Form
                     LayoutCachedWidth =1019
                     LayoutCachedHeight =597
                     TabIndex =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =10395
+                    Top =660
+                    Width =2010
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="lbl_CalorieProtienRatio"
+                    Caption ="Calorie/Protien"
+                    GroupTable =1
+                    LayoutCachedLeft =10395
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =12405
+                    LayoutCachedHeight =1050
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
                 End
             End
         End
@@ -534,12 +557,12 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =10395
+                    Left =12465
                     Top =30
-                    Width =2304
+                    Width =2310
                     Height =432
                     FontSize =12
-                    TabIndex =5
+                    TabIndex =6
                     Name ="cmd_OpenMeals"
                     Caption =" View Meal Log"
                     OnClick ="[Event Procedure]"
@@ -582,15 +605,15 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =10395
+                    LayoutCachedLeft =12465
                     LayoutCachedTop =30
-                    LayoutCachedWidth =12699
+                    LayoutCachedWidth =14775
                     LayoutCachedHeight =462
                     PictureCaptionArrangement =5
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =5
-                    ColumnEnd =5
+                    ColumnStart =6
+                    ColumnEnd =6
                     LayoutGroup =1
                     ForeThemeColorIndex =1
                     ForeTint =100.0
@@ -614,6 +637,34 @@ Begin Form
                     GroupTable =1
                     QuickStyle =32
                     QuickStyleMask =-119
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =10395
+                    Top =30
+                    Width =2010
+                    Height =432
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_CalorieProtienRatio"
+                    ControlSource ="CalorieProtienRatio"
+                    GroupTable =1
+
+                    LayoutCachedLeft =10395
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12405
+                    LayoutCachedHeight =462
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
                 End
             End
         End

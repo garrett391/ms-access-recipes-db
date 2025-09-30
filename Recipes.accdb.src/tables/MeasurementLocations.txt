@@ -1,0 +1,9 @@
+﻿MeasurementLocationID	MeasurementLocation	Instruction
+1	Abs	Stand with your feet together and torso straight but relaxed, and find the widest part of your torso, often around your belly button.
+2	Arms	Stand up straight with one arm relaxed, and find the midpoint between the shoulder bone and the elbow of that arm.
+3	Calves	Measure halfway between the knee and the ankle.
+4	Chest	Stand with your feet together and torso straight, and find the widest part around your bust.
+5	Hips	This is the widest part of your glutes. Try looking in a mirror while standing sideways. Make sure the tape is parallel to the floor.
+6	Thighs	Look for the midpoint between the lower part of the glutes and the back of the knee, or use the widest part of the thigh.
+7	Waist	Find your natural waist or the narrowest part of the torso.
+8	Neck	
