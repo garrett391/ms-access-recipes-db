@@ -1,65 +1,66 @@
-﻿FoodItemID	FoodName	Manufacturer	ServingSize	ServingsPerContainer	Protein	AddedSugar	Calories	FoodDescription	UrlLink	CookingInstructions
-1	Smokey BBQ Beef Stick	Chomps			10	0	100		https://chomps.com/products/bbq-beef-jerky-stick	
-2	Original Beef Stick	Chomps			10	0	100		https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original	
-3	Jalapeño Beef Stick	Chomps			10	0	100		https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno	
-4	Original Turkey Stick	Chomps			12	0	80		https://chomps.com/products/gluten-free-snack-turkey-jerky-stick-original	
-5	Burrito, Egg & Green Chile	Evol			12	2	320		https://smartlabel.conagra.com/891627002542-0002-en-US/index.html	
-6	Mozzarella Cheese Stick	Sargento			5	0	45		https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick	
-7	Chocolate Sea Salt Protein Bar	RXBAR	1 Bar (52 G)		12	0	200		https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html	
-8	Mini Energy Drink	Alani			0	0	5		https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush	
-9	Regular Protein Shake	C&G			48	4	240	2 scoops of protein, creatine		
-10	Simple Daves Bread Turkey Sandwhich	C&G			23	6	390	Bread, Cheese, Turkey, Mayo		
-11	Driscoll's Blackberries	C&G			2	7	60			
-12	Strawberry Poppy Seed Salad	C&G								Toss all ingredients together
-13	Peanut Butter Cup Lite Shake	Chuze Fitness			30		270			
-14	Grande Iced Caramel Macchiato	Starbucks			10	34	250		https://www.starbucks.com/menu/product/413/iced/nutrition	
-15	Chick-n-Strips	Chick-fil-A			9		100		https://www.chick-fil-a.com/menu/chick-n-strips	
-16	20 FL OZ Coca-Cola	The Coca-Cola Company			0	65	240		https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3	
-17	Chick-fil-A Sauce	Chick-fil-A			0	6	140		https://www.chick-fil-a.com/menu/chick-fil-a-sauce	
-18	Fuego Potato Chips	Siete Foods	1oz (28g) = 14 chips		3	0	140		https://sietefoods.com/products/fuego-potato-chips	
-19	Sea Salt Vinegar Potato Chips	Siete Foods	1oz (28g) = 15 chips		2	0	140		https://sietefoods.com/products/sea-salt-vinegar-serrano-chips	
-20	Blueberry Protein Bar	RXBAR	1 Bar (52 G)		12	0	180		https://shop.rxbar.com/shop/blueberry-protein-bars-box-of-12.html	
-21	Moody's California Burrito	Moody's Food Truck	1 Burrito		33	5	657		https://www.moodysfoodtrucks.com/	
-22	AlohaMacs Milk Chocolate	Hawaiin Host	2 Pieces (26g)		2	10	140		https://hawaiianhost.com/products/alohamacs-milk-2pc	
-23	Maui Caramacs	Hawaiin Host	2 Pieces (27g)		1	10	120		https://hawaiianhost.com/products/maui-caramacs-2pc	
-24	Cheddar Cheese Stick	Galbani	1 Stick		6	0	100		https://galbanicheese.com/our-cheeses/dairy-aisle-cheeses-snack-cheese/cheddar-snack-cheese	
-25	Apple Pie Larabar	Larabar	1 Bar (45g)		4	0	200		https://www.larabar.com/our-products/larabar/apple-pie	
-26	Chocolate Chip Cookie Dough Larabar	Larabar	1 Bar (45g)		3	3	210		https://www.larabar.com/our-products/larabar/chocolate-chip-cookie-dough	
-27	Protein Pasta, Sausage and Raos Sauce	C&G	1 Bowl		24.5	0	385			Slice up sausage and heat on pan. Mix in with pasta and sauce
-28	Fruit Cup Diced Peaches	Del Monte	1 Cup (113g)		0	13	60		https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks	
-29	Mavericks Burger	Mavericks Beach Club			37	6	809		https://maverickssd.com/menu/# (nutrition is web estimate)	
-30	Honeycrisp Apples		1 apple (182g)		0	19	95		https://www.nutritionix.com/food/honeycrisp-apples	
-31	Taco		1 Taco		9.4	2	210		https://www.nutritionix.com/food/tacos	
-32	Turkey Burger	C&G	1 Burger		34	4	540		https://www.nutritionix.com/food/turkey-burger	
-33	Mint Chocolate Chip Bars	Yasso	1 Bar (65 G)		5	13	100		https://www.yasso.com/p/mint-chocolate-chip-bars.html/00851035003234	
-34	Coconut Chocolate Protein Bar	RXBAR	1 Bar (52G)		12	0	200		https://shop.rxbar.com/shop/coconut-chocolate-protein-bars-box-of-12.html	
-35	Lemon Drop Martini	C&G	1 Cup							
-36	Baked Chicken Drumstick	C&G	1 Leg		22	0	167			Dry wings. Cover in powder and sauces. Bake for 20 min each side at 425.
-37	Garrett's standard coffee	C&G	1 Yeti (20 Oz)		1	1	45	Coffee, half & half and sweetener.		
-38	Peanut Butter Chocolate Chip Bar	Larabar	1 Bar (45 g)		5	4	220		https://www.larabar.com/our-products/larabar/peanut-butter-chocolate-chip	
-40	Cuties	Cuties	2 celmentines (168g)		1	0	90		https://cutiescitrus.com/products/cuties/	
-41	Pepperoni Frozen Pizza	Raos	1/4 Pizza (146 g)		13	1	310		https://www.raos.com/products/pepperoni-pizza	
-42	Chocolate Coconut Almonds	Trader Joes	8 pieces (32g)		3	11	170			
-43	Roltini Singles with mozzarella & prosciutto	Volpi	1 package (43)		12	0	140		https://www.volpifoods.com/products/snacks/roltini-singles/roltini-singles-mozzarella-prosciutto/	
-44	Tater Tots		10 tots (84g)		1.8	0	161		https://www.nutritionix.com/food/tater-tots	
-45	Cheeseburger		1 cheeseburger		30	7	535		https://www.nutritionix.com/food/cheeseburger	
-46	Colby-Jack Cheese Stick	Trader Joes	1 stick (24g)		5	0	90		https://www.fooducate.com/product/Trader-Joe-s-Cheese-Snack-Sticks-Colby-Jack/5C34508C-601B-88E0-495D-BEC5F1540930	
-47	Thai-Style Coconut Chicken	Kevin's Natural Foods	5 oz (140g)		20	3	180	This mild but flavorful curry will make a great meal for the entire family! Tender chicken breast strips in a rich and creamy blend of coconut milk, basil and Thai spices.	https://www.kevinsnaturalfoods.com/products/thai-style-coconut-chicken	
-48	Brown Rice		0.5 cup (98g)		2.3	0	109		https://www.nutritionix.com/food/brown-rice	
-49	Ultimate Pepperoni Pizza	Digiorno	1/5 pizza (140 g)		14	3	330		https://www.goodnes.com/digiorno/products/original-rising-crust-pepperoni-pizza-24-oz/	
-50	Chocolate Chip Bite Size Premium Cookies	Sweet Serenity	1 package (85g)		4	28	370			
-51	Sun-Dried Tomato & Basil Chicken Tenders	Trader Joes	4 oz (113g)		24	2	150	One of the many reasons we love the pre-marinated options in our fresh meat section is their utter simplicity of preparation. With all the chopping, slicing, and seasoning done for you, all that separates you from a juicy, flavorful, center-of-the-plate protein is a few minutes of grilling, roasting, or sautéeing. Take Trader Joe’s Sun- Dried Tomato & Basil Chicken Tenders, which are making their grand comeback to our refrigerators, for instance. Made with a base of boneless, skinless Chicken Breast tenders and a creamy, savory, Mediterranean- style marinade, prepping this dish from scratch would normally be a labor-intensive endeavor. But since all the work is done for you, you’re free to focus on the finer details, like what kind of side to serve alongside them—or what kind of wine...\r\n\r\nSpeaking of which, we find the tart and tangy notes of the Sun-Dried Tomato, along with the bright aromatics of the Basil, garlic, and onion make this is an ideal protein to pair with pasta, roasted veggies, and a dry, yet fruity, red wine. For something a little different, try pan-frying these Tenders and placing them in a sandwich with Pesto and slices of Fresh Mozzarella.	https://www.traderjoes.com/home/products/pdp/sun-dried-tomato-basil-chicken-tenders-098648	
-52	Tomato Basil Boursin Protien Penne Pasta	G&C			59.18	0	1552.05		https://www.instagram.com/p/DAJmjfLJe7k/	1. Preheat oven to 400 F and set rack to middle position. Place the Boursin in the center of your ceramic baking pan. Add your baby tomatoes followed by your crushed garlic. Drizzle your olive oil. Season with salt and pepper to taste. Add the fresh chives and basil (alternatively, you can add the fresh herbs after baking). Bake at 400 F for 30-35 minutes.\r\n\r\n2. When your tomatoes and Boursin are almost done baking, prepare your pasta according to the instructions on the packaging.\r\n\r\n3. After you have finished baking your tomatoes and Boursin, use a meat masher or fork to break the tomatoes and Boursin apart. Add in your fresh spinach and mix until everything is well combined. Add in your drained and cooked tortellini. Mix again until the tortellini is covered in Boursin and everything is well combined! Enjoy!
-53	Chicken Chorizo Breakfast Burrito	Red's	1 Burrito (142g)		16	1	340	Our signature chicken chorizo breakfast sausage is perfectly seasoned with paprika and rosemary and paired with fluffy, cage-free scrambled eggs, plus a rich blend of delicious white cheddar, pepper jack, and mozzarella cheese — wrapped in a freshly baked tortilla. This premium, savory breakfast burrito is made with 16g of protein, and is sure to leave you satisfied and ready to conquer your day! For the best experience, we suggest using the air fryer, so you can enjoy a restaurant-quality meal at home or on the go.	https://www.redsallnatural.com/product/chicken-chorizo-breakfast-burrito/	
-54	Chocolate Chip Cookie		1 Large (4" diameter)		2.3	0	221		https://www.nutritionix.com/i/nutritionix/chocolate-chip-cookie-1-large-4-diameter/56d0a6105cfc6ae61cba4508	
-55	Peanut Butter Cup Shake	Chuze Fitness	20 fl oz		52		510			
-56	Dark Chocolate Covered Mini Pretzels	Trader Joes	5 pretzels (28g)		2	9	140	Some would say that combining sweet & salty produces a sum greater than its parts. We could knot agree more, especially when you’re talking about Trader Joe’s Dark Chocolate Covered Pretzels!\r\n\r\nSalted Mini Pretzels (not to be confused with “Tiny” pretzels, which are even smaller) are expertly coated with premium Dark Chocolate that is 49% cocoa solids. The thick Chocolate coating is bittersweet & rich, giving way to the superb and slightly salty crunch of the Pretzel\r\nunderneath.\r\n\r\nTrader Joe’s Dark Chocolate Covered Pretzels are easily a standalone snack, but we also recommend you mix them in a bowl with TJ’s Candy Coated Milk Chocolate Dipped Peanuts and watch the sweet & salty snackers flock. Or, crumble them over your favorite Trader Joe’s Ice Cream for an added textural treat. You’ll find these Dark Chocolate Covered Pretzels every day in our stores, alongside their milky counterpart.	https://www.traderjoes.com/home/products/pdp/dark-chocolate-covered-mini-pretzels-045141	
-57	Blood Orange Citrus Wheat Ale	Cali Squeeze	12 Fl oz				160		https://summerstirs.com/how-many-calories-are-in-a-cali-squeeze-blood-orange-beer/	
-58	Espresso	C&G	2 fl oz (60g)		0.1	0	5.4		https://www.nutritionix.com/food/espresso	
-59	Cappucino	C&G	6 Fl Oz		4.1	0	85.4	1/3 Espresso, 1/3 warm milk, 1/3 froth milk	https://www.thespruceeats.com/how-to-make-cappuccinos-766116	Pull a double shot of espresso. Foam 4 fl oz of milk so you end up with half warm milk half froth. Pour into espresso.
-60	California Sushi Roll	Ralphs	1 serving (10 pieces)		10		280		https://www.ralphs.com/p/california-sushi-roll/0085375900858?msockid=01e08ee0f03560f11c2e9c08f1ce6156	
-61	Caramel Cone Ice Cream	Häagen Dazs	2/3 cup (135g)		5	27	400	Crunchy, chocolaty covered cone pieces and ribbons of caramel folded into caramel ice cream. Unforgettable, unapologetic indulgence.	https://www.icecream.com/us/en/brands/haagen-dazs/products/caramel-cone-ice-cream	
-62	Cheddy Mac and Sausage	C&G			30	0	420			Cook cheddy mac per instructions on box. Chop up sausage and heat up in a pan. Combine when finished.
-63	Cheddy Mac	Goodles	2.6 oz dry mix (74g) about 1 cup prepared		14	0	260	Classic creamy cheddar mac tastes like your childhood, but eats like a balanced meal	https://www.goodles.com/products/cheddy-mac/	
-64	Oven Roasted Potatoes	C&G	3/4 cup (113g)	6	2.025	0	120.208		https://www.pillsbury.com/recipes/easy-oven-roasted-potatoes/fbd35018-9c25-4b44-a11a-16b31c21333c	Heat oven to 425. Add tin foil. Add chopped potatoes, drizzle with oil and evenly sprinkle seasonings. Use a spoon or spatula to mix and completely coat the potatoes.\r\n\r\nRoast in oven uncovered for 35 minutes. Stir every 10-15 minutes until potatoes are tender and browned.
-65	Eggs over medium	C&G	1 egg (~50g)	1	6.3	0	72			
+﻿FoodItemID	FoodName	Manufacturer	ServingsPerContainer	ServingSize	Calories	TotalFat	SaturatedFat	TransFat	Cholesterol	Sodium	TotalCarbs	DietaryFiber	TotalSugars	AddedSugar	Protein	FoodDescription	UrlLink	CookingInstructions
+1	Smokey BBQ Beef Stick	Chomps			100									0	10		https://chomps.com/products/bbq-beef-jerky-stick	
+2	Original Beef Stick	Chomps			100									0	10		https://chomps.com/products/gluten-free-snack-beef-jerky-stick-original	
+3	Jalapeño Beef Stick	Chomps			100									0	10		https://chomps.com/products/paleo-snack-beef-jerky-stick-spicy-jalapeno	
+4	Original Turkey Stick	Chomps	1	1 Stick (32g/1.15oz)	80	3.5	1.5	0	45	390	0	0	0	0	12		https://chomps.com/products/gluten-free-snack-turkey-jerky-stick-original	
+5	Burrito, Egg & Green Chile	Evol			320									2	12		https://smartlabel.conagra.com/891627002542-0002-en-US/index.html	
+6	Mozzarella Cheese Stick	Sargento			45									0	5		https://foods.fatsecret.com/calories-nutrition/sargento/mozzarella-cheese-stick	
+7	Chocolate Sea Salt Protein Bar	RXBAR		1 Bar (52 G)	200									0	12		https://shop.rxbar.com/shop/chocolate-sea-salt-box-of-12-bars.html	
+8	Mini Energy Drink	Alani			5									0	0		https://www.alaninu.com/collections/drinks-snacks/products/mini-energy-cherry-slush	
+9	Regular Protein Shake	C&G			240									4	48	2 scoops of protein, creatine		
+10	Simple Daves Bread Turkey Sandwhich	C&G			390									6	23	Bread, Cheese, Turkey, Mayo		
+11	Driscoll's Blackberries	C&G			60									7	2			
+12	Strawberry Poppy Seed Salad	C&G																Toss all ingredients together
+13	Peanut Butter Cup Lite Shake	Chuze Fitness			270										30			
+14	Grande Iced Caramel Macchiato	Starbucks			250									34	10		https://www.starbucks.com/menu/product/413/iced/nutrition	
+15	Chick-n-Strips	Chick-fil-A			100										9		https://www.chick-fil-a.com/menu/chick-n-strips	
+16	20 FL OZ Coca-Cola	The Coca-Cola Company			240									65	0		https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3	
+17	Chick-fil-A Sauce	Chick-fil-A			140									6	0		https://www.chick-fil-a.com/menu/chick-fil-a-sauce	
+18	Fuego Potato Chips	Siete Foods		1oz (28g) = 14 chips	140									0	3		https://sietefoods.com/products/fuego-potato-chips	
+19	Sea Salt Vinegar Potato Chips	Siete Foods		1oz (28g) = 15 chips	140									0	2		https://sietefoods.com/products/sea-salt-vinegar-serrano-chips	
+20	Blueberry Protein Bar	RXBAR		1 Bar (52 G)	180									0	12		https://shop.rxbar.com/shop/blueberry-protein-bars-box-of-12.html	
+21	Moody's California Burrito	Moody's Food Truck		1 Burrito	657									5	33		https://www.moodysfoodtrucks.com/	
+22	AlohaMacs Milk Chocolate	Hawaiin Host		2 Pieces (26g)	140									10	2		https://hawaiianhost.com/products/alohamacs-milk-2pc	
+23	Maui Caramacs	Hawaiin Host		2 Pieces (27g)	120									10	1		https://hawaiianhost.com/products/maui-caramacs-2pc	
+24	Cheddar Cheese Stick	Galbani		1 Stick	100									0	6		https://galbanicheese.com/our-cheeses/dairy-aisle-cheeses-snack-cheese/cheddar-snack-cheese	
+25	Apple Pie Larabar	Larabar		1 Bar (45g)	200									0	4		https://www.larabar.com/our-products/larabar/apple-pie	
+26	Chocolate Chip Cookie Dough Larabar	Larabar		1 Bar (45g)	210									3	3		https://www.larabar.com/our-products/larabar/chocolate-chip-cookie-dough	
+27	Protein Pasta, Sausage and Raos Sauce	C&G		1 Bowl	385									0	24.5			Slice up sausage and heat on pan. Mix in with pasta and sauce
+28	Fruit Cup Diced Peaches	Del Monte		1 Cup (113g)	60									13	0		https://www.delmonte.com/products/snacks/fruit-cups-snacks/peaches-fruit-cup-snacks	
+29	Mavericks Burger	Mavericks Beach Club			809									6	37		https://maverickssd.com/menu/# (nutrition is web estimate)	
+30	Honeycrisp Apples			1 apple (182g)	95									19	0		https://www.nutritionix.com/food/honeycrisp-apples	
+31	Taco			1 Taco	210									2	9.4		https://www.nutritionix.com/food/tacos	
+32	Turkey Burger	C&G		1 Burger	540									4	34		https://www.nutritionix.com/food/turkey-burger	
+33	Mint Chocolate Chip Bars	Yasso		1 Bar (65 G)	100									13	5		https://www.yasso.com/p/mint-chocolate-chip-bars.html/00851035003234	
+34	Coconut Chocolate Protein Bar	RXBAR		1 Bar (52G)	200									0	12		https://shop.rxbar.com/shop/coconut-chocolate-protein-bars-box-of-12.html	
+35	Lemon Drop Martini	C&G		1 Cup														
+36	Baked Chicken Drumstick	C&G		1 Leg	167									0	22			Dry wings. Cover in powder and sauces. Bake for 20 min each side at 425.
+37	Garrett's standard coffee	C&G		1 Yeti (20 Oz)	45									1	1	Coffee, half & half and sweetener.		
+38	Peanut Butter Chocolate Chip Bar	Larabar		1 Bar (45 g)	220									4	5		https://www.larabar.com/our-products/larabar/peanut-butter-chocolate-chip	
+40	Cuties	Cuties		2 celmentines (168g)	90									0	1		https://cutiescitrus.com/products/cuties/	
+41	Pepperoni Frozen Pizza	Raos		1/4 Pizza (146 g)	310									1	13		https://www.raos.com/products/pepperoni-pizza	
+42	Chocolate Coconut Almonds	Trader Joes		8 pieces (32g)	170									11	3			
+43	Roltini Singles with mozzarella & prosciutto	Volpi		1 package (43)	140									0	12		https://www.volpifoods.com/products/snacks/roltini-singles/roltini-singles-mozzarella-prosciutto/	
+44	Tater Tots			10 tots (84g)	161									0	1.8		https://www.nutritionix.com/food/tater-tots	
+45	Cheeseburger			1 cheeseburger	535									7	30		https://www.nutritionix.com/food/cheeseburger	
+46	Colby-Jack Cheese Stick	Trader Joes		1 stick (24g)	90									0	5		https://www.fooducate.com/product/Trader-Joe-s-Cheese-Snack-Sticks-Colby-Jack/5C34508C-601B-88E0-495D-BEC5F1540930	
+47	Thai-Style Coconut Chicken	Kevin's Natural Foods		5 oz (140g)	180									3	20	This mild but flavorful curry will make a great meal for the entire family! Tender chicken breast strips in a rich and creamy blend of coconut milk, basil and Thai spices.	https://www.kevinsnaturalfoods.com/products/thai-style-coconut-chicken	
+48	Brown Rice			0.5 cup (98g)	109									0	2.3		https://www.nutritionix.com/food/brown-rice	
+49	Ultimate Pepperoni Pizza	Digiorno		1/5 pizza (140 g)	330									3	14		https://www.goodnes.com/digiorno/products/original-rising-crust-pepperoni-pizza-24-oz/	
+50	Chocolate Chip Bite Size Premium Cookies	Sweet Serenity		1 package (85g)	370									28	4			
+51	Sun-Dried Tomato & Basil Chicken Tenders	Trader Joes		4 oz (113g)	150									2	24	One of the many reasons we love the pre-marinated options in our fresh meat section is their utter simplicity of preparation. With all the chopping, slicing, and seasoning done for you, all that separates you from a juicy, flavorful, center-of-the-plate protein is a few minutes of grilling, roasting, or sautéeing. Take Trader Joe’s Sun- Dried Tomato & Basil Chicken Tenders, which are making their grand comeback to our refrigerators, for instance. Made with a base of boneless, skinless Chicken Breast tenders and a creamy, savory, Mediterranean- style marinade, prepping this dish from scratch would normally be a labor-intensive endeavor. But since all the work is done for you, you’re free to focus on the finer details, like what kind of side to serve alongside them—or what kind of wine...\r\n\r\nSpeaking of which, we find the tart and tangy notes of the Sun-Dried Tomato, along with the bright aromatics of the Basil, garlic, and onion make this is an ideal protein to pair with pasta, roasted veggies, and a dry, yet fruity, red wine. For something a little different, try pan-frying these Tenders and placing them in a sandwich with Pesto and slices of Fresh Mozzarella.	https://www.traderjoes.com/home/products/pdp/sun-dried-tomato-basil-chicken-tenders-098648	
+52	Tomato Basil Boursin Protien Penne Pasta	G&C	4		388.012									0	14.795		https://www.instagram.com/p/DAJmjfLJe7k/	1. Preheat oven to 400 F and set rack to middle position. Place the Boursin in the center of your ceramic baking pan. Add your baby tomatoes followed by your crushed garlic. Drizzle your olive oil. Season with salt and pepper to taste. Add the fresh chives and basil (alternatively, you can add the fresh herbs after baking). Bake at 400 F for 30-35 minutes.\r\n\r\n2. When your tomatoes and Boursin are almost done baking, prepare your pasta according to the instructions on the packaging.\r\n\r\n3. After you have finished baking your tomatoes and Boursin, use a meat masher or fork to break the tomatoes and Boursin apart. Add in your fresh spinach and mix until everything is well combined. Add in your drained and cooked tortellini. Mix again until the tortellini is covered in Boursin and everything is well combined! Enjoy!
+53	Chicken Chorizo Breakfast Burrito	Red's		1 Burrito (142g)	340									1	16	Our signature chicken chorizo breakfast sausage is perfectly seasoned with paprika and rosemary and paired with fluffy, cage-free scrambled eggs, plus a rich blend of delicious white cheddar, pepper jack, and mozzarella cheese — wrapped in a freshly baked tortilla. This premium, savory breakfast burrito is made with 16g of protein, and is sure to leave you satisfied and ready to conquer your day! For the best experience, we suggest using the air fryer, so you can enjoy a restaurant-quality meal at home or on the go.	https://www.redsallnatural.com/product/chicken-chorizo-breakfast-burrito/	
+54	Chocolate Chip Cookie			1 Large (4" diameter)	221									0	2.3		https://www.nutritionix.com/i/nutritionix/chocolate-chip-cookie-1-large-4-diameter/56d0a6105cfc6ae61cba4508	
+55	Peanut Butter Cup Shake	Chuze Fitness		20 fl oz	510										52			
+56	Dark Chocolate Covered Mini Pretzels	Trader Joes		5 pretzels (28g)	140									9	2	Some would say that combining sweet & salty produces a sum greater than its parts. We could knot agree more, especially when you’re talking about Trader Joe’s Dark Chocolate Covered Pretzels!\r\n\r\nSalted Mini Pretzels (not to be confused with “Tiny” pretzels, which are even smaller) are expertly coated with premium Dark Chocolate that is 49% cocoa solids. The thick Chocolate coating is bittersweet & rich, giving way to the superb and slightly salty crunch of the Pretzel\r\nunderneath.\r\n\r\nTrader Joe’s Dark Chocolate Covered Pretzels are easily a standalone snack, but we also recommend you mix them in a bowl with TJ’s Candy Coated Milk Chocolate Dipped Peanuts and watch the sweet & salty snackers flock. Or, crumble them over your favorite Trader Joe’s Ice Cream for an added textural treat. You’ll find these Dark Chocolate Covered Pretzels every day in our stores, alongside their milky counterpart.	https://www.traderjoes.com/home/products/pdp/dark-chocolate-covered-mini-pretzels-045141	
+57	Blood Orange Citrus Wheat Ale	Cali Squeeze		12 Fl oz	160												https://summerstirs.com/how-many-calories-are-in-a-cali-squeeze-blood-orange-beer/	
+58	Espresso	C&G		2 fl oz (60g)	5.4									0	0.1		https://www.nutritionix.com/food/espresso	
+59	Cappucino	C&G		6 Fl Oz	85.4									0	4.1	1/3 Espresso, 1/3 warm milk, 1/3 froth milk	https://www.thespruceeats.com/how-to-make-cappuccinos-766116	Pull a double shot of espresso. Foam 4 fl oz of milk so you end up with half warm milk half froth. Pour into espresso.
+60	California Sushi Roll	Ralphs		1 serving (10 pieces)	280										10		https://www.ralphs.com/p/california-sushi-roll/0085375900858?msockid=01e08ee0f03560f11c2e9c08f1ce6156	
+61	Caramel Cone Ice Cream	Häagen Dazs		2/3 cup (135g)	400									27	5	Crunchy, chocolaty covered cone pieces and ribbons of caramel folded into caramel ice cream. Unforgettable, unapologetic indulgence.	https://www.icecream.com/us/en/brands/haagen-dazs/products/caramel-cone-ice-cream	
+62	Cheddy Mac and Sausage	C&G			420									0	30			Cook cheddy mac per instructions on box. Chop up sausage and heat up in a pan. Combine when finished.
+63	Cheddy Mac	Goodles		2.6 oz dry mix (74g) about 1 cup prepared	260									0	14	Classic creamy cheddar mac tastes like your childhood, but eats like a balanced meal	https://www.goodles.com/products/cheddy-mac/	
+64	Oven Roasted Potatoes	C&G	6	3/4 cup (113g)	120.208									0	2.025		https://www.pillsbury.com/recipes/easy-oven-roasted-potatoes/fbd35018-9c25-4b44-a11a-16b31c21333c	Heat oven to 425. Add tin foil. Add chopped potatoes, drizzle with oil and evenly sprinkle seasonings. Use a spoon or spatula to mix and completely coat the potatoes.\r\n\r\nRoast in oven uncovered for 35 minutes. Stir every 10-15 minutes until potatoes are tender and browned.
+65	Eggs over medium	C&G	1	1 egg (~50g)	72									0	6.3			
+66	Beef Burger Bowl	C&G	1		728.377									0	43.108			

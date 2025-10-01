@@ -5,8 +5,8 @@
   [ServingDescription] LONGTEXT,
   [ServingAmount] VARCHAR,
   [ServingUnitID] LONG,
-  [Protein] DOUBLE,
-  [AddedSugar] DOUBLE,
   [Calories] DOUBLE,
+  [AddedSugar] DOUBLE,
+  [Protein] DOUBLE,
   [UrlLink] LONGTEXT
 )

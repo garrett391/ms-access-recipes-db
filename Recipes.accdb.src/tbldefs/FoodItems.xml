@@ -95,6 +95,22 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
+        <xsd:element name="ServingsPerContainer" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
         <xsd:element name="ServingSize" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
           <xsd:annotation>
             <xsd:appinfo>
@@ -119,10 +135,10 @@
             </xsd:restriction>
           </xsd:simpleType>
         </xsd:element>
-        <xsd:element name="ServingsPerContainer" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+        <xsd:element name="Calories" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
-              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1215"></od:fieldProperty>
               <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
@@ -135,12 +151,132 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="Protein" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+        <xsd:element name="TotalFat" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
-              <od:fieldProperty name="ColumnWidth" type="3" value="1125"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
               <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SaturatedFat" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams. Bad - should get less of."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="TransFat" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Cholesterol" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Milligrams."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Sodium" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Milligrams. Bad - should get less of."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="TotalCarbs" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="DietaryFiber" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams. Good - should get more of."></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="TextAlign" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="TotalSugars" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams. Includes sugars naturally present in many nutritious foods and beverages, such as sugar in milk and fruit as well as any added sugars that may be present in the product."></od:fieldProperty>
               <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
               <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
@@ -164,13 +300,14 @@
               <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
               <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
               <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams. Bad - should get less of. Sugars that are added during the processing of foods (such as sucrose or dextrose), foods packaged as sweeteners (such as table sugar), sugars from syrups and honey, and sugars from concentrated fruit or vegetable juices."></od:fieldProperty>
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="Calories" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+        <xsd:element name="Protein" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
-              <od:fieldProperty name="ColumnWidth" type="3" value="1215"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1125"></od:fieldProperty>
               <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
               <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
               <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
@@ -180,6 +317,7 @@
               <od:fieldProperty name="AggregateType" type="4" value="-1"></od:fieldProperty>
               <od:fieldProperty name="ResultType" type="2" value="0"></od:fieldProperty>
               <od:fieldProperty name="CurrencyLCID" type="4" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Grams."></od:fieldProperty>
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>

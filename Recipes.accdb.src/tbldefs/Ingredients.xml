@@ -160,7 +160,7 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="Protein" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+        <xsd:element name="Calories" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
@@ -192,7 +192,7 @@
             </xsd:appinfo>
           </xsd:annotation>
         </xsd:element>
-        <xsd:element name="Calories" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
+        <xsd:element name="Protein" minOccurs="0" od:jetType="double" od:sqlSType="float" type="xsd:double">
           <xsd:annotation>
             <xsd:appinfo>
               <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>

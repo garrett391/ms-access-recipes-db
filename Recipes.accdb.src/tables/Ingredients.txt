@@ -1,39 +1,41 @@
-﻿IngredientID	Manufacturer	Ingredient	ServingDescription	ServingAmount	ServingUnitID	Protein	AddedSugar	Calories	UrlLink
-1		Strawberry		1	4	1.2	0	56	https://www.nutritionix.com/food/strawberries/1-cup
-2		Avocado	1 whole avocado	100	12	2	0	160	https://foods.fatsecret.com/calories-nutrition/usda/avocados
-3		Cucumber	1 medium cucumber	201	12	1.3	0	30	https://www.nutritionix.com/food/cucumber
-4		Baby Spinach		1	4	0.9	0	6.9	https://www.nutritionix.com/food/baby-spinach
+﻿IngredientID	Manufacturer	Ingredient	ServingDescription	ServingAmount	ServingUnitID	Calories	AddedSugar	Protein	UrlLink
+1		Strawberry		1	4	56	0	1.2	https://www.nutritionix.com/food/strawberries/1-cup
+2		Avocado	1 whole avocado	100	12	160	0	2	https://foods.fatsecret.com/calories-nutrition/usda/avocados
+3		Cucumber	1 medium cucumber	201	12	30	0	1.3	https://www.nutritionix.com/food/cucumber
+4		Baby Spinach		1	4	6.9	0	0.9	https://www.nutritionix.com/food/baby-spinach
 5		Baby Lettuce		1	4				
 6		Baby Greens		1	4				
 7		Pecan		1	4				
 8		Feta Cheese		1	4				
 9		Lemon Juice							
-10		Extra Virgin Olive Oil		1	2	0	0	119	https://www.nutritionix.com/food/extra-virgin-olive-oil
-11	Sprouts	Turkey Breast Slices				11	0	50	https://shop.sprouts.com/store/sprouts/products/72211-applegate-natural-oven-roasted-turkey-breast-7oz
-12	Sprouts	Colby Jack Cheese, Sliced				6	0	90	https://shop.sprouts.com/store/sprouts/products/19103623-sprouts-sliced-colby-jack-cheese-8-oz
-13	Daves Killer Bread	Burger Buns, 21 Whole Grains and Seeds				6	6	150	https://www.daveskillerbread.com/21wgs-burger-buns
-14	Primal Kitchen	Mayo with Avocado Oil				0	0	100	https://www.primalkitchen.com/products/squeeze-mayo-with-avocado-oil
-15	Optimum Nutrition Inc	Gold Standard Milk Chocolate Whey Powder	32 g (About 1 scoop)	32	12	24	2	120	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
-16	Driscoll's	Blackberries		1	4	2	7	60	https://www.driscolls.com/berries/blackberries/nutrition
-17	Banza	Penne Pasta		2	10	11	0	190	https://www.eatbanza.com/products/banza-chickpea-penne
-18	Rao's Marinara Sauce	Raos		0.5	4	2	0	100	https://www.raos.com/products/marinara-sauce
-19	Sabatinos	Chicken Sausage, Paleo Organic Basil & Cracked Black Pepper	1 link	85	12	16	0	160	https://www.sabatinosgourmet.com/products-1/paleo-organic-basil-cracked-black-pepper-chicken-sausage
-20		Chicken Drumstick	1 drumstick with skin	91	12	22	0	167	https://www.nutritionix.com/food/chicken-drumstick
+10		Extra Virgin Olive Oil		1	2	119	0	0	https://www.nutritionix.com/food/extra-virgin-olive-oil
+11	Sprouts	Turkey Breast Slices				50	0	11	https://shop.sprouts.com/store/sprouts/products/72211-applegate-natural-oven-roasted-turkey-breast-7oz
+12	Sprouts	Colby Jack Cheese, Sliced				90	0	6	https://shop.sprouts.com/store/sprouts/products/19103623-sprouts-sliced-colby-jack-cheese-8-oz
+13	Daves Killer Bread	Burger Buns, 21 Whole Grains and Seeds				150	6	6	https://www.daveskillerbread.com/21wgs-burger-buns
+14	Primal Kitchen	Mayo with Avocado Oil				100	0	0	https://www.primalkitchen.com/products/squeeze-mayo-with-avocado-oil
+15	Optimum Nutrition Inc	Gold Standard Milk Chocolate Whey Powder	32 g (About 1 scoop)	32	12	120	2	24	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
+16	Driscoll's	Blackberries		1	4	60	7	2	https://www.driscolls.com/berries/blackberries/nutrition
+17	Banza	Penne Pasta		2	10	190	0	11	https://www.eatbanza.com/products/banza-chickpea-penne
+18	Rao's Marinara Sauce	Raos		0.5	4	100	0	2	https://www.raos.com/products/marinara-sauce
+19	Sabatinos	Chicken Sausage, Paleo Organic Basil & Cracked Black Pepper	1 link	85	12	160	0	16	https://www.sabatinosgourmet.com/products-1/paleo-organic-basil-cracked-black-pepper-chicken-sausage
+20		Chicken Drumstick	1 drumstick with skin	91	12	167	0	22	https://www.nutritionix.com/food/chicken-drumstick
 21	Clabber Girl	Baking Powder	1/8 tsp	0.6	12	0	0	0	https://clabbergirl.com/product/clabber-girl-baking-powder/
 22		Chili Powder							
 23		Paprika							
 24		Cumin							
-25		Black Coffee		8	10	0	0	2	https://www.webmd.com/diet/health-benefits-black-coffee
-26	Knudsen	Half and Half Grade A Ultra-Pasteurized		2	2	1	0	40	
+25		Black Coffee		8	10	2	0	0	https://www.webmd.com/diet/health-benefits-black-coffee
+26	Knudsen	Half and Half Grade A Ultra-Pasteurized		2	2	40	0	1	
 27	Splenda	Zero Calorie Sweetner	1 Pack = 1 gram	1	12	0	1	0	
-28	Cuties	Clementines	2 clementine (168g)	168	12	1	0	90	https://cutiescitrus.com/products/cuties/
-29	Boursin	Garlic & Fine Herbs Cheese	2 Tbsp (29g)	29	12	2	0	120	https://www.boursin.com/product/garlic-fine-herbs/
-30		Cherry Tomatoes		8	10	1.83	0	37	https://foods.fatsecret.com/calories-nutrition/generic/tomatoes-cherry?portionid=544962&portionamount=8.000
-31		Garlic Clove	1 clove	3	12	0.2	0	4.5	https://www.nutritionix.com/food/garlic/1-clove
+28	Cuties	Clementines	2 clementine (168g)	168	12	90	0	1	https://cutiescitrus.com/products/cuties/
+29	Boursin	Garlic & Fine Herbs Cheese	2 Tbsp (29g)	29	12	120	0	2	https://www.boursin.com/product/garlic-fine-herbs/
+30		Cherry Tomatoes		8	10	37	0	1.83	https://foods.fatsecret.com/calories-nutrition/generic/tomatoes-cherry?portionid=544962&portionamount=8.000
+31		Garlic Clove	1 clove	3	12	4.5	0	0.2	https://www.nutritionix.com/food/garlic/1-clove
 32		Salt		1	1	0	0	0	https://www.nutritionix.com/food/salt
-33		Ground Black Pepper		1	1	0.3	0	6.5	https://www.nutritionix.com/food/black-pepper/1-tsp-ground
-34		Fresh Basil		1	4	0.8	0	5.5	https://www.nutritionix.com/food/fresh-basil/1-cup
-35	Alta Dena	Vitamin D Whole Milk	1 cup (240ml)	1	4	8	0	160	https://altadenadairy.com/products/whole-milk-plastic-gallon/
-36	Optimum Nutrition Inc	Gold Standard Vanilla Ice Cream Whey Powder	31 g (About 1 scoop)	31	12	24	2	120	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
-37	First Street	Baby Potatoes, Dutch Yellow	3/4 cup (113g)	0.75	4	2	0	80	https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-baby-potatoes-dutch-yellow-id-00041512173035
-38		Egg	1 large egg (50g)	50	12	6.3	0	72	https://www.nutritionix.com/food/eggs
+33		Ground Black Pepper		1	1	6.5	0	0.3	https://www.nutritionix.com/food/black-pepper/1-tsp-ground
+34		Fresh Basil		1	4	5.5	0	0.8	https://www.nutritionix.com/food/fresh-basil/1-cup
+35	Alta Dena	Vitamin D Whole Milk	1 cup (240ml)	1	4	160	0	8	https://altadenadairy.com/products/whole-milk-plastic-gallon/
+36	Optimum Nutrition Inc	Gold Standard Vanilla Ice Cream Whey Powder	31 g (About 1 scoop)	31	12	120	2	24	https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
+37	First Street	Baby Potatoes, Dutch Yellow	3/4 cup (113g)	0.75	4	80	0	2	https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-baby-potatoes-dutch-yellow-id-00041512173035
+38		Egg	1 large egg (50g)	50	12	72	0	6.3	https://www.nutritionix.com/food/eggs
+39	Kirkland	Organic Ground Beef 85% lean	4 oz (112g)	4	10	240	0	21	
+40	Kirkland	Mexican-Style Blend Cheese	1/3 cup (28g)	28	12	110	0	7	
