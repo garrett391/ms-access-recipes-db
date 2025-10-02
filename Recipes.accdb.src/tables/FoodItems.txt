@@ -64,3 +64,6 @@
 64	Oven Roasted Potatoes	C&G	6	3/4 cup (113g)	120.208									0	2.025		https://www.pillsbury.com/recipes/easy-oven-roasted-potatoes/fbd35018-9c25-4b44-a11a-16b31c21333c	Heat oven to 425. Add tin foil. Add chopped potatoes, drizzle with oil and evenly sprinkle seasonings. Use a spoon or spatula to mix and completely coat the potatoes.\r\n\r\nRoast in oven uncovered for 35 minutes. Stir every 10-15 minutes until potatoes are tender and browned.
 65	Eggs over medium	C&G	1	1 egg (~50g)	72									0	6.3			
 66	Beef Burger Bowl	C&G	1		728.377									0	43.108			
+67	Original Beef Mini Sticks	Archer Jerky		1 stick (14g/0.5 oz)	45	3	1.5	0	15	200	0	0	0	0	4		https://archerjerky.com/products/mini-beef-sticks	
+68	Milk chocolate m&m's		1	1 pack	230	9	6	0	5	35	35	1	31	29	2			
+69	Fully cooked chicken breast bites	Fresh Additions		1 pouch (91g)	140	3.5	0.5	0	70	400	3	0	0	0	24		https://freshadditions.com/products/chicken-bites/	
