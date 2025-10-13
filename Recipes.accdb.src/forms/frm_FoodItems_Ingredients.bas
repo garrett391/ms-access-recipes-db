@@ -9,9 +9,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =18225
+    Width =22440
     DatasheetFontHeight =11
-    ItemSuffix =138
+    ItemSuffix =199
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
@@ -212,167 +212,23 @@ Begin Form
         End
         Begin Section
             CanGrow = NotDefault
-            Height =6540
+            Height =6630
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
             Begin
                 Begin TextBox
-                    OverlapFlags =95
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =2473
-                    Top =1320
-                    Width =2113
-                    Height =390
-                    ColumnWidth =1125
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="txt_Protein"
-                    ControlSource ="Protein"
-                    BottomPadding =150
-
-                    LayoutCachedLeft =2473
-                    LayoutCachedTop =1320
-                    LayoutCachedWidth =4586
-                    LayoutCachedHeight =1710
-                    ColumnStart =1
-                    ColumnEnd =1
-                    Begin
-                        Begin Label
-                            OverlapFlags =93
-                            TextAlign =2
-                            Left =360
-                            Top =1320
-                            Width =2113
-                            Height =390
-                            LeftMargin =44
-                            TopMargin =22
-                            RightMargin =44
-                            BottomMargin =22
-                            Name ="lbl_Protein"
-                            Caption ="Protein"
-                            BottomPadding =150
-                            LayoutCachedLeft =360
-                            LayoutCachedTop =1320
-                            LayoutCachedWidth =2473
-                            LayoutCachedHeight =1710
-                        End
-                    End
-                End
-                Begin TextBox
-                    OverlapFlags =95
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =2473
-                    Top =1710
-                    Width =2113
-                    Height =390
-                    TabIndex =1
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="txt_AddedSugar"
-                    ControlSource ="AddedSugar"
-                    BottomPadding =150
-
-                    LayoutCachedLeft =2473
-                    LayoutCachedTop =1710
-                    LayoutCachedWidth =4586
-                    LayoutCachedHeight =2100
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =1
-                    ColumnEnd =1
-                    Begin
-                        Begin Label
-                            OverlapFlags =95
-                            TextAlign =2
-                            Left =360
-                            Top =1710
-                            Width =2113
-                            Height =390
-                            LeftMargin =44
-                            TopMargin =22
-                            RightMargin =44
-                            BottomMargin =22
-                            Name ="lbl_AddedSugar"
-                            Caption ="Added Sugar"
-                            BottomPadding =150
-                            LayoutCachedLeft =360
-                            LayoutCachedTop =1710
-                            LayoutCachedWidth =2473
-                            LayoutCachedHeight =2100
-                            RowStart =1
-                            RowEnd =1
-                        End
-                    End
-                End
-                Begin TextBox
-                    OverlapFlags =87
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =2473
-                    Top =2100
-                    Width =2113
-                    Height =390
-                    ColumnWidth =1215
-                    TabIndex =2
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="txt_Calories"
-                    ControlSource ="Calories"
-                    BottomPadding =150
-
-                    LayoutCachedLeft =2473
-                    LayoutCachedTop =2100
-                    LayoutCachedWidth =4586
-                    LayoutCachedHeight =2490
-                    RowStart =2
-                    RowEnd =2
-                    ColumnStart =1
-                    ColumnEnd =1
-                    Begin
-                        Begin Label
-                            OverlapFlags =95
-                            TextAlign =2
-                            Left =360
-                            Top =2100
-                            Width =2113
-                            Height =390
-                            LeftMargin =44
-                            TopMargin =22
-                            RightMargin =44
-                            BottomMargin =22
-                            Name ="lbl_Calories"
-                            Caption ="Calories"
-                            BottomPadding =150
-                            LayoutCachedLeft =360
-                            LayoutCachedTop =2100
-                            LayoutCachedWidth =2473
-                            LayoutCachedHeight =2490
-                            RowStart =2
-                            RowEnd =2
-                        End
-                    End
-                End
-                Begin TextBox
                     EnterKeyBehavior = NotDefault
                     ScrollBars =2
                     OverlapFlags =87
                     TextAlign =1
                     IMESentenceMode =3
-                    Left =11520
+                    Left =16200
                     Top =540
                     Width =6240
                     Height =1500
-                    TabIndex =3
+                    TabIndex =17
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -382,9 +238,9 @@ Begin Form
                     OnDblClick ="=OpenZoomBox()"
                     BottomPadding =150
 
-                    LayoutCachedLeft =11520
+                    LayoutCachedLeft =16200
                     LayoutCachedTop =540
-                    LayoutCachedWidth =17760
+                    LayoutCachedWidth =22440
                     LayoutCachedHeight =2040
                     RowStart =3
                     RowEnd =3
@@ -394,7 +250,7 @@ Begin Form
                         Begin Label
                             OverlapFlags =93
                             TextAlign =1
-                            Left =11520
+                            Left =16200
                             Top =180
                             Width =5098
                             Height =360
@@ -405,9 +261,9 @@ Begin Form
                             Name ="lbl_CookingInstructions"
                             Caption ="Cooking Instructions (Dbl click to zoom)"
                             BottomPadding =150
-                            LayoutCachedLeft =11520
+                            LayoutCachedLeft =16200
                             LayoutCachedTop =180
-                            LayoutCachedWidth =16618
+                            LayoutCachedWidth =21298
                             LayoutCachedHeight =540
                             RowStart =3
                             RowEnd =3
@@ -419,9 +275,9 @@ Begin Form
                     OldBorderStyle =0
                     Left =360
                     Top =3780
-                    Width =17865
+                    Width =22080
                     Height =2760
-                    TabIndex =4
+                    TabIndex =13
                     Name ="frm_FoodItems_IngredientsList"
                     SourceObject ="Form.frm_FoodItems_IngredientsList"
                     LinkChildFields ="FoodItemID"
@@ -431,7 +287,7 @@ Begin Form
 
                     LayoutCachedLeft =360
                     LayoutCachedTop =3780
-                    LayoutCachedWidth =18225
+                    LayoutCachedWidth =22440
                     LayoutCachedHeight =6540
                     Begin
                         Begin Label
@@ -443,6 +299,7 @@ Begin Form
                             Height =345
                             Name ="lbl_Ingredients"
                             Caption ="Ingredients"
+                            VerticalAnchor =2
                             LayoutCachedLeft =360
                             LayoutCachedTop =3540
                             LayoutCachedWidth =3495
@@ -452,12 +309,12 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =1380
-                    Top =2520
+                    Left =600
+                    Top =2100
                     Width =1920
                     Height =435
                     FontSize =12
-                    TabIndex =5
+                    TabIndex =20
                     Name ="cmd_RecalcMacros"
                     Caption =" Recalc Macros"
                     OnClick ="[Event Procedure]"
@@ -499,10 +356,10 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =1380
-                    LayoutCachedTop =2520
-                    LayoutCachedWidth =3300
-                    LayoutCachedHeight =2955
+                    LayoutCachedLeft =600
+                    LayoutCachedTop =2100
+                    LayoutCachedWidth =2520
+                    LayoutCachedHeight =2535
                     PictureCaptionArrangement =5
                     ForeThemeColorIndex =1
                     ForeTint =100.0
@@ -532,15 +389,15 @@ Begin Form
                     IMESentenceMode =3
                     Left =360
                     Top =570
-                    Width =2113
+                    Width =2383
                     Height =390
-                    TabIndex =6
+                    TabIndex =18
                     Name ="txt_ServingSize"
                     ControlSource ="ServingSize"
 
                     LayoutCachedLeft =360
                     LayoutCachedTop =570
-                    LayoutCachedWidth =2473
+                    LayoutCachedWidth =2743
                     LayoutCachedHeight =960
                     Begin
                         Begin Label
@@ -548,13 +405,13 @@ Begin Form
                             TextAlign =2
                             Left =360
                             Top =180
-                            Width =2113
+                            Width =2383
                             Height =390
                             Name ="lbl_ServingSize"
                             Caption ="Serving Size"
                             LayoutCachedLeft =360
                             LayoutCachedTop =180
-                            LayoutCachedWidth =2473
+                            LayoutCachedWidth =2743
                             LayoutCachedHeight =570
                         End
                     End
@@ -563,62 +420,62 @@ Begin Form
                     OverlapFlags =87
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =2775
-                    Top =570
+                    Left =360
+                    Top =1530
                     Width =2383
                     Height =390
-                    TabIndex =7
+                    TabIndex =19
                     Name ="txt_ServingsPerContainer"
                     ControlSource ="ServingsPerContainer"
 
-                    LayoutCachedLeft =2775
-                    LayoutCachedTop =570
-                    LayoutCachedWidth =5158
-                    LayoutCachedHeight =960
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =1530
+                    LayoutCachedWidth =2743
+                    LayoutCachedHeight =1920
                     Begin
                         Begin Label
                             OverlapFlags =93
                             TextAlign =2
-                            Left =2775
-                            Top =180
+                            Left =360
+                            Top =1140
                             Width =2383
                             Height =390
                             Name ="lbl_ServingsPerContainer"
                             Caption ="Servings Per Container"
-                            LayoutCachedLeft =2775
-                            LayoutCachedTop =180
-                            LayoutCachedWidth =5158
-                            LayoutCachedHeight =570
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =1140
+                            LayoutCachedWidth =2743
+                            LayoutCachedHeight =1530
                         End
                     End
                 End
                 Begin TextBox
                     OverlapFlags =87
                     IMESentenceMode =3
-                    Left =5820
+                    Left =10500
                     Top =2565
                     Width =4980
                     Height =345
-                    TabIndex =8
+                    TabIndex =21
                     Name ="Manufacturer"
                     ControlSource ="Manufacturer"
 
-                    LayoutCachedLeft =5820
+                    LayoutCachedLeft =10500
                     LayoutCachedTop =2565
-                    LayoutCachedWidth =10800
+                    LayoutCachedWidth =15480
                     LayoutCachedHeight =2910
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =5820
+                            Left =10500
                             Top =2220
                             Width =1395
                             Height =345
                             Name ="Label135"
                             Caption ="Manufacturer"
-                            LayoutCachedLeft =5820
+                            LayoutCachedLeft =10500
                             LayoutCachedTop =2220
-                            LayoutCachedWidth =7215
+                            LayoutCachedWidth =11895
                             LayoutCachedHeight =2565
                         End
                     End
@@ -628,31 +485,31 @@ Begin Form
                     ScrollBars =2
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =5820
+                    Left =10500
                     Top =540
                     Width =4980
                     Height =1500
                     ColumnWidth =3570
-                    TabIndex =9
+                    TabIndex =16
                     Name ="FoodDescription"
                     ControlSource ="FoodDescription"
 
-                    LayoutCachedLeft =5820
+                    LayoutCachedLeft =10500
                     LayoutCachedTop =540
-                    LayoutCachedWidth =10800
+                    LayoutCachedWidth =15480
                     LayoutCachedHeight =2040
                     Begin
                         Begin Label
                             OverlapFlags =85
-                            Left =5820
+                            Left =10500
                             Top =180
                             Width =1725
                             Height =345
                             Name ="Label136"
                             Caption ="FoodDescription"
-                            LayoutCachedLeft =5820
+                            LayoutCachedLeft =10500
                             LayoutCachedTop =180
-                            LayoutCachedWidth =7545
+                            LayoutCachedWidth =12225
                             LayoutCachedHeight =525
                         End
                     End
@@ -662,35 +519,1027 @@ Begin Form
                     ScrollBars =2
                     OverlapFlags =87
                     IMESentenceMode =3
-                    Left =11520
+                    Left =16200
                     Top =2565
                     Width =6240
                     Height =345
                     ColumnWidth =7425
-                    TabIndex =10
+                    TabIndex =22
                     Name ="UrlLink"
                     ControlSource ="UrlLink"
                     StatusBarText ="The URL for this food item if applicable."
 
-                    LayoutCachedLeft =11520
+                    LayoutCachedLeft =16200
                     LayoutCachedTop =2565
-                    LayoutCachedWidth =17760
+                    LayoutCachedWidth =22440
                     LayoutCachedHeight =2910
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =11520
+                            Left =16200
                             Top =2220
                             Width =750
                             Height =345
                             Name ="Label137"
                             Caption ="UrlLink"
-                            LayoutCachedLeft =11520
+                            LayoutCachedLeft =16200
                             LayoutCachedTop =2220
-                            LayoutCachedWidth =12270
+                            LayoutCachedWidth =16950
                             LayoutCachedHeight =2565
                         End
                     End
+                End
+                Begin TextBox
+                    OverlapFlags =93
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =1260
+                    Width =1740
+                    Height =390
+                    TabIndex =7
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Protein"
+                    ControlSource ="Protein"
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =1260
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =1650
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =6840
+                            Top =1260
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Protein"
+                            Caption ="Protein"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =1260
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =1650
+                            RowStart =2
+                            RowEnd =2
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =870
+                    Width =1740
+                    Height =390
+                    TabIndex =6
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_AddedSugar"
+                    ControlSource ="AddedSugar"
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =1260
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =6840
+                            Top =870
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_AddedSugar"
+                            Caption ="Added Sugar"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =870
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =1260
+                            RowStart =1
+                            RowEnd =1
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =480
+                    Width =1740
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Calories"
+                    ControlSource ="Calories"
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =480
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =870
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =480
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Calories"
+                            Caption ="Calories"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =480
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =870
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =870
+                    Width =1740
+                    Height =390
+                    TabIndex =1
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_TotalFat"
+                    ControlSource ="TotalFat"
+                    StatusBarText ="Grams."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =870
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =1260
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =870
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_TotalFat"
+                            Caption ="TotalFat"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =870
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =1260
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =1260
+                    Width =1740
+                    Height =390
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_SaturatedFat"
+                    ControlSource ="SaturatedFat"
+                    StatusBarText ="Grams. Bad - should get less of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =1260
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =1650
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =1260
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_SaturatedFat"
+                            Caption ="SaturatedFat"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =1260
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =1650
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =1650
+                    Width =1740
+                    Height =390
+                    TabIndex =3
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_TransFat"
+                    ControlSource ="TransFat"
+                    StatusBarText ="Grams."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =1650
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =2040
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =1650
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_TransFat"
+                            Caption ="TransFat"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =1650
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =2040
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =2040
+                    Width =1740
+                    Height =390
+                    TabIndex =4
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Cholesterol"
+                    ControlSource ="Cholesterol"
+                    StatusBarText ="Milligrams."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =2430
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =2040
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Cholesterol"
+                            Caption ="Cholesterol"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =2040
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =2430
+                            RowStart =4
+                            RowEnd =4
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =2430
+                    Width =1740
+                    Height =390
+                    TabIndex =14
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Sodium"
+                    ControlSource ="Sodium"
+                    StatusBarText ="Milligrams. Bad - should get less of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =2430
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =2820
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =2430
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Sodium"
+                            Caption ="Sodium"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =2430
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =2820
+                            RowStart =5
+                            RowEnd =5
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =2820
+                    Width =1740
+                    Height =390
+                    TabIndex =15
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_TotalCarbs"
+                    ControlSource ="TotalCarbs"
+                    StatusBarText ="Grams."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =2820
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =3210
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =2820
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_TotalCarbs"
+                            Caption ="TotalCarbs"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =2820
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =3210
+                            RowStart =6
+                            RowEnd =6
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5100
+                    Top =3210
+                    Width =1740
+                    Height =390
+                    TabIndex =12
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_DietaryFiber"
+                    ControlSource ="DietaryFiber"
+                    StatusBarText ="Grams. Good - should get more of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =5100
+                    LayoutCachedTop =3210
+                    LayoutCachedWidth =6840
+                    LayoutCachedHeight =3600
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3660
+                            Top =3210
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_DietaryFiber"
+                            Caption ="DietaryFiber"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =3660
+                            LayoutCachedTop =3210
+                            LayoutCachedWidth =5100
+                            LayoutCachedHeight =3600
+                            RowStart =7
+                            RowEnd =7
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =480
+                    Width =1740
+                    Height =390
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_TotalSugars"
+                    ControlSource ="TotalSugars"
+                    StatusBarText ="Grams. Includes sugars naturally present in many nutritious foods and beverages,"
+                        " such as sugar in milk and fruit as well as any added sugars that may be present"
+                        " in the product."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =480
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =870
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            TextAlign =1
+                            Left =6840
+                            Top =480
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_TotalSugars"
+                            Caption ="TotalSugars"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =480
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =870
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =1650
+                    Width =1740
+                    Height =390
+                    TabIndex =8
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_VitaminD"
+                    ControlSource ="VitaminD"
+                    StatusBarText ="Microgram. Good - should get more of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =1650
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =2040
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            TextAlign =1
+                            Left =6840
+                            Top =1650
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_VitaminD"
+                            Caption ="VitaminD"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =1650
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =2040
+                            RowStart =3
+                            RowEnd =3
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =2040
+                    Width =1740
+                    Height =390
+                    TabIndex =9
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Calcium"
+                    ControlSource ="Calcium"
+                    StatusBarText ="Milligrams. Good - should get more of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =2040
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =2430
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            TextAlign =1
+                            Left =6840
+                            Top =2040
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Calcium"
+                            Caption ="Calcium"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =2040
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =2430
+                            RowStart =4
+                            RowEnd =4
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =2430
+                    Width =1740
+                    Height =390
+                    TabIndex =10
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Iron"
+                    ControlSource ="Iron"
+                    StatusBarText ="Milligrams. Good - should get more of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =2430
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =2820
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            TextAlign =1
+                            Left =6840
+                            Top =2430
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Iron"
+                            Caption ="Iron"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =2430
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =2820
+                            RowStart =5
+                            RowEnd =5
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =2820
+                    Width =1740
+                    Height =390
+                    TabIndex =11
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Potassium"
+                    ControlSource ="Potassium"
+                    StatusBarText ="Milligrams. Good - should get more of."
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =2820
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =3210
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =87
+                            TextAlign =1
+                            Left =6840
+                            Top =2820
+                            Width =1440
+                            Height =390
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            Name ="lbl_Potassium"
+                            Caption ="Potassium"
+                            GroupTable =1
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =6840
+                            LayoutCachedTop =2820
+                            LayoutCachedWidth =8280
+                            LayoutCachedHeight =3210
+                            RowStart =6
+                            RowEnd =6
+                            ColumnStart =2
+                            ColumnEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin EmptyCell
+                    Left =8280
+                    Top =3210
+                    Width =1740
+                    Height =390
+                    Name ="EmptyCell175"
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    LayoutCachedLeft =8280
+                    LayoutCachedTop =3210
+                    LayoutCachedWidth =10020
+                    LayoutCachedHeight =3600
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =6840
+                    Top =3210
+                    Height =390
+                    Name ="EmptyCell190"
+                    GroupTable =1
+                    LeftPadding =0
+                    TopPadding =0
+                    RightPadding =0
+                    BottomPadding =0
+                    LayoutCachedLeft =6840
+                    LayoutCachedTop =3210
+                    LayoutCachedWidth =8280
+                    LayoutCachedHeight =3600
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =3240
+                    Top =60
+                    Width =1500
+                    Height =345
+                    Name ="lbl_NutritionInfo"
+                    Caption ="Nutrition Info"
+                    FontName ="Segoe UI Semibold"
+                    LayoutCachedLeft =3240
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =4740
+                    LayoutCachedHeight =405
+                    ThemeFontIndex =0
                 End
             End
         End

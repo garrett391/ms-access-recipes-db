@@ -1,34 +1,29 @@
-﻿Operation =1
-Option =0
-Begin InputTables
-    Name ="RecipeIngredients"
-    Name ="Ingredients"
-    Name ="FoodItems"
-End
-Begin OutputColumns
-    Expression ="RecipeIngredients.RecipeIngredientID"
-    Expression ="RecipeIngredients.FoodItemID"
-    Expression ="RecipeIngredients.Servings"
-    Expression ="RecipeIngredients.IngredientID"
-    Expression ="RecipeIngredients.SubFoodItemID"
-    Expression ="RecipeIngredients.PreparationStyleID"
-    Alias ="CalculatedProtein"
-    Expression ="[Servings]*(Nz([Ingredients].[Protein],0)+Nz([FoodItems].[Protein],0))"
-    Alias ="CalculatedAddedSugar"
-    Expression ="[Servings]*(Nz([Ingredients].[AddedSugar],0)+Nz([FoodItems].[AddedSugar],0))"
-    Alias ="CalculatedCalories"
-    Expression ="[Servings]*(Nz([Ingredients].[Calories],0)+Nz([FoodItems].[Calories],0))"
-End
-Begin Joins
-    LeftTable ="Ingredients"
-    RightTable ="RecipeIngredients"
-    Expression ="Ingredients.IngredientID = RecipeIngredients.IngredientID"
-    Flag =3
-    LeftTable ="FoodItems"
-    RightTable ="RecipeIngredients"
-    Expression ="FoodItems.FoodItemID = RecipeIngredients.SubFoodItemID"
-    Flag =3
-End
+﻿dbMemo "SQL" ="SELECT RecipeIngredients.RecipeIngredientID, RecipeIngredients.FoodItemID, Recip"
+    "eIngredients.Servings, RecipeIngredients.IngredientID, RecipeIngredients.SubFood"
+    "ItemID, RecipeIngredients.PreparationStyleID, [Servings] * (Nz([Ingredients].[Ca"
+    "lories], 0) + Nz([FoodItems].[Calories], 0)) AS CalculatedCalories, [Servings] *"
+    " (Nz([Ingredients].[TotalFat], 0) + Nz([FoodItems].[TotalFat], 0)) AS Calculated"
+    "TotalFat, [Servings] * (Nz([Ingredients].[SaturatedFat], 0) + Nz([FoodItems].[Sa"
+    "turatedFat], 0)) AS CalculatedSaturatedFat, [Servings] * (Nz([Ingredients].[Tran"
+    "sFat], 0) + Nz([FoodItems].[TransFat], 0)) AS CalculatedTransFat, [Servings] * ("
+    "Nz([Ingredients].[Cholesterol], 0) + Nz([FoodItems].[Cholesterol], 0)) AS Calcul"
+    "atedCholesterol, [Servings] * (Nz([Ingredients].[Sodium], 0) + Nz([FoodItems].[S"
+    "odium], 0)) AS CalculatedSodium, [Servings] * (Nz([Ingredients].[TotalCarbs], 0)"
+    " + Nz([FoodItems].[TotalCarbs], 0)) AS CalculatedTotalCarbs, [Servings] * (Nz([I"
+    "ngredients].[DietaryFiber], 0) + Nz([FoodItems].[DietaryFiber], 0)) AS Calculate"
+    "dDietaryFiber, [Servings] * (Nz([Ingredients].[TotalSugars], 0) + Nz([FoodItems]"
+    ".[TotalSugars], 0)) AS CalculatedTotalSugars, [Servings] * (Nz([Ingredients].[Ad"
+    "dedSugar], 0) + Nz([FoodItems].[AddedSugar], 0)) AS CalculatedAddedSugar, [Servi"
+    "ngs] * (Nz([Ingredients].[Protein], 0) + Nz([FoodItems].[Protein], 0)) AS Calcul"
+    "atedProtein, [Servings] * (Nz([Ingredients].[VitaminD], 0) + Nz([FoodItems].[Vit"
+    "aminD], 0)) AS CalculatedVitaminD, [Servings] * (Nz([Ingredients].[Calcium], 0) "
+    "+ Nz([FoodItems].[Calcium], 0)) AS CalculatedCalcium, [Servings] * (Nz([Ingredie"
+    "nts].[Iron], 0) + Nz([FoodItems].[Iron], 0)) AS CalculatedIron, [Servings] * (Nz"
+    "([Ingredients].[Potassium], 0) + Nz([FoodItems].[Potassium], 0)) AS CalculatedPo"
+    "tassium\015\012FROM Ingredients RIGHT JOIN (FoodItems RIGHT JOIN RecipeIngredien"
+    "ts ON FoodItems.FoodItemID = RecipeIngredients.SubFoodItemID) ON Ingredients.Ing"
+    "redientID = RecipeIngredients.IngredientID;\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -75,45 +70,52 @@ Begin
         dbText "Name" ="CalculatedCalories"
         dbLong "AggregateType" ="-1"
     End
-End
-Begin
-    State =0
-    Left =0
-    Top =0
-    Right =2244
-    Bottom =1180
-    Left =-1
-    Top =-1
-    Right =1484
-    Bottom =901
-    Left =0
-    Top =0
-    ColumnsShown =539
     Begin
-        Left =210
-        Top =173
-        Right =543
-        Bottom =464
-        Top =0
-        Name ="RecipeIngredients"
-        Name =""
+        dbText "Name" ="CalculatedTotalFat"
+        dbLong "AggregateType" ="-1"
     End
     Begin
-        Left =706
-        Top =154
-        Right =962
-        Bottom =403
-        Top =0
-        Name ="Ingredients"
-        Name =""
+        dbText "Name" ="CalculatedSaturatedFat"
+        dbLong "AggregateType" ="-1"
     End
     Begin
-        Left =705
-        Top =418
-        Right =962
-        Bottom =713
-        Top =0
-        Name ="FoodItems"
-        Name =""
+        dbText "Name" ="CalculatedTransFat"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedCholesterol"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedSodium"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedTotalCarbs"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedDietaryFiber"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedTotalSugars"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedVitaminD"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedCalcium"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedIron"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="CalculatedPotassium"
+        dbLong "AggregateType" ="-1"
     End
 End
