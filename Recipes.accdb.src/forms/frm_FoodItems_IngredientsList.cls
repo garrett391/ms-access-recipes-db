@@ -5,7 +5,7 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Public faytIngredients As New FindAsYouTypeCombo
+Public faytSubFoodItem As New FindAsYouTypeCombo
 
 Dim currFoodItemID As Long
 
@@ -27,7 +27,7 @@ Private Sub Form_Open(Cancel As Integer)
 '        Call SetDynamicProperties
 '    End If
 
-    faytIngredients.InitalizeFilterCombo Me!cbo_IngredientID, , Anywhereinstring, True, False
+    faytSubFoodItem.InitalizeFilterCombo Me!cbo_SubFoodItemID, , Anywhereinstring, True, False
 End Sub
 
 

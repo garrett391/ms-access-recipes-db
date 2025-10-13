@@ -38,8 +38,4 @@ Private Sub cmd_RecalcMacros_Click()
     Me!txt_Iron.Value = Round(DSum("CalculatedIron", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
     Me!txt_Potassium.Value = Round(DSum("CalculatedPotassium", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
 
-
-'    Me!txt_Protein.Value = Round(DSum("CalculatedProtein", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
-'    Me!txt_AddedSugar.Value = Round(DSum("CalculatedAddedSugar", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
-'    Me!txt_Calories.Value = Round(DSum("CalculatedCalories", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
 End Sub

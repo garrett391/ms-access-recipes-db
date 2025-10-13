@@ -3,7 +3,6 @@
   [UserID] LONG CONSTRAINT [UsersMeals] REFERENCES [Users] ([UserID]),
   [MealDate] DATETIME,
   [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]),
-  [IngredientID] LONG CONSTRAINT [IngredientsMeals] REFERENCES [Ingredients] ([IngredientID]),
   [Servings] DOUBLE,
   [Calories] DOUBLE,
   [TotalFat] DOUBLE,

@@ -7,19 +7,20 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =24390
+    Width =24398
     DatasheetFontHeight =11
     ItemSuffix =214
-    Right =-32131
+    Right =26295
     Bottom =17445
+    Filter ="FoodTypeID = 1"
     RecSrcDt = Begin
-        0x1d6fdec01b63e640
+        0xa554ea41f56ee640
     End
-    RecordSource ="Ingredients"
+    RecordSource ="FoodItems"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
-    FilterOnLoad =0
+    FilterOnLoad =255
     ShowPageMargins =0
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =15921906
@@ -140,8 +141,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label0"
-                    Caption ="IngredientID"
+                    Name ="lbl_FoodItemID"
+                    Caption ="ID"
                     GroupTable =1
                     LayoutCachedLeft =360
                     LayoutCachedTop =660
@@ -442,8 +443,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="IngredientID"
-                    ControlSource ="IngredientID"
+                    Name ="FoodItemID"
+                    ControlSource ="FoodItemID"
                     GroupTable =1
 
                     LayoutCachedLeft =360
@@ -468,8 +469,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Ingredient"
-                    ControlSource ="Ingredient"
+                    Name ="FoodName"
+                    ControlSource ="FoodName"
                     GroupTable =1
 
                     LayoutCachedLeft =1800
@@ -498,7 +499,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="txt_ServingDescription"
-                    ControlSource ="ServingDescription"
+                    ControlSource ="ServingSize"
                     GroupTable =1
 
                     LayoutCachedLeft =8925

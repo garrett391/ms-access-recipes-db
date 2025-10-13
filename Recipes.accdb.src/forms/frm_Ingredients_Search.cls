@@ -9,5 +9,5 @@ Dim faytIngredients As New FindAsYouTypeForm
 
 
 Private Sub Form_Open(Cancel As Integer)
-    faytIngredients.Initialize Me, Me!txt_Search, ffrm_Anywhereinstring, False, "Ingredient", "Manufacturer"
+    faytIngredients.Initialize Me, Me!txt_Search, ffrm_Anywhereinstring, False, "FoodName", "Manufacturer"
 End Sub

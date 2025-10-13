@@ -16,7 +16,7 @@ Begin Form
     ItemSuffix =236
     Left =4740
     Top =3555
-    Right =-27391
+    Right =31035
     Bottom =21000
     RecSrcDt = Begin
         0x33680f565b64e640
@@ -252,92 +252,6 @@ Begin Form
                     Height =0
                     Name ="cmd_TakeFocus"
 
-                End
-                Begin OptionGroup
-                    SpecialEffect =0
-                    OldBorderStyle =0
-                    OverlapFlags =85
-                    Left =8760
-                    Top =240
-                    Width =3186
-                    Height =555
-                    TabIndex =20
-                    Name ="grp_MealType"
-                    DefaultValue ="1"
-                    OnClick ="[Event Procedure]"
-
-                    LayoutCachedLeft =8760
-                    LayoutCachedTop =240
-                    LayoutCachedWidth =11946
-                    LayoutCachedHeight =795
-                    Begin
-                        Begin OptionButton
-                            SpecialEffect =2
-                            OverlapFlags =87
-                            Left =8820
-                            Top =432
-                            OptionValue =1
-                            Name ="opt_FoodItem"
-
-                            LayoutCachedLeft =8820
-                            LayoutCachedTop =432
-                            LayoutCachedWidth =9080
-                            LayoutCachedHeight =672
-                            Begin
-                                Begin Label
-                                    OverlapFlags =247
-                                    TextAlign =1
-                                    Left =9050
-                                    Top =360
-                                    Width =1275
-                                    Height =390
-                                    LeftMargin =44
-                                    TopMargin =22
-                                    RightMargin =44
-                                    BottomMargin =22
-                                    Name ="lbl_FoodItem"
-                                    Caption ="Food Item"
-                                    LayoutCachedLeft =9050
-                                    LayoutCachedTop =360
-                                    LayoutCachedWidth =10325
-                                    LayoutCachedHeight =750
-                                End
-                            End
-                        End
-                        Begin OptionButton
-                            SpecialEffect =2
-                            OverlapFlags =87
-                            Left =10500
-                            Top =432
-                            OptionValue =2
-                            Name ="opt_Ingredient"
-
-                            LayoutCachedLeft =10500
-                            LayoutCachedTop =432
-                            LayoutCachedWidth =10760
-                            LayoutCachedHeight =672
-                            Begin
-                                Begin Label
-                                    OverlapFlags =247
-                                    TextAlign =1
-                                    Left =10730
-                                    Top =360
-                                    Width =1155
-                                    Height =390
-                                    LeftMargin =44
-                                    TopMargin =22
-                                    RightMargin =44
-                                    BottomMargin =22
-                                    Name ="lbl_Ingredient"
-                                    Caption ="Ingredient"
-                                    LayoutCachedLeft =10730
-                                    LayoutCachedTop =360
-                                    LayoutCachedWidth =11885
-                                    LayoutCachedHeight =750
-                                End
-                            End
-                        End
-                    End
                 End
                 Begin ComboBox
                     OverlapFlags =85

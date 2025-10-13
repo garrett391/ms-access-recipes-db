@@ -9,20 +9,6 @@ Public faytFoodItems As New FindAsYouTypeCombo
 
 Dim rs As DAO.Recordset
 
-Private Sub configureFoodDropDown()
-    Select Case grp_MealType
-    Case 1  ' Food items
-        Me!cbo_FoodItemID.ControlSource = "FoodItemID"
-        faytFoodItems.RowSource = "SELECT FoodItems.FoodItemID, FoodItems.FoodName, FoodItems.Manufacturer, FoodItems.ServingSize, FoodItems.Protein, FoodItems.AddedSugar, FoodItems.Calories FROM FoodItems ORDER BY FoodItems.FoodName; "
-        Set rs = Nothing
-        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot)
-    Case 2 ' Ingredients
-        Me!cbo_FoodItemID.ControlSource = "IngredientID"
-        faytFoodItems.RowSource = "SELECT Ingredients.IngredientID, Ingredients.Ingredient, Ingredients.Manufacturer, Ingredients.ServingDescription, Ingredients.Protein, Ingredients.AddedSugar, Ingredients.Calories FROM Ingredients ORDER BY Ingredients.Ingredient; "
-        Set rs = Nothing
-        Set rs = CurrentDb.OpenRecordset("SELECT * FROM Ingredients", dbOpenSnapshot)
-    End Select
-End Sub
 
 Private Sub populateNutritionalValues()
 
@@ -32,11 +18,10 @@ Private Sub populateNutritionalValues()
     selectedFoodItemID = Nz(Me!cbo_FoodItemID, 0)
     ServingAmount = Nz(Me!txt_Servings, 1)
 
-    If Me!grp_MealType.Value = 1 Then
-        rs.FindFirst "FoodItemID = " & selectedFoodItemID
-    Else
-        rs.FindFirst "IngredientID = " & selectedFoodItemID
+    If rs Is Nothing Then
+        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot)
     End If
+    rs.FindFirst "FoodItemID = " & selectedFoodItemID
 
     With Me
         !txt_Calories.Value = ServingAmount * Nz(rs![Calories], 0)
@@ -73,9 +58,6 @@ Private Sub Form_Load()
 End Sub
 
 
-Private Sub grp_MealType_Click()
-    configureFoodDropDown
-End Sub
 
 Private Sub txt_Servings_AfterUpdate()
     populateNutritionalValues

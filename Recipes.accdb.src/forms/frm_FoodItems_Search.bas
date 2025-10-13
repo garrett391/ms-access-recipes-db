@@ -2,6 +2,7 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
+    FilterOn = NotDefault
     AllowDesignChanges = NotDefault
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
@@ -12,6 +13,7 @@ Begin Form
     ItemSuffix =50
     Right =26295
     Bottom =17445
+    Filter ="FoodTypeID = 2"
     RecSrcDt = Begin
         0xb32440455a64e640
     End
@@ -19,7 +21,7 @@ Begin Form
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
-    FilterOnLoad =0
+    FilterOnLoad =255
     ShowPageMargins =0
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =15921906
