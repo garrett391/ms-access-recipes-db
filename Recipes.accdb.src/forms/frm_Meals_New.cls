@@ -7,20 +7,37 @@ Option Explicit
 
 Public faytFoodItems As New FindAsYouTypeCombo
 
+Dim rs As DAO.Recordset
+
+Private Sub configureFoodDropDown()
+    Select Case grp_MealType
+    Case 1  ' Food items
+        Me!cbo_FoodItemID.ControlSource = "FoodItemID"
+        faytFoodItems.RowSource = "SELECT FoodItems.FoodItemID, FoodItems.FoodName, FoodItems.Manufacturer, FoodItems.ServingSize, FoodItems.Protein, FoodItems.AddedSugar, FoodItems.Calories FROM FoodItems ORDER BY FoodItems.FoodName; "
+        Set rs = Nothing
+        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot)
+    Case 2 ' Ingredients
+        Me!cbo_FoodItemID.ControlSource = "IngredientID"
+        faytFoodItems.RowSource = "SELECT Ingredients.IngredientID, Ingredients.Ingredient, Ingredients.Manufacturer, Ingredients.ServingDescription, Ingredients.Protein, Ingredients.AddedSugar, Ingredients.Calories FROM Ingredients ORDER BY Ingredients.Ingredient; "
+        Set rs = Nothing
+        Set rs = CurrentDb.OpenRecordset("SELECT * FROM Ingredients", dbOpenSnapshot)
+    End Select
+End Sub
+
 Private Sub populateNutritionalValues()
 
     Dim selectedFoodItemID As Long
     Dim ServingAmount      As Double
-    Static rs              As DAO.Recordset ' Static to avoid initializing the record set over and over.
 
     selectedFoodItemID = Nz(Me!cbo_FoodItemID, 0)
     ServingAmount = Nz(Me!txt_Servings, 1)
 
-    If rs Is Nothing Then
-        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot)
+    If Me!grp_MealType.Value = 1 Then
+        rs.FindFirst "FoodItemID = " & selectedFoodItemID
+    Else
+        rs.FindFirst "IngredientID = " & selectedFoodItemID
     End If
-    rs.FindFirst "FoodItemID = " & selectedFoodItemID
-    ' todo, case if RS.nomatch?
+
     With Me
         !txt_Calories.Value = ServingAmount * Nz(rs![Calories], 0)
         !txt_TotalFat.Value = ServingAmount * Nz(rs![TotalFat], 0)
@@ -55,6 +72,10 @@ Private Sub Form_Load()
     End If
 End Sub
 
+
+Private Sub grp_MealType_Click()
+    configureFoodDropDown
+End Sub
 
 Private Sub txt_Servings_AfterUpdate()
     populateNutritionalValues

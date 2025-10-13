@@ -36,7 +36,7 @@
 35	Vitamin D Whole Milk	Alta Dena	1 cup (240ml)	1	4	160	9	5	0	35	130	13	0	12	0	8	2.5	300	0	400	https://altadenadairy.com/products/whole-milk-plastic-gallon/
 36	Gold Standard Vanilla Ice Cream Whey Powder	Optimum Nutrition Inc	31 g (About 1 scoop)	31	12	120									2	24					https://www.optimumnutrition.com/en-us/Products/Shakes-%26-Powders/GOLD-STANDARD-100%25-WHEY%E2%84%A2/p/gold-standard-100-whey-protein
 37	Baby Potatoes, Dutch Yellow	First Street	3/4 cup (113g)	0.75	4	80									0	2					https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-baby-potatoes-dutch-yellow-id-00041512173035
-38	Egg		1 large egg (50g)	50	12	72									0	6.3					https://www.nutritionix.com/food/eggs
+38	Egg		1 large egg (50g)	50	12	72	4.8	1.6	0	186	71	0.4	0	0.2	0	6.3	1	28	0.9	69	https://www.nutritionix.com/food/eggs
 39	Organic Ground Beef 85% lean	Kirkland	4 oz (112g)	4	10	240									0	21					
 40	Mexican-Style Blend Cheese	Kirkland	1/3 cup (28g)	28	12	110									0	7					
 41	Pumpkin Butter	Trader Joes	1 Tbsp	18	12	40	0	0	0	0	0	10	0	9	9	0	0	0	0.1	0	https://www.traderjoes.com/home/products/pdp/pumpkin-butter-006372

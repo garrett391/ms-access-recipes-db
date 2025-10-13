@@ -228,7 +228,7 @@ Begin Form
                     Top =540
                     Width =6240
                     Height =1500
-                    TabIndex =17
+                    TabIndex =16
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -277,7 +277,7 @@ Begin Form
                     Top =3780
                     Width =22080
                     Height =2760
-                    TabIndex =13
+                    TabIndex =22
                     Name ="frm_FoodItems_IngredientsList"
                     SourceObject ="Form.frm_FoodItems_IngredientsList"
                     LinkChildFields ="FoodItemID"
@@ -314,7 +314,7 @@ Begin Form
                     Width =1920
                     Height =435
                     FontSize =12
-                    TabIndex =20
+                    TabIndex =19
                     Name ="cmd_RecalcMacros"
                     Caption =" Recalc Macros"
                     OnClick ="[Event Procedure]"
@@ -391,7 +391,7 @@ Begin Form
                     Top =570
                     Width =2383
                     Height =390
-                    TabIndex =18
+                    TabIndex =17
                     Name ="txt_ServingSize"
                     ControlSource ="ServingSize"
 
@@ -424,7 +424,7 @@ Begin Form
                     Top =1530
                     Width =2383
                     Height =390
-                    TabIndex =19
+                    TabIndex =18
                     Name ="txt_ServingsPerContainer"
                     ControlSource ="ServingsPerContainer"
 
@@ -456,7 +456,7 @@ Begin Form
                     Top =2565
                     Width =4980
                     Height =345
-                    TabIndex =21
+                    TabIndex =20
                     Name ="Manufacturer"
                     ControlSource ="Manufacturer"
 
@@ -490,7 +490,7 @@ Begin Form
                     Width =4980
                     Height =1500
                     ColumnWidth =3570
-                    TabIndex =16
+                    TabIndex =15
                     Name ="FoodDescription"
                     ControlSource ="FoodDescription"
 
@@ -524,7 +524,7 @@ Begin Form
                     Width =6240
                     Height =345
                     ColumnWidth =7425
-                    TabIndex =22
+                    TabIndex =21
                     Name ="UrlLink"
                     ControlSource ="UrlLink"
                     StatusBarText ="The URL for this food item if applicable."
@@ -557,7 +557,7 @@ Begin Form
                     Top =1260
                     Width =1740
                     Height =390
-                    TabIndex =7
+                    TabIndex =5
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -620,7 +620,7 @@ Begin Form
                     Top =870
                     Width =1740
                     Height =390
-                    TabIndex =6
+                    TabIndex =3
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -739,7 +739,7 @@ Begin Form
                     Top =870
                     Width =1740
                     Height =390
-                    TabIndex =1
+                    TabIndex =2
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -801,7 +801,7 @@ Begin Form
                     Top =1260
                     Width =1740
                     Height =390
-                    TabIndex =2
+                    TabIndex =4
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -863,7 +863,7 @@ Begin Form
                     Top =1650
                     Width =1740
                     Height =390
-                    TabIndex =3
+                    TabIndex =6
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -925,7 +925,7 @@ Begin Form
                     Top =2040
                     Width =1740
                     Height =390
-                    TabIndex =4
+                    TabIndex =8
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -987,7 +987,7 @@ Begin Form
                     Top =2430
                     Width =1740
                     Height =390
-                    TabIndex =14
+                    TabIndex =10
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1049,7 +1049,7 @@ Begin Form
                     Top =2820
                     Width =1740
                     Height =390
-                    TabIndex =15
+                    TabIndex =12
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1111,7 +1111,7 @@ Begin Form
                     Top =3210
                     Width =1740
                     Height =390
-                    TabIndex =12
+                    TabIndex =14
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1173,7 +1173,7 @@ Begin Form
                     Top =480
                     Width =1740
                     Height =390
-                    TabIndex =5
+                    TabIndex =1
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1235,7 +1235,7 @@ Begin Form
                     Top =1650
                     Width =1740
                     Height =390
-                    TabIndex =8
+                    TabIndex =7
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1363,7 +1363,7 @@ Begin Form
                     Top =2430
                     Width =1740
                     Height =390
-                    TabIndex =10
+                    TabIndex =11
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1427,7 +1427,7 @@ Begin Form
                     Top =2820
                     Width =1740
                     Height =390
-                    TabIndex =11
+                    TabIndex =13
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
