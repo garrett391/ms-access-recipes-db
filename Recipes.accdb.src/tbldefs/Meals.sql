@@ -5,6 +5,18 @@
   [FoodItemID] LONG CONSTRAINT [FoodItemsMeals] REFERENCES [FoodItems] ([FoodItemID]),
   [Servings] DOUBLE,
   [Calories] DOUBLE,
+  [TotalFat] DOUBLE,
+  [SaturatedFat] DOUBLE,
+  [TransFat] DOUBLE,
+  [Cholesterol] DOUBLE,
+  [Sodium] DOUBLE,
+  [TotalCarbs] DOUBLE,
+  [DietaryFiber] DOUBLE,
+  [TotalSugars] DOUBLE,
   [AddedSugar] DOUBLE,
-  [Protein] DOUBLE
+  [Protein] DOUBLE,
+  [VitaminD] DOUBLE,
+  [Calcium] DOUBLE,
+  [Iron] DOUBLE,
+  [Potassium] DOUBLE
 )

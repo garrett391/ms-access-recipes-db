@@ -87,7 +87,7 @@ Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterF
                       Optional HandleInternationalCharacters As Boolean = True)
 
    On Error GoTo errLabel
-   Dim RS As DAO.Recordset
+   Dim rs As DAO.Recordset
    If Not TheComboBox.RowSourceType = "Table/Query" Then
       MsgBox "This class will only work with a combobox that uses a Table or Query as the Rowsource"
       Exit Sub
@@ -127,8 +127,8 @@ Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterF
    End With
    'Should handle a late rowsource and there are conditions where the recordset does not exist or does not match the rowsource
    If Not mCombo.RowSource = "" Then
-     Set RS = CurrentDb.OpenRecordset(TheComboBox.RowSource)
-     Set mCombo.Recordset = RS
+     Set rs = CurrentDb.OpenRecordset(TheComboBox.RowSource)
+     Set mCombo.Recordset = rs
      mRowSource = mCombo.RowSource
    End If
    If Not mCombo.Recordset Is Nothing Then
@@ -184,7 +184,7 @@ Private Function getFilter(TheText As String) As String
    'To make this work well convert all fields to search to a string
    'Example:  strDateDue: cstr(dtmDueDate)
    Dim fld As DAO.Field
-   Dim RS As DAO.Recordset
+   Dim rs As DAO.Recordset
    Dim StrFilter As String
    Dim strLike As String
    TheText = Replace(TheText, "'", "''")
@@ -198,9 +198,9 @@ Private Function getFilter(TheText As String) As String
    Else
      strLike = " like '*"
    End If
-   Set RS = mCombo.Recordset
+   Set rs = mCombo.Recordset
    If Me.FilterFieldName = "" Or Me.FilterFieldName = "All_Fields" Then
-      For Each fld In RS.Fields
+      For Each fld In rs.Fields
         If fld.Type = dbMemo Or fld.Type = dbText Then
           If StrFilter = "" Then
              StrFilter = fld.Name & strLike & TheText & "*'"
@@ -274,11 +274,11 @@ Public Property Get RowSource() As String
 End Property
 
 Public Property Let RowSource(ByVal NewRowSource As String)
-  Dim RS As DAO.Recordset
+  Dim rs As DAO.Recordset
   mRowSource = NewRowSource
   mCombo.RowSource = NewRowSource
-  Set RS = CurrentDb.OpenRecordset(NewRowSource)
-  Set mCombo.Recordset = RS
+  Set rs = CurrentDb.OpenRecordset(NewRowSource)
+  Set mCombo.Recordset = rs
   Set mRsOriginalList = mCombo.Recordset.Clone
 
 End Property
