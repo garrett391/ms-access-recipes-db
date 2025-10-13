@@ -391,7 +391,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="lbl_CalorieProtienRatio"
-                    Caption ="Calorie/Protien"
+                    Caption ="Calorie/Protein"
                     GroupTable =1
                     LayoutCachedLeft =10395
                     LayoutCachedTop =660
@@ -502,8 +502,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_TotalSugar"
-                    ControlSource ="TotalSugar"
+                    Name ="txt_TotalAddedSugar"
+                    ControlSource ="TotalAddedSugar"
                     ConditionalFormat = Begin
                         0x0100000068000000010000000000000004000000000000000300000001000000 ,
                         0x00000000ef5b5700000000000000000000000000000000000000000000000000 ,
@@ -652,7 +652,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
                     Name ="txt_CalorieProtienRatio"
-                    ControlSource ="CalorieProtienRatio"
+                    ControlSource ="CalorieProteinRatio"
                     GroupTable =1
 
                     LayoutCachedLeft =10395
