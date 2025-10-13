@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [FoodItems] (
   [FoodItemID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
   [FoodName] VARCHAR (255),
+  [FoodTypeID] LONG CONSTRAINT [FoodTypesFoodItems] REFERENCES [FoodTypes] ([FoodTypeID]),
   [Manufacturer] VARCHAR (255),
   [ServingsPerContainer] DOUBLE,
   [ServingSize] VARCHAR (255),
