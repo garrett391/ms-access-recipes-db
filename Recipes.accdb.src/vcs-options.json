@@ -60,6 +60,9 @@
       "MeasurementLocations": {
         "Format": "Tab Delimited"
       },
+      "Nutrients": {
+        "Format": "Tab Delimited"
+      },
       "PreparationStyles": {
         "Format": "Tab Delimited"
       },

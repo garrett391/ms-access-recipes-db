@@ -1055,6 +1055,12 @@ Begin Form
                     BottomMargin =22
                     Name ="TotalCholesterol"
                     ControlSource ="TotalCholesterol"
+                    ConditionalFormat = Begin
+                        0x010000006a000000010000000000000004000000000000000400000001000000 ,
+                        0x00000000ef5b5700000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x33003000300000000000
+                    End
                     GroupTable =1
 
                     LayoutCachedLeft =10080
@@ -1066,6 +1072,10 @@ Begin Form
                     ColumnStart =6
                     ColumnEnd =6
                     LayoutGroup =1
+                    ConditionalFormat14 = Begin
+                        0x01000100000000000000040000000100000000000000ef5b5700030000003300 ,
+                        0x30003000000000000000000000000000000000000000000000
+                    End
                     GroupTable =1
                 End
                 Begin TextBox
