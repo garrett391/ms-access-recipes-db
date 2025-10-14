@@ -16,7 +16,7 @@
 15	Chick-n-Strips	2	Chick-fil-A					100										9						https://www.chick-fil-a.com/menu/chick-n-strips	
 16	20 FL OZ Coca-Cola	2	The Coca-Cola Company					240									65	0						https://www.coca-cola.com/us/en/brands/coca-cola/products/original#accordion-c55f229edc-item-93131ee8b3	
 17	Chick-fil-A Sauce	2	Chick-fil-A					140									6	0						https://www.chick-fil-a.com/menu/chick-fil-a-sauce	
-18	Fuego Potato Chips	2	Siete Foods		1oz (28g) = 14 chips			140									0	3						https://sietefoods.com/products/fuego-potato-chips	
+18	Fuego Potato Chips	2	Siete Foods		1oz (28g) = 14 chips			140	7	1	0	0	120	17	1	0	0	3	0.4	20	0.6	450		https://sietefoods.com/products/fuego-potato-chips	
 19	Sea Salt Vinegar Potato Chips	2	Siete Foods		1oz (28g) = 15 chips			140									0	2						https://sietefoods.com/products/sea-salt-vinegar-serrano-chips	
 20	Blueberry Protein Bar	2	RXBAR		1 Bar (52 G)			180									0	12						https://shop.rxbar.com/shop/blueberry-protein-bars-box-of-12.html	
 21	Moody's California Burrito	2	Moody's Food Truck		1 Burrito			657									5	33						https://www.moodysfoodtrucks.com/	
@@ -85,7 +85,7 @@
 85	Blackberries	1	Driscoll's			1	4	60									7	2						https://www.driscolls.com/berries/blackberries/nutrition	
 86	Penne Pasta	1	Banza			2	10	190									0	11						https://www.eatbanza.com/products/banza-chickpea-penne	
 87	Raos	1	Rao's Marinara Sauce			0.5	4	100									0	2						https://www.raos.com/products/marinara-sauce	
-88	Chicken Sausage, Paleo Organic Basil & Cracked Black Pepper	1	Sabatinos		1 link	85	12	160									0	16						https://www.sabatinosgourmet.com/products-1/paleo-organic-basil-cracked-black-pepper-chicken-sausage	
+88	Chicken Sausage, Paleo Organic Basil & Cracked Black Pepper	1	Sabatinos		1 link	85	12	160	9	3	0	75	590	1	0	0	0	16	0	26	0.72	0		https://www.sabatinosgourmet.com/products-1/paleo-organic-basil-cracked-black-pepper-chicken-sausage	
 89	Chicken Drumstick	1			1 drumstick with skin	91	12	167									0	22						https://www.nutritionix.com/food/chicken-drumstick	
 90	Baking Powder	1	Clabber Girl		1/8 tsp	0.6	12	0									0	0						https://clabbergirl.com/product/clabber-girl-baking-powder/	
 91	Chili Powder	1																							
