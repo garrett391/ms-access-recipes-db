@@ -77,7 +77,7 @@
 77	Feta Cheese	1				1	4																		
 78	Lemon Juice	1																							
 79	Extra Virgin Olive Oil	1				1	2	119									0	0						https://www.nutritionix.com/food/extra-virgin-olive-oil	
-80	Turkey Breast Slices	1	Sprouts					50									0	11						https://shop.sprouts.com/store/sprouts/products/72211-applegate-natural-oven-roasted-turkey-breast-7oz	
+80	Turkey Breast Slices	1	Sprouts		2 Slices (55g)	55	12	50	0	0	0	25	250	1	0	0	0	11	0	3	0	339		https://shop.sprouts.com/store/sprouts/products/72211-applegate-natural-oven-roasted-turkey-breast-7oz	
 81	Colby Jack Cheese, Sliced	1	Sprouts					90									0	6						https://shop.sprouts.com/store/sprouts/products/19103623-sprouts-sliced-colby-jack-cheese-8-oz	
 82	Burger Buns, 21 Whole Grains and Seeds	1	Daves Killer Bread					150									6	6						https://www.daveskillerbread.com/21wgs-burger-buns	
 83	Mayo with Avocado Oil	1	Primal Kitchen					100									0	0						https://www.primalkitchen.com/products/squeeze-mayo-with-avocado-oil	
@@ -113,3 +113,7 @@
 113	Chocolate Daily Whey Protein	1	Swiig		1 scoop (28g)	28	12	110	1.5	1		35	45	4	1	2	1	20	0	100	0.8	240		https://shop.swiig.com/products/chocolate-daily-whey-protein-matrix	
 114	Organic Chocolate Truffle	1	Swiig		1 oz (28g)	28	12	110	0	0	0	0	85	26	1	22	22	1	0	1	1	7		https://shop.swiig.com/products/chocolate-daily-whey-protein-matrix	
 115	Skim Milk	1			1 Cup (245g)	1	4	83	0.2	0.1	0	4.9	103	12	0	12	0	8.3	2.9	299	0.1	8.3		https://www.nutritionix.com/food/skim-milk	
+116	Burger Buns Done Right	1	Daves Killer Bread		1 Bun (62g)	62	12	160	1.5	0	0	0	280	30	3	8	8	8	0	50	0.9	100		https://www.daveskillerbread.com/burger-buns-done-right	
+117	Colby Jack Sliced Cheese	1	First Street		1 Slice (23g)	23	12	90	7	4.5	0	20	140	0	0	0	0	6	0.1	160	0.2	20		https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-sliced-cheese-colby-jack-id-00041512169755	
+118	Chick-fil-A Sauce	1	Chick-fil-A		2 tbsp (31g)	31	12	160	14	2.5	0	10	190	7	0	7	6	0	0	0	0	0		https://www.chick-fil-a.com/menu/chick-fil-a-sauce	
+119	Dark Chocolate Coconut Minis	2	Unreal Snacks		1 bar (15g)	15	12	70	5	4.5	0	0	0	8	1	3	3	1	0	0	0.6	50		https://unrealsnacks.com/products/dark-chocolate-coconut-bars-value-size-bags	
