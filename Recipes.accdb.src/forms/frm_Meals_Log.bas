@@ -7,14 +7,13 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =15998
+    Width =18998
     DatasheetFontHeight =11
-    ItemSuffix =106
+    ItemSuffix =138
     Left =4740
     Top =3555
     Right =31035
     Bottom =21000
-    Filter ="[MealDate] = #7/24/2025#"
     RecSrcDt = Begin
         0x66503257f763e640
     End
@@ -223,7 +222,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =10740
+                    Left =13740
                     Top =660
                     Width =1440
                     Height =390
@@ -234,19 +233,19 @@ Begin Form
                     Name ="Label4"
                     Caption ="Protein"
                     GroupTable =1
-                    LayoutCachedLeft =10740
+                    LayoutCachedLeft =13740
                     LayoutCachedTop =660
-                    LayoutCachedWidth =12180
+                    LayoutCachedWidth =15180
                     LayoutCachedHeight =1050
-                    ColumnStart =5
-                    ColumnEnd =5
+                    ColumnStart =7
+                    ColumnEnd =7
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =12240
+                    Left =15240
                     Top =660
                     Width =1440
                     Height =390
@@ -257,19 +256,19 @@ Begin Form
                     Name ="Label5"
                     Caption ="Sugar"
                     GroupTable =1
-                    LayoutCachedLeft =12240
+                    LayoutCachedLeft =15240
                     LayoutCachedTop =660
-                    LayoutCachedWidth =13680
+                    LayoutCachedWidth =16680
                     LayoutCachedHeight =1050
-                    ColumnStart =6
-                    ColumnEnd =6
+                    ColumnStart =8
+                    ColumnEnd =8
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =13740
+                    Left =10740
                     Top =660
                     Width =1440
                     Height =390
@@ -277,15 +276,15 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label6"
+                    Name ="lbl_Calories"
                     Caption ="Calories"
                     GroupTable =1
-                    LayoutCachedLeft =13740
+                    LayoutCachedLeft =10740
                     LayoutCachedTop =660
-                    LayoutCachedWidth =15180
+                    LayoutCachedWidth =12180
                     LayoutCachedHeight =1050
-                    ColumnStart =7
-                    ColumnEnd =7
+                    ColumnStart =5
+                    ColumnEnd =5
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -382,66 +381,13 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =10740
-                    Top =1110
-                    Height =345
-                    ForeColor =5855577
-                    Name ="Text23"
-                    ControlSource ="=Sum([Protein])"
-                    FontName ="Segoe UI Semibold"
-                    GroupTable =1
-
-                    LayoutCachedLeft =10740
-                    LayoutCachedTop =1110
-                    LayoutCachedWidth =12180
-                    LayoutCachedHeight =1455
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =5
-                    ColumnEnd =5
-                    LayoutGroup =1
-                    ThemeFontIndex =0
-                    ForeTint =65.0
-                    GroupTable =1
-                End
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =12240
-                    Top =1110
-                    Height =345
-                    TabIndex =1
-                    ForeColor =5855577
-                    Name ="Text25"
-                    ControlSource ="=Sum([AddedSugar])"
-                    FontName ="Segoe UI Semibold"
-                    GroupTable =1
-
-                    LayoutCachedLeft =12240
-                    LayoutCachedTop =1110
-                    LayoutCachedWidth =13680
-                    LayoutCachedHeight =1455
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =6
-                    ColumnEnd =6
-                    LayoutGroup =1
-                    ThemeFontIndex =0
-                    ForeTint =65.0
-                    GroupTable =1
-                End
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =2
-                    IMESentenceMode =3
                     Left =13740
                     Top =1110
                     Height =345
                     TabIndex =2
                     ForeColor =5855577
-                    Name ="Text37"
-                    ControlSource ="=Sum([Calories])"
+                    Name ="Text23"
+                    ControlSource ="=Sum([Protein])"
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
@@ -453,6 +399,59 @@ Begin Form
                     RowEnd =1
                     ColumnStart =7
                     ColumnEnd =7
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =15240
+                    Top =1110
+                    Height =345
+                    TabIndex =3
+                    ForeColor =5855577
+                    Name ="Text25"
+                    ControlSource ="=Sum([AddedSugar])"
+                    FontName ="Segoe UI Semibold"
+                    GroupTable =1
+
+                    LayoutCachedLeft =15240
+                    LayoutCachedTop =1110
+                    LayoutCachedWidth =16680
+                    LayoutCachedHeight =1455
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =65.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =10740
+                    Top =1110
+                    Height =345
+                    ForeColor =5855577
+                    Name ="txt_SumCalories"
+                    ControlSource ="=Sum([Calories])"
+                    FontName ="Segoe UI Semibold"
+                    GroupTable =1
+
+                    LayoutCachedLeft =10740
+                    LayoutCachedTop =1110
+                    LayoutCachedWidth =12180
+                    LayoutCachedHeight =1455
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
                     LayoutGroup =1
                     ThemeFontIndex =0
                     ForeTint =65.0
@@ -505,40 +504,86 @@ Begin Form
                     LayoutCachedLeft =360
                     LayoutCachedWidth =1008
                     LayoutCachedHeight =590
-                    TabIndex =3
+                    TabIndex =4
                 End
                 Begin EmptyCell
-                    Left =15240
+                    Left =16740
                     Top =660
                     Width =720
                     Height =390
                     Name ="EmptyCell103"
                     GroupTable =1
-                    LayoutCachedLeft =15240
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =660
-                    LayoutCachedWidth =15960
+                    LayoutCachedWidth =17460
                     LayoutCachedHeight =1050
-                    ColumnStart =8
-                    ColumnEnd =8
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =15240
+                    Left =16740
                     Top =1110
                     Width =720
                     Height =345
                     Name ="EmptyCell104"
                     GroupTable =1
-                    LayoutCachedLeft =15240
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =1110
-                    LayoutCachedWidth =15960
+                    LayoutCachedWidth =17460
                     LayoutCachedHeight =1455
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =8
-                    ColumnEnd =8
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =12240
+                    Top =660
+                    Width =1440
+                    Height =390
+                    Name ="lbl_TotalFat"
+                    Caption ="TotalFat"
+                    GroupTable =1
+                    LayoutCachedLeft =12240
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =13680
+                    LayoutCachedHeight =1050
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =12240
+                    Top =1110
+                    Height =345
+                    TabIndex =1
+                    ForeColor =5855577
+                    Name ="txt_SumTotalFat"
+                    ControlSource ="=Sum([TotalFat])"
+                    FontName ="Segoe UI Semibold"
+                    GroupTable =1
+
+                    LayoutCachedLeft =12240
+                    LayoutCachedTop =1110
+                    LayoutCachedWidth =13680
+                    LayoutCachedHeight =1455
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =65.0
                     GroupTable =1
                 End
             End
@@ -603,60 +648,6 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =10740
-                    Top =30
-                    Height =389
-                    TabIndex =5
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="txt_Protein"
-                    ControlSource ="Protein"
-                    GroupTable =1
-
-                    LayoutCachedLeft =10740
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =12180
-                    LayoutCachedHeight =419
-                    RowStart =2
-                    RowEnd =2
-                    ColumnStart =5
-                    ColumnEnd =5
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =2
-                    IMESentenceMode =3
-                    Left =12240
-                    Top =30
-                    Height =389
-                    TabIndex =6
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="txt_Sugar"
-                    ControlSource ="AddedSugar"
-                    GroupTable =1
-
-                    LayoutCachedLeft =12240
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =13680
-                    LayoutCachedHeight =419
-                    RowStart =2
-                    RowEnd =2
-                    ColumnStart =6
-                    ColumnEnd =6
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =2
-                    IMESentenceMode =3
                     Left =13740
                     Top =30
                     Height =389
@@ -665,8 +656,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_Calories"
-                    ControlSource ="Calories"
+                    Name ="txt_Protein"
+                    ControlSource ="Protein"
                     GroupTable =1
 
                     LayoutCachedLeft =13740
@@ -677,6 +668,60 @@ Begin Form
                     RowEnd =2
                     ColumnStart =7
                     ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =15240
+                    Top =30
+                    Height =389
+                    TabIndex =8
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Sugar"
+                    ControlSource ="AddedSugar"
+                    GroupTable =1
+
+                    LayoutCachedLeft =15240
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =16680
+                    LayoutCachedHeight =419
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =10740
+                    Top =30
+                    Height =389
+                    TabIndex =5
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Calories"
+                    ControlSource ="Calories"
+                    GroupTable =1
+
+                    LayoutCachedLeft =10740
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12180
+                    LayoutCachedHeight =419
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =5
+                    ColumnEnd =5
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -783,11 +828,11 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =15240
+                    Left =16740
                     Top =30
                     Width =720
                     Height =389
-                    TabIndex =8
+                    TabIndex =9
                     Name ="cmd_Delete"
                     Caption ="Command102"
                     OnClick ="[Event Procedure]"
@@ -830,14 +875,14 @@ Begin Form
                         0x0000000000000000
                     End
 
-                    LayoutCachedLeft =15240
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =30
-                    LayoutCachedWidth =15960
+                    LayoutCachedWidth =17460
                     LayoutCachedHeight =419
                     RowStart =2
                     RowEnd =2
-                    ColumnStart =8
-                    ColumnEnd =8
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
                     Gradient =0
                     BackThemeColorIndex =1
@@ -851,6 +896,34 @@ Begin Form
                     PressedColor =7961551
                     PressedThemeColorIndex =-1
                     PressedShade =100.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =12240
+                    Top =30
+                    Height =389
+                    TabIndex =6
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_TotalFat"
+                    ControlSource ="TotalFat"
+                    StatusBarText ="Grams."
+                    GroupTable =1
+
+                    LayoutCachedLeft =12240
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =13680
+                    LayoutCachedHeight =419
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
                     GroupTable =1
                 End
             End

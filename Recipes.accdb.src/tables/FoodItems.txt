@@ -117,3 +117,9 @@
 117	Colby Jack Sliced Cheese	1	First Street		1 Slice (23g)	23	12	90	7	4.5	0	20	140	0	0	0	0	6	0.1	160	0.2	20		https://www.smartandfinal.com/sm/pickup/rsid/522/product/first-street-sliced-cheese-colby-jack-id-00041512169755	
 118	Chick-fil-A Sauce	1	Chick-fil-A		2 tbsp (31g)	31	12	160	14	2.5	0	10	190	7	0	7	6	0	0	0	0	0		https://www.chick-fil-a.com/menu/chick-fil-a-sauce	
 119	Dark Chocolate Coconut Minis	2	Unreal Snacks		1 bar (15g)	15	12	70	5	4.5	0	0	0	8	1	3	3	1	0	0	0.6	50		https://unrealsnacks.com/products/dark-chocolate-coconut-bars-value-size-bags	
+120	Sweet Onion	1			1 onion (33g)	33	12	106	0.3	0	0	0	26	25	3	17	0	2.6	0	66	0.9	393.9		https://www.nutritionix.com/food/sweet-onions/1-onion	
+121	Red Bell Pepper	1			1 medium (119g)	119	12	37	0.4	0	0	0	4.8	732	2.5	5	0	1.2	0	8.3	0.5	251.1		https://www.nutritionix.com/food/raw-red-bell-pepper	
+122	Canned Pineapple Tidbits In Pineapple Juice	1	Kroger		3/4 cup (140g)	140	12	80	0	0	0	0	0	20	1	17	0	0	0	20	0.2	150		https://www.kroger.com/p/kroger-canned-pineapple-tidbits-no-sugar-added-in-pineapple-juice/0001111012154?msockid=01e08ee0f03560f11c2e9c08f1ce6156	
+123	Chicken, Pineapple, Bellpepper, Onion, Broth crock pot	2	C&G	6				163	1.908	0.5	0	42.5	328.883	139.833	1.583	15.333	0	16.383	0.042	33.217	0.867	348.833			
+124	Chicken Broth	2	Swanson		1 Cup (240ml)	240	8	10	0	0	0	0	860	1	0	1	0	1	0	0	0	40		https://www.campbells.com/swanson/products/broth/chicken-broth/	
+125	Chicken Breast Boneless Skinless	1				120	12	198	4.3	1.2	0	102	89	0	0	0	0	37	0.1	18	1.2	307.2		https://www.nutritionix.com/food/chicken-breast-boneless-skinless	
