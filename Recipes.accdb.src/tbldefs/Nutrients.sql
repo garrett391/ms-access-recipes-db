@@ -1,5 +1,0 @@
-﻿CREATE TABLE [Nutrients] (
-  [NutrientID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
-  [Nutrient] VARCHAR (255),
-  [DailyValue] VARCHAR (255)
-)

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "Users",
+    "Connect": "ODBC;DRIVER=ODBC Driver 17 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=SSMA;DATABASE=health-db;",
+    "SourceTableName": "dbo.Users",
+    "Attributes": 536870912,
+    "PrimaryKey": "[UserID]"
+  }
+}

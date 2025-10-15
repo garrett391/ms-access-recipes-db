@@ -19,7 +19,7 @@ Private Sub populateNutritionalValues()
     ServingAmount = Nz(Me!txt_Servings, 1)
 
     If rs Is Nothing Then
-        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot)
+        Set rs = CurrentDb.OpenRecordset("SELECT * FROM FoodItems", dbOpenSnapshot, dbSeeChanges)
     End If
     rs.FindFirst "FoodItemID = " & selectedFoodItemID
 

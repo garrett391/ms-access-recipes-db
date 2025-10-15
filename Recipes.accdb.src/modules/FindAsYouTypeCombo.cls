@@ -127,7 +127,7 @@ Public Sub InitalizeFilterCombo(TheComboBox As Access.ComboBox, Optional FilterF
    End With
    'Should handle a late rowsource and there are conditions where the recordset does not exist or does not match the rowsource
    If Not mCombo.RowSource = "" Then
-     Set rs = CurrentDb.OpenRecordset(TheComboBox.RowSource)
+     Set rs = CurrentDb.OpenRecordset(TheComboBox.RowSource, dbOpenSnapshot, dbSeeChanges)
      Set mCombo.Recordset = rs
      mRowSource = mCombo.RowSource
    End If
@@ -277,7 +277,7 @@ Public Property Let RowSource(ByVal NewRowSource As String)
   Dim rs As DAO.Recordset
   mRowSource = NewRowSource
   mCombo.RowSource = NewRowSource
-  Set rs = CurrentDb.OpenRecordset(NewRowSource)
+  Set rs = CurrentDb.OpenRecordset(NewRowSource, dbOpenSnapshot, dbSeeChanges)
   Set mCombo.Recordset = rs
   Set mRsOriginalList = mCombo.Recordset.Clone
 
