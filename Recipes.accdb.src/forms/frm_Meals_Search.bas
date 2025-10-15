@@ -999,8 +999,14 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="TotalSaturatedFat"
+                    Name ="txt_TotalSaturatedFat"
                     ControlSource ="TotalSaturatedFat"
+                    ConditionalFormat = Begin
+                        0x0100000068000000010000000000000004000000000000000300000001000000 ,
+                        0x00000000ef5b5700000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x3200300000000000
+                    End
                     GroupTable =1
 
                     LayoutCachedLeft =7080
@@ -1012,6 +1018,10 @@ Begin Form
                     ColumnStart =4
                     ColumnEnd =4
                     LayoutGroup =1
+                    ConditionalFormat14 = Begin
+                        0x01000100000000000000040000000100000000000000ef5b5700020000003200 ,
+                        0x3000000000000000000000000000000000000000000000
+                    End
                     GroupTable =1
                 End
                 Begin TextBox
@@ -1090,8 +1100,14 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="TotalSodium"
+                    Name ="txt_TotalSodium"
                     ControlSource ="TotalSodium"
+                    ConditionalFormat = Begin
+                        0x010000006c000000010000000000000004000000000000000500000001000000 ,
+                        0x00000000ef5b5700000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x320033003000300000000000
+                    End
                     GroupTable =1
 
                     LayoutCachedLeft =11580
@@ -1103,6 +1119,10 @@ Begin Form
                     ColumnStart =7
                     ColumnEnd =7
                     LayoutGroup =1
+                    ConditionalFormat14 = Begin
+                        0x01000100000000000000040000000100000000000000ef5b5700040000003200 ,
+                        0x330030003000000000000000000000000000000000000000000000
+                    End
                     GroupTable =1
                 End
                 Begin TextBox
