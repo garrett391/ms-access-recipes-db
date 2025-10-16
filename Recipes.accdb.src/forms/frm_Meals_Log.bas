@@ -7,9 +7,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =18998
+    Width =20498
     DatasheetFontHeight =11
-    ItemSuffix =138
+    ItemSuffix =159
     Left =4740
     Top =3555
     Right =31035
@@ -222,7 +222,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =13740
+                    Left =16740
                     Top =660
                     Width =1440
                     Height =390
@@ -233,12 +233,12 @@ Begin Form
                     Name ="Label4"
                     Caption ="Protein"
                     GroupTable =1
-                    LayoutCachedLeft =13740
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =660
-                    LayoutCachedWidth =15180
+                    LayoutCachedWidth =18180
                     LayoutCachedHeight =1050
-                    ColumnStart =7
-                    ColumnEnd =7
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -253,8 +253,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Label5"
-                    Caption ="Sugar"
+                    Name ="lbl_AddedSugar"
+                    Caption ="Added Sugar"
                     GroupTable =1
                     LayoutCachedLeft =15240
                     LayoutCachedTop =660
@@ -381,24 +381,24 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =13740
+                    Left =16740
                     Top =1110
                     Height =345
-                    TabIndex =2
+                    TabIndex =4
                     ForeColor =5855577
                     Name ="Text23"
                     ControlSource ="=Sum([Protein])"
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
-                    LayoutCachedLeft =13740
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =1110
-                    LayoutCachedWidth =15180
+                    LayoutCachedWidth =18180
                     LayoutCachedHeight =1455
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =7
-                    ColumnEnd =7
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
                     ThemeFontIndex =0
                     ForeTint =65.0
@@ -413,7 +413,7 @@ Begin Form
                     Height =345
                     TabIndex =3
                     ForeColor =5855577
-                    Name ="Text25"
+                    Name ="txt_SumAddedSugar"
                     ControlSource ="=Sum([AddedSugar])"
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
@@ -504,39 +504,39 @@ Begin Form
                     LayoutCachedLeft =360
                     LayoutCachedWidth =1008
                     LayoutCachedHeight =590
-                    TabIndex =4
+                    TabIndex =5
                 End
                 Begin EmptyCell
-                    Left =16740
+                    Left =18240
                     Top =660
                     Width =720
                     Height =390
                     Name ="EmptyCell103"
                     GroupTable =1
-                    LayoutCachedLeft =16740
+                    LayoutCachedLeft =18240
                     LayoutCachedTop =660
-                    LayoutCachedWidth =17460
+                    LayoutCachedWidth =18960
                     LayoutCachedHeight =1050
-                    ColumnStart =9
-                    ColumnEnd =9
+                    ColumnStart =10
+                    ColumnEnd =10
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =16740
+                    Left =18240
                     Top =1110
                     Width =720
                     Height =345
                     Name ="EmptyCell104"
                     GroupTable =1
-                    LayoutCachedLeft =16740
+                    LayoutCachedLeft =18240
                     LayoutCachedTop =1110
-                    LayoutCachedWidth =17460
+                    LayoutCachedWidth =18960
                     LayoutCachedHeight =1455
                     RowStart =1
                     RowEnd =1
-                    ColumnStart =9
-                    ColumnEnd =9
+                    ColumnStart =10
+                    ColumnEnd =10
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -581,6 +581,52 @@ Begin Form
                     RowEnd =1
                     ColumnStart =6
                     ColumnEnd =6
+                    LayoutGroup =1
+                    ThemeFontIndex =0
+                    ForeTint =65.0
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =13740
+                    Top =660
+                    Width =1440
+                    Height =390
+                    Name ="lbl_Sodium"
+                    Caption ="Sodium"
+                    GroupTable =1
+                    LayoutCachedLeft =13740
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =15180
+                    LayoutCachedHeight =1050
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =13740
+                    Top =1110
+                    Height =345
+                    TabIndex =2
+                    ForeColor =5855577
+                    Name ="txt_SumSodium"
+                    ControlSource ="=Sum([Sodium])"
+                    FontName ="Segoe UI Semibold"
+                    GroupTable =1
+
+                    LayoutCachedLeft =13740
+                    LayoutCachedTop =1110
+                    LayoutCachedWidth =15180
+                    LayoutCachedHeight =1455
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =7
+                    ColumnEnd =7
                     LayoutGroup =1
                     ThemeFontIndex =0
                     ForeTint =65.0
@@ -648,10 +694,10 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =13740
+                    Left =16740
                     Top =30
                     Height =389
-                    TabIndex =7
+                    TabIndex =9
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -660,14 +706,14 @@ Begin Form
                     ControlSource ="Protein"
                     GroupTable =1
 
-                    LayoutCachedLeft =13740
+                    LayoutCachedLeft =16740
                     LayoutCachedTop =30
-                    LayoutCachedWidth =15180
+                    LayoutCachedWidth =18180
                     LayoutCachedHeight =419
                     RowStart =2
                     RowEnd =2
-                    ColumnStart =7
-                    ColumnEnd =7
+                    ColumnStart =9
+                    ColumnEnd =9
                     LayoutGroup =1
                     GroupTable =1
                 End
@@ -828,11 +874,11 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =16740
+                    Left =18240
                     Top =30
                     Width =720
                     Height =389
-                    TabIndex =9
+                    TabIndex =10
                     Name ="cmd_Delete"
                     Caption ="Command102"
                     OnClick ="[Event Procedure]"
@@ -875,14 +921,14 @@ Begin Form
                         0x0000000000000000
                     End
 
-                    LayoutCachedLeft =16740
+                    LayoutCachedLeft =18240
                     LayoutCachedTop =30
-                    LayoutCachedWidth =17460
+                    LayoutCachedWidth =18960
                     LayoutCachedHeight =419
                     RowStart =2
                     RowEnd =2
-                    ColumnStart =9
-                    ColumnEnd =9
+                    ColumnStart =10
+                    ColumnEnd =10
                     LayoutGroup =1
                     Gradient =0
                     BackThemeColorIndex =1
@@ -923,6 +969,34 @@ Begin Form
                     RowEnd =2
                     ColumnStart =6
                     ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =13740
+                    Top =30
+                    Height =389
+                    TabIndex =7
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="txt_Sodium"
+                    ControlSource ="Sodium"
+                    StatusBarText ="Milligrams. Bad - should get less of."
+                    GroupTable =1
+
+                    LayoutCachedLeft =13740
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =15180
+                    LayoutCachedHeight =419
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =7
+                    ColumnEnd =7
                     LayoutGroup =1
                     GroupTable =1
                 End

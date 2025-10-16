@@ -22,7 +22,7 @@ End Sub
 
 Private Sub Form_Open(Cancel As Integer)
     If Nz(Me.OpenArgs) <> "" Then
-        Me.Filter = "[MealDate] = #" & Me.OpenArgs & "#"
+        Me.Filter = "DateValue([MealDate]) = #" & Me.OpenArgs & "#"
         Me.FilterOn = True
         Me!txt_MealDate.DefaultValue = "#" & Me.OpenArgs & "#"
 '        Me!txt_MealDate.Enabled = False

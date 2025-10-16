@@ -23,10 +23,6 @@ dbByte "RecordsetType" ="0"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="Meals.MealDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="Users.FirstName"
         dbLong "AggregateType" ="-1"
     End
@@ -92,6 +88,10 @@ Begin
     End
     Begin
         dbText "Name" ="CalorieProteinRatio"
+        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="Meals.MealDate"
         dbLong "AggregateType" ="-1"
     End
 End

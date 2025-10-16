@@ -321,6 +321,7 @@ Begin Form
                     BottomMargin =22
                     Name ="txt_MealDate"
                     ControlSource ="MealDate"
+                    DefaultValue ="Date()"
                     BottomPadding =150
 
                     LayoutCachedLeft =6600
@@ -433,6 +434,7 @@ Begin Form
                     Name ="txt_Servings"
                     ControlSource ="Servings"
                     AfterUpdate ="[Event Procedure]"
+                    DefaultValue ="1"
                     BottomPadding =150
 
                     LayoutCachedLeft =10320
