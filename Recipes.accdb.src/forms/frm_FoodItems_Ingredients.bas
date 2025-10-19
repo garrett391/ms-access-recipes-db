@@ -11,7 +11,7 @@ Begin Form
     GridY =24
     Width =22440
     DatasheetFontHeight =11
-    ItemSuffix =199
+    ItemSuffix =201
     Right =26295
     Bottom =17445
     RecSrcDt = Begin
@@ -83,6 +83,15 @@ Begin Form
             HoverForeTint =75.0
             PressedForeThemeColorIndex =0
             PressedForeTint =75.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin TextBox
             AddColon = NotDefault
@@ -228,7 +237,7 @@ Begin Form
                     Top =540
                     Width =6240
                     Height =1500
-                    TabIndex =16
+                    TabIndex =18
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -277,7 +286,7 @@ Begin Form
                     Top =3780
                     Width =22080
                     Height =2760
-                    TabIndex =22
+                    TabIndex =23
                     Name ="frm_FoodItems_IngredientsList"
                     SourceObject ="Form.frm_FoodItems_IngredientsList"
                     LinkChildFields ="FoodItemID"
@@ -391,7 +400,6 @@ Begin Form
                     Top =570
                     Width =2383
                     Height =390
-                    TabIndex =17
                     Name ="txt_ServingSize"
                     ControlSource ="ServingSize"
 
@@ -424,7 +432,7 @@ Begin Form
                     Top =1530
                     Width =2383
                     Height =390
-                    TabIndex =18
+                    TabIndex =1
                     Name ="txt_ServingsPerContainer"
                     ControlSource ="ServingsPerContainer"
 
@@ -490,7 +498,7 @@ Begin Form
                     Width =4980
                     Height =1500
                     ColumnWidth =3570
-                    TabIndex =15
+                    TabIndex =17
                     Name ="FoodDescription"
                     ControlSource ="FoodDescription"
 
@@ -557,7 +565,7 @@ Begin Form
                     Top =1260
                     Width =1740
                     Height =390
-                    TabIndex =5
+                    TabIndex =7
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -620,7 +628,7 @@ Begin Form
                     Top =870
                     Width =1740
                     Height =390
-                    TabIndex =3
+                    TabIndex =5
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -683,6 +691,7 @@ Begin Form
                     Top =480
                     Width =1740
                     Height =390
+                    TabIndex =2
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -739,7 +748,7 @@ Begin Form
                     Top =870
                     Width =1740
                     Height =390
-                    TabIndex =2
+                    TabIndex =4
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -801,7 +810,7 @@ Begin Form
                     Top =1260
                     Width =1740
                     Height =390
-                    TabIndex =4
+                    TabIndex =6
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -863,7 +872,7 @@ Begin Form
                     Top =1650
                     Width =1740
                     Height =390
-                    TabIndex =6
+                    TabIndex =8
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -925,7 +934,7 @@ Begin Form
                     Top =2040
                     Width =1740
                     Height =390
-                    TabIndex =8
+                    TabIndex =10
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -987,7 +996,7 @@ Begin Form
                     Top =2430
                     Width =1740
                     Height =390
-                    TabIndex =10
+                    TabIndex =12
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1049,7 +1058,7 @@ Begin Form
                     Top =2820
                     Width =1740
                     Height =390
-                    TabIndex =12
+                    TabIndex =14
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1111,7 +1120,7 @@ Begin Form
                     Top =3210
                     Width =1740
                     Height =390
-                    TabIndex =14
+                    TabIndex =16
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1173,7 +1182,7 @@ Begin Form
                     Top =480
                     Width =1740
                     Height =390
-                    TabIndex =1
+                    TabIndex =3
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1235,7 +1244,7 @@ Begin Form
                     Top =1650
                     Width =1740
                     Height =390
-                    TabIndex =7
+                    TabIndex =9
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1299,7 +1308,7 @@ Begin Form
                     Top =2040
                     Width =1740
                     Height =390
-                    TabIndex =9
+                    TabIndex =11
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1363,7 +1372,7 @@ Begin Form
                     Top =2430
                     Width =1740
                     Height =390
-                    TabIndex =11
+                    TabIndex =13
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1427,7 +1436,7 @@ Begin Form
                     Top =2820
                     Width =1740
                     Height =390
-                    TabIndex =13
+                    TabIndex =15
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1540,6 +1549,34 @@ Begin Form
                     LayoutCachedWidth =4740
                     LayoutCachedHeight =405
                     ThemeFontIndex =0
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =11760
+                    Top =3240
+                    TabIndex =22
+                    Name ="chk_IsCommon"
+                    ControlSource ="IsCommon"
+
+                    LayoutCachedLeft =11760
+                    LayoutCachedTop =3240
+                    LayoutCachedWidth =12020
+                    LayoutCachedHeight =3480
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =10500
+                            Top =3180
+                            Width =1140
+                            Height =345
+                            Name ="lbl_IsCommon"
+                            Caption ="Is Common"
+                            LayoutCachedLeft =10500
+                            LayoutCachedTop =3180
+                            LayoutCachedWidth =11640
+                            LayoutCachedHeight =3525
+                        End
+                    End
                 End
             End
         End
