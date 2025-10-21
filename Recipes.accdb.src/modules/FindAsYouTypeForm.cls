@@ -36,7 +36,7 @@ End Enum
 
 
 Private Sub mTextBox_Change()
-  Call FilterForm
+    Call FilterForm
 End Sub
 
 

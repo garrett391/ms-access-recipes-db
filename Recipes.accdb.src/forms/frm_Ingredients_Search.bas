@@ -2,6 +2,7 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
+    FilterOn = NotDefault
     AllowDesignChanges = NotDefault
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
@@ -9,7 +10,7 @@ Begin Form
     GridY =24
     Width =24398
     DatasheetFontHeight =11
-    ItemSuffix =214
+    ItemSuffix =215
     Right =26295
     Bottom =17445
     Filter ="FoodTypeID = 1"
@@ -232,7 +233,7 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =958
                     LayoutCachedHeight =659
-                    TabIndex =1
+                    TabIndex =2
                 End
                 Begin Label
                     OverlapFlags =85
@@ -421,6 +422,23 @@ Begin Form
                     ColumnEnd =10
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =14940
+                    Top =180
+                    Height =345
+                    TabIndex =1
+                    Name ="FoodTypeID"
+                    ControlSource ="FoodTypeID"
+                    DefaultValue ="1"
+
+                    LayoutCachedLeft =14940
+                    LayoutCachedTop =180
+                    LayoutCachedWidth =16380
+                    LayoutCachedHeight =525
                 End
             End
         End

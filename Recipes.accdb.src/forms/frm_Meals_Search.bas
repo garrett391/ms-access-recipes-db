@@ -2,6 +2,7 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
+    OrderByOn = NotDefault
     AllowDesignChanges = NotDefault
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
@@ -10,12 +11,13 @@ Begin Form
     Width =30653
     DatasheetFontHeight =11
     ItemSuffix =134
-    Right =30405
+    Right =-31876
     Bottom =17445
+    OrderBy ="MealDate Desc"
     RecSrcDt = Begin
-        0x2584f9065b64e640
+        0x45fc6107db6fe640
     End
-    RecordSource ="qry_Meals_Search"
+    RecordSource ="vw_DailyNutritionSummary"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -237,7 +239,7 @@ Begin Form
                     GroupTable =1
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =1
                     Left =1200
                     Top =60
@@ -275,7 +277,7 @@ Begin Form
                     GroupTable =1
                 End
                 Begin CommandButton
-                    OverlapFlags =85
+                    OverlapFlags =215
                     Left =8880
                     Top =120
                     Width =2280
