@@ -4,11 +4,8 @@
     "Description": "Database connections used within the project used to prime Access' internal cache during import."
   },
   "Items": {
-    "ODBC;Driver=ODBC Driver 17 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;DATABASE=health-db": {
-      "ODBC;DRIVER=ODBC Driver 17 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=SSMA;DATABASE=health-db;": "FoodItems"
-    },
     "ODBC;Driver=ODBC Driver 18 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;DATABASE=health-db": {
-      "ODBC;DRIVER=ODBC Driver 18 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=Microsoft Office;DATABASE=health-db;": "vw_DailyNutritionSummary"
+      "ODBC;DRIVER=ODBC Driver 18 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=Microsoft Office;DATABASE=health-db;": "ExerciseMuscleGroups"
     }
   }
 }
