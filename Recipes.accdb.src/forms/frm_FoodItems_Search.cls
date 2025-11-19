@@ -5,11 +5,17 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Dim faytFoodItems As New FindAsYouTypeForm
+Dim defaultRecordSource As String
 
 
-Private Sub Form_Open(Cancel As Integer)
-    faytFoodItems.Initialize Me, Me!txt_Search, ffrm_Anywhereinstring, False, "FoodName", "Manufacturer"
+Private Sub Form_Load()
+    defaultRecordSource = "SELECT * FROM FoodItems WHERE FoodTypeID = 2"
+    Me.RecordSource = defaultRecordSource
+End Sub
+
+
+Private Sub cmd_Search_Click()
+    Me.RecordSource = defaultRecordSource & " AND (FoodName LIKE '*" & Me!txt_Search & "*' OR Manufacturer LIKE '*" & Me!txt_Search & "*')"
 End Sub
 
 
@@ -17,6 +23,7 @@ Private Sub cmd_NewFoodItem_Click()
     DoCmd.OpenForm "frm_FoodItems_New", , , , acFormAdd, acDialog
     Me.Recordset.Requery
 End Sub
+
 
 Private Sub cmd_OpenIngredients_Click()
     Dim FoodItemID As Long

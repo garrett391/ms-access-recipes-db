@@ -10,16 +10,16 @@ Begin Form
     GridY =24
     Width =28523
     DatasheetFontHeight =11
-    ItemSuffix =50
-    Right =26295
+    ItemSuffix =51
+    Right =23505
     Bottom =17445
     Filter ="FoodTypeID = 2"
     RecSrcDt = Begin
         0xb32440455a64e640
     End
     RecordSource ="FoodItems"
-    OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
+    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =255
     ShowPageMargins =0
@@ -300,7 +300,7 @@ Begin Form
                     LayoutCachedLeft =360
                     LayoutCachedWidth =1019
                     LayoutCachedHeight =598
-                    TabIndex =2
+                    TabIndex =3
                 End
                 Begin Label
                     OverlapFlags =85
@@ -432,7 +432,7 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     Left =9000
-                    Top =60
+                    Top =108
                     Width =7500
                     Height =432
                     FontSize =12
@@ -440,9 +440,9 @@ Begin Form
                     Name ="txt_Search"
 
                     LayoutCachedLeft =9000
-                    LayoutCachedTop =60
+                    LayoutCachedTop =108
                     LayoutCachedWidth =16500
-                    LayoutCachedHeight =492
+                    LayoutCachedHeight =540
                 End
                 Begin Label
                     OverlapFlags =85
@@ -466,6 +466,78 @@ Begin Form
                     ColumnEnd =4
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =16560
+                    Top =108
+                    Width =540
+                    Height =432
+                    FontSize =12
+                    TabIndex =2
+                    Name ="cmd_Search"
+                    OnClick ="[Event Procedure]"
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000072727278727272ff ,
+                        0x7272725a00000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000727272037272729f727272ff727272ff ,
+                        0x727272ea00000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000007272720c727272b7727272ff727272ff727272f3 ,
+                        0x7272723f00000000000000000000000000000000727272037878787a7b7b7bde ,
+                        0x727272ff797979e478787883727272d2727272ff727272ff727272e772727230 ,
+                        0x0000000000000000000000000000000072727209797979d0727272ffa2a2a2ff ,
+                        0xbdbdbdffa2a2a2ff727272ff727272ff727272ff727272db7272721e00000000 ,
+                        0x000000000000000000000000000000007878788a747474ffd9d9d9ffffffffff ,
+                        0xffffffffffffffffd6d6d6ff747474ff737373d9727272150000000000000000 ,
+                        0x00000000000000000000000000000000797979e9a5a5a5ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffa5a5a5ff797979e9000000000000000000000000 ,
+                        0x00000000000000000000000000000000747474fcbebebeffffffffffffffffff ,
+                        0xffffffffffffffffffffffffbebebeff747474fc000000000000000000000000 ,
+                        0x00000000000000000000000000000000797979e9a2a2a2ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffa4a4a4ff797979e9000000000000000000000000 ,
+                        0x0000000000000000000000000000000078787880747474ffd6d6d6ffffffffff ,
+                        0xffffffffffffffffd6d6d6ff747474ff7575757e000000000000000000000000 ,
+                        0x00000000000000000000000000000000727272037a7a7acb727272ffa2a2a2ff ,
+                        0xb9b9b9ffa2a2a2ff727272ff7a7a7acb72727203000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000072727203787878777b7b7bdb ,
+                        0x737373fd7b7b7bdb787878777272720300000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =16560
+                    LayoutCachedTop =108
+                    LayoutCachedWidth =17100
+                    LayoutCachedHeight =540
+                    Gradient =0
+                    BackThemeColorIndex =1
+                    BackTint =100.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =65.0
+                    HoverColor =14211288
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =12566463
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeThemeColorIndex =-1
+                    HoverForeTint =100.0
+                    PressedForeColor =0
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    QuickStyle =32
+                    QuickStyleMask =-631
                 End
             End
         End
@@ -540,7 +612,7 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Manufacturer"
+                    Name ="txt_Manufacturer"
                     ControlSource ="Manufacturer"
                     GroupTable =1
 
