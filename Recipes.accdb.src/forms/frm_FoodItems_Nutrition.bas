@@ -11,14 +11,15 @@ Begin Form
     GridY =24
     Width =22440
     DatasheetFontHeight =11
-    ItemSuffix =201
-    Right =26295
+    ItemSuffix =202
+    Right =23505
     Bottom =17445
     RecSrcDt = Begin
         0x29fbfc8c9566e640
     End
     RecordSource ="FoodItems"
     DatasheetFontName ="Segoe UI"
+    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -107,6 +108,23 @@ Begin Form
             ThemeFontIndex =1
             ForeThemeColorIndex =0
             ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Segoe UI"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
@@ -286,7 +304,7 @@ Begin Form
                     Top =3780
                     Width =22080
                     Height =2760
-                    TabIndex =23
+                    TabIndex =24
                     Name ="frm_FoodItems_IngredientsList"
                     SourceObject ="Form.frm_FoodItems_IngredientsList"
                     LinkChildFields ="FoodItemID"
@@ -1578,6 +1596,44 @@ Begin Form
                         End
                     End
                 End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =13470
+                    Top =3180
+                    Width =2010
+                    Height =345
+                    TabIndex =23
+                    Name ="cbo_FoodTypeID"
+                    ControlSource ="FoodTypeID"
+                    RowSourceType ="Table/Query"
+                    RowSource ="FoodTypes"
+                    ColumnWidths ="0"
+
+                    LayoutCachedLeft =13470
+                    LayoutCachedTop =3180
+                    LayoutCachedWidth =15480
+                    LayoutCachedHeight =3525
+                    ForeThemeColorIndex =0
+                    ForeTint =75.0
+                    ForeShade =100.0
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =12180
+                            Top =3180
+                            Width =1200
+                            Height =345
+                            Name ="lbl_FoodTypeID"
+                            Caption ="Food Type"
+                            LayoutCachedLeft =12180
+                            LayoutCachedTop =3180
+                            LayoutCachedWidth =13380
+                            LayoutCachedHeight =3525
+                        End
+                    End
+                End
             End
         End
         Begin FormFooter
@@ -1591,4 +1647,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "frm_FoodItems_Ingredients.cls"
+' See "frm_FoodItems_Nutrition.cls"

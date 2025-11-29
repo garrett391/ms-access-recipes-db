@@ -9,7 +9,7 @@ Dim defaultRecordSource As String
 
 
 Private Sub Form_Load()
-    defaultRecordSource = "SELECT * FROM FoodItems WHERE FoodTypeID = 2"
+    defaultRecordSource = "SELECT * FROM FoodItems WHERE FoodTypeID = 2 OR FoodTypeID = 3 "
     Me.RecordSource = defaultRecordSource
 End Sub
 
@@ -34,6 +34,6 @@ Private Sub cmd_OpenIngredients_Click()
 
     FoodItemID = Nz(Me!txt_FoodItemID, 0)
     If FoodItemID <> 0 Then
-        DoCmd.OpenForm "frm_FoodItems_Ingredients", , , "FoodItemID = " & FoodItemID
+        DoCmd.OpenForm "frm_FoodItems_Nutrition", , , "FoodItemID = " & FoodItemID
     End If
 End Sub

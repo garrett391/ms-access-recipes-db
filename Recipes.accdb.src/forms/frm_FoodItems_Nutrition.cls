@@ -5,6 +5,13 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
+
+Private Sub toggleIngredientVisibility(isVisible As Boolean)
+    Me!lbl_Ingredients.Visible = isVisible
+    Me!frm_FoodItems_IngredientsList.Visible = isVisible
+End Sub
+
+
 Private Sub cmd_RecalcMacros_Click()
 
     If Nz(Me!txt_ServingsPerContainer) = "" Or Me!txt_ServingsPerContainer <= 0 Then
@@ -38,4 +45,11 @@ Private Sub cmd_RecalcMacros_Click()
     Me!txt_Iron.Value = Round(DSum("CalculatedIron", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
     Me!txt_Potassium.Value = Round(DSum("CalculatedPotassium", "qry_FoodItems_IngredientsList", "FoodItemID = " & currFoodItemID) / macroDivider, digitsAfterDecimal)
 
+End Sub
+
+Private Sub Form_Load()
+    Dim showIngredients As Boolean
+
+    showIngredients = (Me!cbo_FoodTypeID = HOMEMADEFOODID)
+    toggleIngredientVisibility (showIngredients)
 End Sub

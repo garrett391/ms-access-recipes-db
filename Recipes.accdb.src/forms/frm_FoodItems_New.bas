@@ -15,7 +15,7 @@ Begin Form
     ItemSuffix =51
     Left =4740
     Top =3555
-    Right =31035
+    Right =28245
     Bottom =21000
     RecSrcDt = Begin
         0xb7674830ed65e640
@@ -747,6 +747,7 @@ Begin Form
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT DISTINCT FoodItems.Manufacturer FROM FoodItems WHERE FoodItems.Manufactur"
                         "er Is Not Null; "
+                    AfterUpdate ="[Event Procedure]"
                     OnGotFocus ="=DropDownActiveComboBox()"
                     GroupTable =1
                     BottomPadding =150
@@ -915,3 +916,5 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+' See "frm_FoodItems_New.cls"

@@ -13,7 +13,7 @@ Begin Form
     ItemSuffix =51
     Right =23505
     Bottom =17445
-    Filter ="FoodTypeID = 2"
+    Filter ="FoodTypeID = 2 OR FoodTypeID = 3"
     RecSrcDt = Begin
         0xb32440455a64e640
     End
