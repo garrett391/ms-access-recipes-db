@@ -4,5 +4,9 @@
 Option Compare Database
 Option Explicit
 
+Public Enum FoodType
 ' From the FoodTypes table.
-Public Const HOMEMADEFOODID = 3
+    RawIngredient = 1
+    PremadeFood = 2
+    HomemadeFood
+End Enum

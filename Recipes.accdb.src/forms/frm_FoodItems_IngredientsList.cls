@@ -28,6 +28,7 @@ Private Sub Form_Open(Cancel As Integer)
 '    End If
 
     faytSubFoodItem.InitalizeFilterCombo Me!cbo_SubFoodItemID, , Anywhereinstring, True, False
+    Debug.Print "Opening " & Me.Name
 End Sub
 
 
