@@ -13,7 +13,7 @@ Begin Form
     Width =16980
     DatasheetFontHeight =11
     ItemSuffix =12
-    Right =23760
+    Right =23490
     Bottom =17445
     RecSrcDt = Begin
         0xd05cceb79b64e640
@@ -262,6 +262,7 @@ Begin Form
                     Overlaps =1
                 End
                 Begin CommandButton
+                    Visible = NotDefault
                     OverlapFlags =223
                     Top =2400
                     Width =3180

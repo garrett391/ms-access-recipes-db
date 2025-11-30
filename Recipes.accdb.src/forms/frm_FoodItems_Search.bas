@@ -8,10 +8,10 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =28523
+    Width =30443
     DatasheetFontHeight =11
-    ItemSuffix =51
-    Right =23505
+    ItemSuffix =67
+    Right =23490
     Bottom =17445
     Filter ="FoodTypeID = 2 OR FoodTypeID = 3"
     RecSrcDt = Begin
@@ -85,6 +85,15 @@ Begin Form
             PressedForeThemeColorIndex =0
             PressedForeTint =75.0
         End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
         Begin TextBox
             AddColon = NotDefault
             FELineBreak = NotDefault
@@ -102,13 +111,37 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
+        Begin ToggleButton
+            FontName ="Segoe UI"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =2
+            Bevel =1
+            BackThemeColorIndex =4
+            BackTint =60.0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =1
+        End
         Begin EmptyCell
             Height =240
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =1072
+            Height =1642
             Name ="FormHeader"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -118,7 +151,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =360
-                    Top =660
+                    Top =1230
                     Width =1440
                     Height =390
                     LeftMargin =44
@@ -129,16 +162,16 @@ Begin Form
                     Caption ="Food Item ID"
                     GroupTable =1
                     LayoutCachedLeft =360
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =1800
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
                     Left =1860
-                    Top =660
+                    Top =1230
                     Width =3525
                     Height =390
                     LeftMargin =44
@@ -149,9 +182,9 @@ Begin Form
                     Caption ="Food Name"
                     GroupTable =1
                     LayoutCachedLeft =1860
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =5385
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
@@ -160,7 +193,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =5445
-                    Top =660
+                    Top =1230
                     Width =3525
                     Height =390
                     LeftMargin =44
@@ -171,9 +204,9 @@ Begin Form
                     Caption ="Manufacturer"
                     GroupTable =1
                     LayoutCachedLeft =5445
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =8970
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =2
                     ColumnEnd =2
                     LayoutGroup =1
@@ -182,7 +215,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =13485
-                    Top =660
+                    Top =1230
                     Width =1440
                     Height =390
                     LeftMargin =44
@@ -193,9 +226,9 @@ Begin Form
                     Caption ="Protein"
                     GroupTable =1
                     LayoutCachedLeft =13485
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =14925
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =5
                     ColumnEnd =5
                     LayoutGroup =1
@@ -204,7 +237,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =14985
-                    Top =660
+                    Top =1230
                     Width =1440
                     Height =390
                     LeftMargin =44
@@ -215,9 +248,9 @@ Begin Form
                     Caption ="Added Sugar"
                     GroupTable =1
                     LayoutCachedLeft =14985
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =16425
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =6
                     ColumnEnd =6
                     LayoutGroup =1
@@ -226,7 +259,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =16485
-                    Top =660
+                    Top =1230
                     Width =1440
                     Height =390
                     LeftMargin =44
@@ -237,9 +270,9 @@ Begin Form
                     Caption ="Calories"
                     GroupTable =1
                     LayoutCachedLeft =16485
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =17925
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =7
                     ColumnEnd =7
                     LayoutGroup =1
@@ -248,7 +281,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =17985
-                    Top =660
+                    Top =1230
                     Width =8640
                     Height =390
                     LeftMargin =44
@@ -259,9 +292,9 @@ Begin Form
                     Caption ="UrlLink"
                     GroupTable =1
                     LayoutCachedLeft =17985
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =26625
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =8
                     ColumnEnd =8
                     LayoutGroup =1
@@ -275,8 +308,8 @@ Begin Form
                     Width =4620
                     Height =460
                     FontSize =18
-                    Name ="Auto_Header0"
-                    Caption ="FoodItems"
+                    Name ="lbl_Header"
+                    Caption ="Food Items"
                     FontName ="Segoe UI Semibold"
                     HorizontalAnchor =2
                     LayoutCachedLeft =1140
@@ -294,19 +327,19 @@ Begin Form
                     Left =360
                     Width =659
                     Height =598
-                    Name ="Image23"
+                    Name ="img_Header"
                     Picture ="fast-food-512"
 
                     LayoutCachedLeft =360
                     LayoutCachedWidth =1019
                     LayoutCachedHeight =598
-                    TabIndex =3
+                    TabIndex =4
                 End
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
                     Left =9030
-                    Top =660
+                    Top =1230
                     Width =2160
                     Height =390
                     LeftMargin =44
@@ -317,9 +350,9 @@ Begin Form
                     Caption ="Serving Size"
                     GroupTable =1
                     LayoutCachedLeft =9030
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =11190
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =3
                     ColumnEnd =3
                     LayoutGroup =1
@@ -327,11 +360,12 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =5880
-                    Top =60
+                    Left =14100
+                    Top =120
                     Width =2280
                     Height =432
                     FontSize =12
+                    TabIndex =2
                     ForeColor =4144959
                     Name ="cmd_NewFoodItem"
                     Caption =" New Food Item"
@@ -383,10 +417,10 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =5880
-                    LayoutCachedTop =60
-                    LayoutCachedWidth =8160
-                    LayoutCachedHeight =492
+                    LayoutCachedLeft =14100
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =16380
+                    LayoutCachedHeight =552
                     PictureCaptionArrangement =5
                     ForeThemeColorIndex =-1
                     ForeTint =100.0
@@ -414,15 +448,15 @@ Begin Form
                 End
                 Begin EmptyCell
                     Left =26685
-                    Top =660
+                    Top =1230
                     Width =1800
                     Height =390
                     Name ="EmptyCell39"
                     GroupTable =1
                     LayoutCachedLeft =26685
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =28485
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =9
                     ColumnEnd =9
                     LayoutGroup =1
@@ -431,24 +465,23 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =9000
-                    Top =108
+                    Left =5880
+                    Top =120
                     Width =7500
                     Height =432
                     FontSize =12
-                    TabIndex =1
                     Name ="txt_Search"
 
-                    LayoutCachedLeft =9000
-                    LayoutCachedTop =108
-                    LayoutCachedWidth =16500
-                    LayoutCachedHeight =540
+                    LayoutCachedLeft =5880
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13380
+                    LayoutCachedHeight =552
                 End
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
                     Left =11250
-                    Top =660
+                    Top =1230
                     Width =2175
                     Height =390
                     LeftMargin =44
@@ -459,9 +492,9 @@ Begin Form
                     Caption ="ServingsPerContainer"
                     GroupTable =1
                     LayoutCachedLeft =11250
-                    LayoutCachedTop =660
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =13425
-                    LayoutCachedHeight =1050
+                    LayoutCachedHeight =1620
                     ColumnStart =4
                     ColumnEnd =4
                     LayoutGroup =1
@@ -469,12 +502,12 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =16560
-                    Top =108
+                    Left =13440
+                    Top =120
                     Width =540
                     Height =432
                     FontSize =12
-                    TabIndex =2
+                    TabIndex =1
                     Name ="cmd_Search"
                     OnClick ="[Event Procedure]"
                     ImageData = Begin
@@ -514,10 +547,10 @@ Begin Form
                         0x0000000000000000
                     End
 
-                    LayoutCachedLeft =16560
-                    LayoutCachedTop =108
-                    LayoutCachedWidth =17100
-                    LayoutCachedHeight =540
+                    LayoutCachedLeft =13440
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13980
+                    LayoutCachedHeight =552
                     Gradient =0
                     BackThemeColorIndex =1
                     BackTint =100.0
@@ -538,6 +571,165 @@ Begin Form
                     PressedForeTint =100.0
                     QuickStyle =32
                     QuickStyleMask =-631
+                End
+                Begin EmptyCell
+                    Left =28545
+                    Top =1230
+                    Width =1860
+                    Height =390
+                    Name ="EmptyCell54"
+                    GroupTable =1
+                    LayoutCachedLeft =28545
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =30405
+                    LayoutCachedHeight =1620
+                    ColumnStart =10
+                    ColumnEnd =10
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin OptionGroup
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =360
+                    Top =720
+                    Width =7434
+                    Height =434
+                    TabIndex =3
+                    Name ="grp_FoodTypes"
+                    DefaultValue ="3"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =720
+                    LayoutCachedWidth =7794
+                    LayoutCachedHeight =1154
+                    Begin
+                        Begin ToggleButton
+                            OverlapFlags =87
+                            Left =2820
+                            Top =720
+                            Width =2352
+                            Height =432
+                            FontSize =12
+                            FontWeight =400
+                            OptionValue =2
+                            ForeColor =4144959
+                            Name ="opt_PremadeFoods"
+                            Caption ="Premade Foods"
+
+                            LayoutCachedLeft =2820
+                            LayoutCachedTop =720
+                            LayoutCachedWidth =5172
+                            LayoutCachedHeight =1152
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            Shape =1
+                            Bevel =0
+                            BackColor =16119285
+                            BackThemeColorIndex =-1
+                            BackTint =100.0
+                            OldBorderStyle =1
+                            BorderColor =5855577
+                            BorderThemeColorIndex =-1
+                            BorderTint =100.0
+                            HoverColor =14211288
+                            HoverThemeColorIndex =-1
+                            HoverTint =100.0
+                            PressedColor =11892777
+                            PressedThemeColorIndex =-1
+                            PressedShade =100.0
+                            HoverForeColor =0
+                            HoverForeThemeColorIndex =-1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =-1
+                            QuickStyle =32
+                            QuickStyleMask =-631
+                        End
+                        Begin ToggleButton
+                            OverlapFlags =87
+                            Left =5280
+                            Top =720
+                            Width =2352
+                            Height =432
+                            FontSize =12
+                            FontWeight =400
+                            OptionValue =1
+                            ForeColor =4144959
+                            Name ="opt_RawIngredients"
+                            Caption ="Raw Ingredients"
+
+                            LayoutCachedLeft =5280
+                            LayoutCachedTop =720
+                            LayoutCachedWidth =7632
+                            LayoutCachedHeight =1152
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            Shape =1
+                            Bevel =0
+                            BackColor =16119285
+                            BackThemeColorIndex =-1
+                            BackTint =100.0
+                            OldBorderStyle =1
+                            BorderColor =5855577
+                            BorderThemeColorIndex =-1
+                            BorderTint =100.0
+                            HoverColor =14211288
+                            HoverThemeColorIndex =-1
+                            HoverTint =100.0
+                            PressedColor =11892777
+                            PressedThemeColorIndex =-1
+                            PressedShade =100.0
+                            HoverForeColor =0
+                            HoverForeThemeColorIndex =-1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =-1
+                            QuickStyle =32
+                            QuickStyleMask =-631
+                        End
+                        Begin ToggleButton
+                            OverlapFlags =87
+                            Left =366
+                            Top =722
+                            Width =2352
+                            Height =432
+                            FontSize =12
+                            FontWeight =400
+                            OptionValue =3
+                            ForeColor =4144959
+                            Name ="opt_HomemadeFoods"
+                            Caption ="Homemade Foods"
+
+                            LayoutCachedLeft =366
+                            LayoutCachedTop =722
+                            LayoutCachedWidth =2718
+                            LayoutCachedHeight =1154
+                            ForeThemeColorIndex =-1
+                            ForeTint =100.0
+                            Shape =1
+                            Bevel =0
+                            BackColor =16119285
+                            BackThemeColorIndex =-1
+                            BackTint =100.0
+                            OldBorderStyle =1
+                            BorderColor =5855577
+                            BorderThemeColorIndex =-1
+                            BorderTint =100.0
+                            HoverColor =14211288
+                            HoverThemeColorIndex =-1
+                            HoverTint =100.0
+                            PressedColor =11892777
+                            PressedThemeColorIndex =-1
+                            PressedShade =100.0
+                            HoverForeColor =0
+                            HoverForeThemeColorIndex =-1
+                            HoverForeTint =100.0
+                            PressedForeThemeColorIndex =-1
+                            QuickStyle =32
+                            QuickStyleMask =-631
+                        End
+                    End
                 End
             End
         End
@@ -888,6 +1080,89 @@ Begin Form
                     ColumnEnd =4
                     LayoutGroup =1
                     GroupTable =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =28545
+                    Top =30
+                    Width =1860
+                    Height =432
+                    FontSize =12
+                    TabIndex =10
+                    Name ="cmd_AllNutrients"
+                    Caption =" All Nutrients"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000b17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0xb17d4affb3b3b36fb17d4affb17d4affb17d4affb17d4affb17d4affb17d4aff ,
+                        0x0000000000000000b17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x90a468ff90a468e1b17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x90a468ff90a468ffb17d4affffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xffffffffb3b3b3ffffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffffffffff ,
+                        0x90a468ff90a468deb17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x0000000000000000b17d4affffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xffffffffb3b3b3ffffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffffffffff ,
+                        0xb17d4affb17d4ae1b17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xb17d4affb17d4affb17d4affffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xffffffffb3b3b3ffffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffffffffff ,
+                        0xb17d4affb17d4adeb17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x0000000000000000b17d4affffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ff ,
+                        0xffffffffb3b3b3ffffffffffb3b3b3ffb3b3b3ffb3b3b3ffb3b3b3ffffffffff ,
+                        0x3255d6ff3255d6e1b17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x3255d6ff3255d6ffb17d4affffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffb3b3b3ffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0x3255d6ff3255d6de727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x727272ffc5c5c585727272ff727272ff727272ff727272ff727272ff727272ff ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    CursorOnHover =1
+                    LayoutCachedLeft =28545
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =30405
+                    LayoutCachedHeight =462
+                    PictureCaptionArrangement =5
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =10
+                    ColumnEnd =10
+                    LayoutGroup =1
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackColor =11892777
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderColor =11892777
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    HoverColor =8411423
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =8411423
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =1
+                    QuickStyle =32
+                    QuickStyleMask =-119
                 End
             End
         End

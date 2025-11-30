@@ -9,8 +9,7 @@ Dim defaultRecordSource As String
 
 
 Private Sub Form_Load()
-    defaultRecordSource = "SELECT * FROM FoodItems WHERE (FoodTypeID = 2 OR FoodTypeID = 3) "
-    Me.RecordSource = defaultRecordSource
+    grp_FoodTypes_Click
 End Sub
 
 
@@ -25,7 +24,33 @@ Private Sub cmd_NewFoodItem_Click()
 End Sub
 
 
+Private Sub grp_FoodTypes_Click()
+    ' Set the icon
+    ' TODO: Commented out picture because for some reason this is making the operation take longer.
+    Select Case Me!grp_FoodTypes.Value
+    Case FoodType.HomemadeFood
+        Me!lbl_Header.Caption = "Homemade Food Items"
+'        Me!img_Header.Picture = "couple_512"
+    Case FoodType.PremadeFood
+        Me!lbl_Header.Caption = "Premade Food Items"
+'        Me!img_Header.Picture = "fast-food-512"
+    Case FoodType.RawIngredient
+'        Me!img_Header.Picture = "ingredient_512"
+        Me!lbl_Header.Caption = "Raw Ingredients"
+    End Select
+
+    defaultRecordSource = "SELECT * FROM FoodItems WHERE FoodTypeID = " & Me!grp_FoodTypes.Value
+    Call cmd_Search_Click
+End Sub
+
+
+
 Private Sub cmd_OpenIngredients_Click()
+    Call cmd_AllNutrients_Click
+End Sub
+
+
+Private Sub cmd_AllNutrients_Click()
     Dim FoodItemID As Long
 
     If Me.Dirty = True Then
