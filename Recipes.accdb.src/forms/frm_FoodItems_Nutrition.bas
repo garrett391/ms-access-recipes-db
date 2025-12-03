@@ -7,12 +7,13 @@ Begin Form
     DefaultView =0
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
+    Cycle =1
     GridX =24
     GridY =24
     Width =22560
     DatasheetFontHeight =11
     ItemSuffix =206
-    Right =-32131
+    Right =23490
     Bottom =17445
     RecSrcDt = Begin
         0x29fbfc8c9566e640

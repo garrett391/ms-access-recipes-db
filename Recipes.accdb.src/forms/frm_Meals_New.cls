@@ -50,10 +50,10 @@ End Sub
 
 
 Private Sub Form_Load()
-    If InStr(1, GetCurrentUser, "Garrett") Then
-        Me!cbo_UserID.DefaultValue = 2
-    Else
+    If Left(GetCurrentUser, 1) = "C" Then
         Me!cbo_UserID.DefaultValue = 1
+    ElseIf Left(GetCurrentUser, 1) = "G" Then
+        Me!cbo_UserID.DefaultValue = 2
     End If
 End Sub
 
