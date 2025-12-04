@@ -3,6 +3,7 @@ VersionRequired =20
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
+    OrderByOn = NotDefault
     AllowDesignChanges = NotDefault
     DateGrouping =1
     GrpKeepTogether =1
@@ -332,7 +333,7 @@ Begin Report
             KeepTogether = NotDefault
             CanGrow = NotDefault
             CanShrink = NotDefault
-            Height =832
+            Height =840
             Name ="ReportHeader"
             AutoHeight =1
             AlternateBackThemeColorIndex =1
@@ -346,7 +347,7 @@ Begin Report
                     Left =300
                     Top =60
                     Width =690
-                    Height =750
+                    Height =756
                     Name ="Auto_Logo0"
                     ControlTipText ="Auto_Logo0"
                     GroupTable =2
@@ -476,7 +477,7 @@ Begin Report
                     LayoutCachedLeft =300
                     LayoutCachedTop =60
                     LayoutCachedWidth =990
-                    LayoutCachedHeight =810
+                    LayoutCachedHeight =816
                     TabIndex =2
                     RowEnd =1
                     LayoutGroup =2
@@ -484,20 +485,20 @@ Begin Report
                 End
                 Begin Label
                     TextAlign =1
-                    Left =1050
+                    Left =1056
                     Top =60
-                    Width =5776
-                    Height =750
+                    Width =5772
+                    Height =756
                     FontSize =18
                     Name ="Auto_Header0"
                     Caption ="ColorPalletes"
                     FontName ="Segoe UI Semibold"
                     GroupTable =2
                     HorizontalAnchor =2
-                    LayoutCachedLeft =1050
+                    LayoutCachedLeft =1056
                     LayoutCachedTop =60
-                    LayoutCachedWidth =6826
-                    LayoutCachedHeight =810
+                    LayoutCachedWidth =6828
+                    LayoutCachedHeight =816
                     RowEnd =1
                     ColumnStart =1
                     ColumnEnd =1
@@ -516,7 +517,7 @@ Begin Report
                     TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =6885
+                    Left =6888
                     Top =60
                     Width =4320
                     Height =345
@@ -525,9 +526,9 @@ Begin Report
                     Format ="Long Date"
                     GroupTable =2
 
-                    LayoutCachedLeft =6885
+                    LayoutCachedLeft =6888
                     LayoutCachedTop =60
-                    LayoutCachedWidth =11205
+                    LayoutCachedWidth =11208
                     LayoutCachedHeight =405
                     ColumnStart =2
                     ColumnEnd =2
@@ -543,20 +544,20 @@ Begin Report
                     TextAlign =3
                     BackStyle =0
                     IMESentenceMode =3
-                    Left =6885
-                    Top =465
+                    Left =6888
+                    Top =468
                     Width =4320
-                    Height =345
+                    Height =348
                     TabIndex =1
                     Name ="Auto_Time"
                     ControlSource ="=Time()"
                     Format ="Long Time"
                     GroupTable =2
 
-                    LayoutCachedLeft =6885
-                    LayoutCachedTop =465
-                    LayoutCachedWidth =11205
-                    LayoutCachedHeight =810
+                    LayoutCachedLeft =6888
+                    LayoutCachedTop =468
+                    LayoutCachedWidth =11208
+                    LayoutCachedHeight =816
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2
@@ -639,9 +640,9 @@ Begin Report
                     GroupTable =4
                 End
                 Begin Label
-                    Left =5385
+                    Left =5388
                     Top =540
-                    Width =3525
+                    Width =3528
                     Height =390
                     LeftMargin =44
                     TopMargin =22
@@ -651,9 +652,9 @@ Begin Report
                     Caption ="HexCode"
                     GroupTable =4
                     GridlineStyleBottom =1
-                    LayoutCachedLeft =5385
+                    LayoutCachedLeft =5388
                     LayoutCachedTop =540
-                    LayoutCachedWidth =8910
+                    LayoutCachedWidth =8916
                     LayoutCachedHeight =930
                     ColumnStart =1
                     ColumnEnd =1
@@ -668,7 +669,7 @@ Begin Report
             KeepTogether = NotDefault
             CanGrow = NotDefault
             CanShrink = NotDefault
-            Height =450
+            Height =462
             Name ="Detail"
             OnPaint ="[Event Procedure]"
             AlternateBackThemeColorIndex =1
@@ -680,9 +681,9 @@ Begin Report
                     CanShrink = NotDefault
                     IMESentenceMode =3
                     Left =1740
-                    Top =30
+                    Top =36
                     Width =3525
-                    Height =390
+                    Height =396
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -692,9 +693,9 @@ Begin Report
                     GroupTable =1
 
                     LayoutCachedLeft =1740
-                    LayoutCachedTop =30
+                    LayoutCachedTop =36
                     LayoutCachedWidth =5265
-                    LayoutCachedHeight =420
+                    LayoutCachedHeight =432
                     LayoutGroup =1
                     GridlineThemeColorIndex =1
                     GridlineShade =65.0
@@ -704,10 +705,10 @@ Begin Report
                     CanGrow = NotDefault
                     CanShrink = NotDefault
                     IMESentenceMode =3
-                    Left =5325
-                    Top =30
-                    Width =3525
-                    Height =390
+                    Left =5340
+                    Top =36
+                    Width =3528
+                    Height =396
                     TabIndex =1
                     LeftMargin =44
                     TopMargin =22
@@ -717,10 +718,10 @@ Begin Report
                     ControlSource ="HexCode"
                     GroupTable =1
 
-                    LayoutCachedLeft =5325
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =8850
-                    LayoutCachedHeight =420
+                    LayoutCachedLeft =5340
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =8868
+                    LayoutCachedHeight =432
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
@@ -729,16 +730,16 @@ Begin Report
                     GroupTable =1
                 End
                 Begin Rectangle
-                    Left =8910
-                    Top =30
+                    Left =8940
+                    Top =36
                     Width =1440
-                    Height =390
+                    Height =396
                     Name ="rectSwatch"
                     GroupTable =1
-                    LayoutCachedLeft =8910
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =10350
-                    LayoutCachedHeight =420
+                    LayoutCachedLeft =8940
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =10380
+                    LayoutCachedHeight =432
                     ColumnStart =2
                     ColumnEnd =2
                     LayoutGroup =1
@@ -786,14 +787,14 @@ Begin Report
             Begin
                 Begin EmptyCell
                     Left =1740
-                    Top =195
+                    Top =192
                     Width =3525
                     Name ="EmptyCell10"
                     GroupTable =1
                     LayoutCachedLeft =1740
-                    LayoutCachedTop =195
+                    LayoutCachedTop =192
                     LayoutCachedWidth =5265
-                    LayoutCachedHeight =435
+                    LayoutCachedHeight =432
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
@@ -802,15 +803,15 @@ Begin Report
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =5325
-                    Top =195
-                    Width =3525
+                    Left =5340
+                    Top =192
+                    Width =3528
                     Name ="EmptyCell11"
                     GroupTable =1
-                    LayoutCachedLeft =5325
-                    LayoutCachedTop =195
-                    LayoutCachedWidth =8850
-                    LayoutCachedHeight =435
+                    LayoutCachedLeft =5340
+                    LayoutCachedTop =192
+                    LayoutCachedWidth =8868
+                    LayoutCachedHeight =432
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -821,14 +822,14 @@ Begin Report
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =8910
-                    Top =195
+                    Left =8940
+                    Top =192
                     Name ="EmptyCell24"
                     GroupTable =1
-                    LayoutCachedLeft =8910
-                    LayoutCachedTop =195
-                    LayoutCachedWidth =10350
-                    LayoutCachedHeight =435
+                    LayoutCachedLeft =8940
+                    LayoutCachedTop =192
+                    LayoutCachedWidth =10380
+                    LayoutCachedHeight =432
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2

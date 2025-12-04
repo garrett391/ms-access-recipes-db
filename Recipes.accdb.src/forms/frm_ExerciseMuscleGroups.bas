@@ -11,7 +11,7 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =10485
+    Width =10506
     DatasheetFontHeight =11
     ItemSuffix =21
     Left =7170
@@ -113,7 +113,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =1072
+            Height =1074
             Name ="FormHeader"
             AutoHeight =1
             AlternateBackThemeColorIndex =1
@@ -143,7 +143,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =2910
+                    Left =2916
                     Top =660
                     Width =1440
                     Height =390
@@ -154,9 +154,9 @@ Begin Form
                     Name ="Label1"
                     Caption ="ExerciseID"
                     GroupTable =1
-                    LayoutCachedLeft =2910
+                    LayoutCachedLeft =2916
                     LayoutCachedTop =660
-                    LayoutCachedWidth =4350
+                    LayoutCachedWidth =4356
                     LayoutCachedHeight =1050
                     ColumnStart =1
                     ColumnEnd =1
@@ -165,9 +165,9 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =4410
+                    Left =4428
                     Top =660
-                    Width =1948
+                    Width =1944
                     Height =390
                     LeftMargin =44
                     TopMargin =22
@@ -176,9 +176,9 @@ Begin Form
                     Name ="Label2"
                     Caption ="MuscleGroupID"
                     GroupTable =1
-                    LayoutCachedLeft =4410
+                    LayoutCachedLeft =4428
                     LayoutCachedTop =660
-                    LayoutCachedWidth =6358
+                    LayoutCachedWidth =6372
                     LayoutCachedHeight =1050
                     ColumnStart =2
                     ColumnEnd =2
@@ -187,7 +187,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =9015
+                    Left =9036
                     Top =660
                     Width =1440
                     Height =390
@@ -198,9 +198,9 @@ Begin Form
                     Name ="Label3"
                     Caption ="IsPrimary"
                     GroupTable =1
-                    LayoutCachedLeft =9015
+                    LayoutCachedLeft =9036
                     LayoutCachedTop =660
-                    LayoutCachedWidth =10455
+                    LayoutCachedWidth =10476
                     LayoutCachedHeight =1050
                     ColumnStart =4
                     ColumnEnd =4
@@ -209,9 +209,9 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =6420
+                    Left =6444
                     Top =660
-                    Width =2533
+                    Width =2532
                     Height =390
                     LeftMargin =44
                     TopMargin =22
@@ -220,9 +220,9 @@ Begin Form
                     Name ="Label4"
                     Caption ="SubMuscleGroupID"
                     GroupTable =1
-                    LayoutCachedLeft =6420
+                    LayoutCachedLeft =6444
                     LayoutCachedTop =660
-                    LayoutCachedWidth =8953
+                    LayoutCachedWidth =8976
                     LayoutCachedHeight =1050
                     ColumnStart =3
                     ColumnEnd =3
@@ -364,9 +364,9 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =1
-                    Left =1050
+                    Left =1056
                     Top =60
-                    Width =6975
+                    Width =6972
                     Height =460
                     FontSize =18
                     Name ="Auto_Header0"
@@ -374,9 +374,9 @@ Begin Form
                     FontName ="Segoe UI Semibold"
                     GroupTable =2
                     HorizontalAnchor =2
-                    LayoutCachedLeft =1050
+                    LayoutCachedLeft =1056
                     LayoutCachedTop =60
-                    LayoutCachedWidth =8025
+                    LayoutCachedWidth =8028
                     LayoutCachedHeight =520
                     ColumnStart =1
                     ColumnEnd =1
@@ -402,9 +402,9 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     Left =360
-                    Top =30
+                    Top =36
                     Width =2488
-                    Height =389
+                    Height =384
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -414,9 +414,9 @@ Begin Form
                     GroupTable =1
 
                     LayoutCachedLeft =360
-                    LayoutCachedTop =30
+                    LayoutCachedTop =36
                     LayoutCachedWidth =2848
-                    LayoutCachedHeight =419
+                    LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
@@ -425,9 +425,9 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =2910
-                    Top =30
-                    Height =389
+                    Left =2916
+                    Top =36
+                    Height =384
                     TabIndex =1
                     LeftMargin =44
                     TopMargin =22
@@ -437,10 +437,10 @@ Begin Form
                     ControlSource ="ExerciseID"
                     GroupTable =1
 
-                    LayoutCachedLeft =2910
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =4350
-                    LayoutCachedHeight =419
+                    LayoutCachedLeft =2916
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =4356
+                    LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -450,19 +450,19 @@ Begin Form
                 End
                 Begin CheckBox
                     OverlapFlags =85
-                    Left =9015
-                    Top =30
+                    Left =9036
+                    Top =36
                     Width =1440
-                    Height =389
+                    Height =384
                     TabIndex =4
                     Name ="IsPrimary"
                     ControlSource ="IsPrimary"
                     GroupTable =1
 
-                    LayoutCachedLeft =9015
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =10455
-                    LayoutCachedHeight =419
+                    LayoutCachedLeft =9036
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =10476
+                    LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
                     ColumnStart =4
@@ -474,10 +474,10 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =4410
-                    Top =30
-                    Width =1948
-                    Height =389
+                    Left =4428
+                    Top =36
+                    Width =1944
+                    Height =384
                     TabIndex =2
                     Name ="MuscleGroupID"
                     ControlSource ="MuscleGroupID"
@@ -490,10 +490,10 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =4410
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =6358
-                    LayoutCachedHeight =419
+                    LayoutCachedLeft =4428
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =6372
+                    LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2
@@ -508,10 +508,10 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =3
-                    Left =6420
-                    Top =30
-                    Width =2533
-                    Height =389
+                    Left =6444
+                    Top =36
+                    Width =2532
+                    Height =384
                     TabIndex =3
                     Name ="SubMuscleGroupID"
                     ControlSource ="SubMuscleGroupID"
@@ -524,10 +524,10 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =6420
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =8953
-                    LayoutCachedHeight =419
+                    LayoutCachedLeft =6444
+                    LayoutCachedTop =36
+                    LayoutCachedWidth =8976
+                    LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
                     ColumnStart =3
