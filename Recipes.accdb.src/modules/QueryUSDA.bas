@@ -8,7 +8,7 @@ Function GetUSDAFoodData(searchQuery As String, _
                         Optional pageSize As Integer = 50, _
                         Optional pageNumber As Integer = 1, _
                         Optional sortBy As String = "", _
-                        Optional sortOrder As String = "", _
+                        Optional SortOrder As String = "", _
                         Optional brandOwner As String = "") As String
     ' Function to execute GET request to USDA Food Data Central API
     ' Parameters:
@@ -52,9 +52,9 @@ Function GetUSDAFoodData(searchQuery As String, _
         End If
     End If
 
-    If sortOrder <> "" Then
-        If sortOrder = "asc" Or sortOrder = "desc" Then
-            url = url & "&sortOrder=" & sortOrder
+    If SortOrder <> "" Then
+        If SortOrder = "asc" Or SortOrder = "desc" Then
+            url = url & "&sortOrder=" & SortOrder
         End If
     End If
 
@@ -224,7 +224,7 @@ Sub TestUSDAAPI()
         pageSize:=10, _
         pageNumber:=1, _
         sortBy:="lowercaseDescription.keyword", _
-        sortOrder:="asc" _
+        SortOrder:="asc" _
     )
     Debug.Print Left(jsonResponse, 200) & "..."
 
@@ -249,7 +249,7 @@ Sub TestUSDAAPIDetailed()
         dataTypes:="Foundation", _
         pageSize:=25, _
         sortBy:="publishedDate", _
-        sortOrder:="desc" _
+        SortOrder:="desc" _
     )
 
     ' Process the response

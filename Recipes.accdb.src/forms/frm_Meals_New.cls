@@ -39,6 +39,7 @@ Private Sub populateNutritionalValues()
         !txt_Calcium.Value = ServingAmount * Nz(rs![Calcium], 0)
         !txt_Iron.Value = ServingAmount * Nz(rs![Iron], 0)
         !txt_Potassium.Value = ServingAmount * Nz(rs![Potassium], 0)
+        !txt_FoodName.Value = Nz(rs![FoodName])
     End With
 
 End Sub

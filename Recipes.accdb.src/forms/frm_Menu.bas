@@ -364,7 +364,7 @@ Begin Form
                     Overlaps =1
                 End
                 Begin Subform
-                    OverlapFlags =215
+                    OverlapFlags =87
                     Left =3180
                     Width =13800
                     Height =10920

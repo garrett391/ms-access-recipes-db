@@ -35,3 +35,16 @@ Private Sub cbo_IngredientID_GotFocus()
 ' This sub is needed since the combo box is being used with WithEvents in faytIngredients
     Call DropDownActiveComboBox
 End Sub
+
+
+Private Sub cmd_Delete_Click()
+    If MsgBox("Are you sure you want to delete this record?", vbYesNoCancel, "Delete record?") <> vbYes Then
+        Exit Sub
+    End If
+
+    If Me.NewRecord = False Then
+        DoCmd.RunCommand acCmdDeleteRecord
+    Else
+        Me.Undo
+    End If
+End Sub

@@ -8,10 +8,10 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =15840
+    Width =16590
     DatasheetFontHeight =11
-    ItemSuffix =132
-    Right =23505
+    ItemSuffix =136
+    Right =23280
     Bottom =17445
     RecSrcDt = Begin
         0xa66c92a49666e640
@@ -58,6 +58,32 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Segoe UI"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
         Begin TextBox
             AddColon = NotDefault
             FELineBreak = NotDefault
@@ -98,7 +124,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin FormHeader
-            Height =1188
+            Height =1190
             Name ="FormHeader"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -108,7 +134,7 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =85
                     TextAlign =2
-                    Left =7740
+                    Left =7710
                     Top =360
                     Width =2880
                     Height =360
@@ -121,9 +147,9 @@ Begin Form
                     Name ="lbl_PreparationStyleID"
                     Caption ="Preparation Style"
                     GroupTable =1
-                    LayoutCachedLeft =7740
+                    LayoutCachedLeft =7710
                     LayoutCachedTop =360
-                    LayoutCachedWidth =10620
+                    LayoutCachedWidth =10590
                     LayoutCachedHeight =720
                     ColumnStart =3
                     ColumnEnd =3
@@ -138,7 +164,7 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =93
                     TextAlign =2
-                    Left =336
+                    Left =330
                     Top =360
                     Width =2940
                     Height =360
@@ -151,9 +177,9 @@ Begin Form
                     Name ="lbl_Servings"
                     Caption ="Servings"
                     GroupTable =1
-                    LayoutCachedLeft =336
+                    LayoutCachedLeft =330
                     LayoutCachedTop =360
-                    LayoutCachedWidth =3276
+                    LayoutCachedWidth =3270
                     LayoutCachedHeight =720
                     ColumnEnd =1
                     LayoutGroup =1
@@ -214,7 +240,7 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =85
                     TextAlign =2
-                    Left =3348
+                    Left =3330
                     Top =360
                     Width =4320
                     Height =360
@@ -227,9 +253,9 @@ Begin Form
                     Name ="lbl_SubFoodItemID"
                     Caption ="SubFoodItemID"
                     GroupTable =1
-                    LayoutCachedLeft =3348
+                    LayoutCachedLeft =3330
                     LayoutCachedTop =360
-                    LayoutCachedWidth =7668
+                    LayoutCachedWidth =7650
                     LayoutCachedHeight =720
                     ColumnStart =2
                     ColumnEnd =2
@@ -244,7 +270,7 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =85
                     TextAlign =2
-                    Left =10692
+                    Left =10650
                     Top =360
                     Width =1440
                     Height =360
@@ -257,9 +283,9 @@ Begin Form
                     Name ="lbl_CalculatedProtein"
                     Caption ="Protein"
                     GroupTable =1
-                    LayoutCachedLeft =10692
+                    LayoutCachedLeft =10650
                     LayoutCachedTop =360
-                    LayoutCachedWidth =12132
+                    LayoutCachedWidth =12090
                     LayoutCachedHeight =720
                     ColumnStart =4
                     ColumnEnd =4
@@ -274,7 +300,7 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =85
                     TextAlign =2
-                    Left =12204
+                    Left =12150
                     Top =360
                     Width =1440
                     Height =360
@@ -287,9 +313,9 @@ Begin Form
                     Name ="lbl_CalculatedAddedSugar"
                     Caption ="Added Sugar"
                     GroupTable =1
-                    LayoutCachedLeft =12204
+                    LayoutCachedLeft =12150
                     LayoutCachedTop =360
-                    LayoutCachedWidth =13644
+                    LayoutCachedWidth =13590
                     LayoutCachedHeight =720
                     ColumnStart =5
                     ColumnEnd =5
@@ -304,9 +330,9 @@ Begin Form
                     OldBorderStyle =1
                     OverlapFlags =85
                     TextAlign =2
-                    Left =13716
+                    Left =13650
                     Top =360
-                    Width =2088
+                    Width =2085
                     Height =360
                     LeftMargin =44
                     TopMargin =22
@@ -317,9 +343,9 @@ Begin Form
                     Name ="lbl_CalculatedCalories"
                     Caption ="Calculated Calories"
                     GroupTable =1
-                    LayoutCachedLeft =13716
+                    LayoutCachedLeft =13650
                     LayoutCachedTop =360
-                    LayoutCachedWidth =15804
+                    LayoutCachedWidth =15735
                     LayoutCachedHeight =720
                     ColumnStart =6
                     ColumnEnd =6
@@ -330,30 +356,30 @@ Begin Form
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =336
-                    Top =792
+                    Left =330
+                    Top =780
                     Height =360
                     Name ="EmptyCell113"
                     GroupTable =1
-                    LayoutCachedLeft =336
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =1776
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =330
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =1770
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =1836
-                    Top =792
+                    Left =1830
+                    Top =780
                     Height =360
                     Name ="EmptyCell114"
                     GroupTable =1
-                    LayoutCachedLeft =1836
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =3276
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =1830
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =3270
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -362,16 +388,16 @@ Begin Form
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =3348
-                    Top =792
+                    Left =3330
+                    Top =780
                     Width =4320
                     Height =360
                     Name ="EmptyCell116"
                     GroupTable =1
-                    LayoutCachedLeft =3348
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =7668
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =3330
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =7650
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2
@@ -380,16 +406,16 @@ Begin Form
                     GroupTable =1
                 End
                 Begin EmptyCell
-                    Left =7740
-                    Top =792
+                    Left =7710
+                    Top =780
                     Width =2880
                     Height =360
                     Name ="EmptyCell117"
                     GroupTable =1
-                    LayoutCachedLeft =7740
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =10620
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =7710
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =10590
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =3
@@ -401,8 +427,8 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =10692
-                    Top =792
+                    Left =10650
+                    Top =780
                     Height =360
                     TabIndex =2
                     ForeColor =5855577
@@ -411,10 +437,10 @@ Begin Form
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
-                    LayoutCachedLeft =10692
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =12132
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =10650
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =12090
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =4
@@ -428,8 +454,8 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =12204
-                    Top =792
+                    Left =12150
+                    Top =780
                     Height =360
                     TabIndex =3
                     ForeColor =5855577
@@ -438,10 +464,10 @@ Begin Form
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
-                    LayoutCachedLeft =12204
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =13644
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =12150
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =13590
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =5
@@ -455,9 +481,9 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =13716
-                    Top =792
-                    Width =2088
+                    Left =13650
+                    Top =780
+                    Width =2085
                     Height =360
                     TabIndex =4
                     ForeColor =5855577
@@ -466,10 +492,10 @@ Begin Form
                     FontName ="Segoe UI Semibold"
                     GroupTable =1
 
-                    LayoutCachedLeft =13716
-                    LayoutCachedTop =792
-                    LayoutCachedWidth =15804
-                    LayoutCachedHeight =1152
+                    LayoutCachedLeft =13650
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =15735
+                    LayoutCachedHeight =1140
                     RowStart =1
                     RowEnd =1
                     ColumnStart =6
@@ -477,6 +503,40 @@ Begin Form
                     LayoutGroup =1
                     ThemeFontIndex =0
                     ForeTint =65.0
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =15795
+                    Top =360
+                    Width =765
+                    Height =360
+                    Name ="EmptyCell133"
+                    GroupTable =1
+                    LayoutCachedLeft =15795
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =720
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =15795
+                    Top =780
+                    Width =765
+                    Height =360
+                    Name ="EmptyCell134"
+                    GroupTable =1
+                    LayoutCachedLeft =15795
+                    LayoutCachedTop =780
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =1140
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
                     GroupTable =1
                 End
             End
@@ -492,10 +552,10 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =7740
-                    Top =36
+                    Left =7710
+                    Top =30
                     Width =2880
-                    Height =384
+                    Height =390
                     TabIndex =2
                     Name ="cbo_PreparationStyleID"
                     ControlSource ="PreparationStyleID"
@@ -509,9 +569,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =7740
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =10620
+                    LayoutCachedLeft =7710
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10590
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
@@ -526,9 +586,9 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =336
-                    Top =36
-                    Height =384
+                    Left =330
+                    Top =30
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -537,9 +597,9 @@ Begin Form
                     ControlSource ="Servings"
                     GroupTable =1
 
-                    LayoutCachedLeft =336
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =1776
+                    LayoutCachedLeft =330
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =1770
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
@@ -550,10 +610,10 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =3348
-                    Top =36
+                    Left =3330
+                    Top =30
                     Width =4320
-                    Height =384
+                    Height =390
                     TabIndex =1
                     Name ="cbo_SubFoodItemID"
                     ControlSource ="SubFoodItemID"
@@ -570,9 +630,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =3348
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =7668
+                    LayoutCachedLeft =3330
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7650
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
@@ -588,16 +648,16 @@ Begin Form
                             FontItalic = NotDefault
                             OverlapFlags =85
                             TextAlign =2
-                            Left =1836
-                            Top =36
+                            Left =1830
+                            Top =30
                             Width =1440
-                            Height =384
+                            Height =390
                             Name ="Label129"
                             Caption ="servings of"
                             GroupTable =1
-                            LayoutCachedLeft =1836
-                            LayoutCachedTop =36
-                            LayoutCachedWidth =3276
+                            LayoutCachedLeft =1830
+                            LayoutCachedTop =30
+                            LayoutCachedWidth =3270
                             LayoutCachedHeight =420
                             RowStart =2
                             RowEnd =2
@@ -612,9 +672,9 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =10692
-                    Top =36
-                    Height =384
+                    Left =10650
+                    Top =30
+                    Height =390
                     TabIndex =3
                     LeftMargin =44
                     TopMargin =22
@@ -624,9 +684,9 @@ Begin Form
                     ControlSource ="CalculatedProtein"
                     GroupTable =1
 
-                    LayoutCachedLeft =10692
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =12132
+                    LayoutCachedLeft =10650
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12090
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
@@ -639,9 +699,9 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =12204
-                    Top =36
-                    Height =384
+                    Left =12150
+                    Top =30
+                    Height =390
                     TabIndex =4
                     LeftMargin =44
                     TopMargin =22
@@ -651,9 +711,9 @@ Begin Form
                     ControlSource ="CalculatedAddedSugar"
                     GroupTable =1
 
-                    LayoutCachedLeft =12204
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =13644
+                    LayoutCachedLeft =12150
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =13590
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
@@ -666,10 +726,10 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =13716
-                    Top =36
-                    Width =2088
-                    Height =384
+                    Left =13650
+                    Top =30
+                    Width =2085
+                    Height =390
                     TabIndex =5
                     LeftMargin =44
                     TopMargin =22
@@ -679,15 +739,87 @@ Begin Form
                     ControlSource ="CalculatedCalories"
                     GroupTable =1
 
-                    LayoutCachedLeft =13716
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =15804
+                    LayoutCachedLeft =13650
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =15735
                     LayoutCachedHeight =420
                     RowStart =2
                     RowEnd =2
                     ColumnStart =6
                     ColumnEnd =6
                     LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =15795
+                    Top =30
+                    Width =765
+                    Height =390
+                    TabIndex =6
+                    Name ="cmd_Delete"
+                    Caption ="Command102"
+                    OnClick ="[Event Procedure]"
+                    ControlTipText ="Delete Record"
+                    GroupTable =1
+                    ImageData = Begin
+                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000008080803980808096868686d6 ,
+                        0x828282f7808080ff828282f8868686d68585859c808080390000000000000000 ,
+                        0x0000000000000000000000000000000000000000808080ff808080ff808080ff ,
+                        0x808080ff808080ff808080ff808080ff808080ff808080ff0000000000000000 ,
+                        0x0000000000000000000000000000000080808006818181fbcbcbcbffe6e6e6ff ,
+                        0xf9f9f9fffffffffff9f9f9ffe6e6e6ffcbcbcbff808080ff0000000000000000 ,
+                        0x000000000000000000000000000000008080801e898989edffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffff868686fc8080801500000000 ,
+                        0x0000000000000000000000000000000080808036939393e6ffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffff929292fc8080802d00000000 ,
+                        0x00000000000000000000000000000000808080519f9f9fe3ffffffffe0e5d4ff ,
+                        0x90a468ff90a468ff90a468ffdce2cfffffffffffa0a0a0fe8383834400000000 ,
+                        0x0000000000000000000000000000000080808069afafafe5ffffffffadbc8fff ,
+                        0xcfd7bdffffffffffd8dfcaffa6b686fffefefdffadadadff9393936a00000000 ,
+                        0x0000000000000000000000000000000080808081bebebeecfffffffff6f8f3ff ,
+                        0xa0b17dffc2cdacff9eb07cfff3f5efffffffffffb9b9b9ff9999998e00000000 ,
+                        0x000000000000000000000000000000008080809ccececef9ffffffffffffffff ,
+                        0xeff2eaffbbc7a3ffebefe4ffffffffffffffffffc5c5c5ff979797ad00000000 ,
+                        0x00000000000000000000000000000000838383b8ddddddffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffcfcfcfff969696c700000000 ,
+                        0x00000000000000000000000000000000848484d3e9e9e9ffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffddddddff929292dc00000000 ,
+                        0x00000000000000000000000000000000838383edccccccff9b9b9bff808080ff ,
+                        0x808080ff808080ff808080ff808080ff9b9b9bffc2c2c2ff8d8d8ded00000000 ,
+                        0x00000000000000000000000080808003808080ffa4a4a4ffdededeffffffffff ,
+                        0xffffffffffffffffffffffffffffffffdededeffa4a4a4ff808080ff00000000 ,
+                        0x00000000000000000000000000000000808080ff9c9c9ccddbdbdbe7ffffffff ,
+                        0xffffffffffffffffffffffffffffffffddddddf4a4a4a4dd808080ff00000000 ,
+                        0x00000000000000000000000000000000000000008080804e808080bd808080ff ,
+                        0x808080ff808080ff808080ff808080ff808080bd8080804e0000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+
+                    LayoutCachedLeft =15795
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =16560
+                    LayoutCachedHeight =420
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    Gradient =0
+                    BackThemeColorIndex =1
+                    BackTint =100.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    BorderShade =65.0
+                    HoverColor =13816815
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =7961551
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
                     GroupTable =1
                 End
             End

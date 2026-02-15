@@ -8,7 +8,7 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =30564
+    Width =30566
     DatasheetFontHeight =11
     ItemSuffix =67
     Right =23490
@@ -151,9 +151,9 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =360
-                    Top =1236
+                    Top =1230
                     Width =1440
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -162,18 +162,18 @@ Begin Form
                     Caption ="Food Item ID"
                     GroupTable =1
                     LayoutCachedLeft =360
-                    LayoutCachedTop =1236
+                    LayoutCachedTop =1230
                     LayoutCachedWidth =1800
-                    LayoutCachedHeight =1632
+                    LayoutCachedHeight =1620
                     LayoutGroup =1
                     GroupTable =1
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =1872
-                    Top =1236
-                    Width =3528
-                    Height =396
+                    Left =1860
+                    Top =1230
+                    Width =3525
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -181,10 +181,10 @@ Begin Form
                     Name ="lbl_FoodName"
                     Caption ="Food Name"
                     GroupTable =1
-                    LayoutCachedLeft =1872
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =5400
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =1860
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =5385
+                    LayoutCachedHeight =1620
                     ColumnStart =1
                     ColumnEnd =1
                     LayoutGroup =1
@@ -192,10 +192,10 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =5472
-                    Top =1236
-                    Width =3528
-                    Height =396
+                    Left =5445
+                    Top =1230
+                    Width =3525
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -203,10 +203,10 @@ Begin Form
                     Name ="Label2"
                     Caption ="Manufacturer"
                     GroupTable =1
-                    LayoutCachedLeft =5472
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =9000
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =5445
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =8970
+                    LayoutCachedHeight =1620
                     ColumnStart =2
                     ColumnEnd =2
                     LayoutGroup =1
@@ -214,10 +214,10 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =13548
-                    Top =1236
+                    Left =13485
+                    Top =1230
                     Width =1440
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -225,10 +225,10 @@ Begin Form
                     Name ="Label3"
                     Caption ="Protein"
                     GroupTable =1
-                    LayoutCachedLeft =13548
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =14988
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =13485
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =14925
+                    LayoutCachedHeight =1620
                     ColumnStart =5
                     ColumnEnd =5
                     LayoutGroup =1
@@ -236,10 +236,10 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =15060
-                    Top =1236
+                    Left =14985
+                    Top =1230
                     Width =1440
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -247,10 +247,10 @@ Begin Form
                     Name ="lbl_AddedSugar"
                     Caption ="Added Sugar"
                     GroupTable =1
-                    LayoutCachedLeft =15060
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =16500
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =14985
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =16425
+                    LayoutCachedHeight =1620
                     ColumnStart =6
                     ColumnEnd =6
                     LayoutGroup =1
@@ -258,10 +258,10 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =16572
-                    Top =1236
+                    Left =16485
+                    Top =1230
                     Width =1440
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -269,10 +269,10 @@ Begin Form
                     Name ="Label5"
                     Caption ="Calories"
                     GroupTable =1
-                    LayoutCachedLeft =16572
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =18012
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =16485
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =17925
+                    LayoutCachedHeight =1620
                     ColumnStart =7
                     ColumnEnd =7
                     LayoutGroup =1
@@ -280,10 +280,10 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =18084
-                    Top =1236
+                    Left =17985
+                    Top =1230
                     Width =8640
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -291,10 +291,10 @@ Begin Form
                     Name ="Label6"
                     Caption ="UrlLink"
                     GroupTable =1
-                    LayoutCachedLeft =18084
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =26724
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =17985
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =26625
+                    LayoutCachedHeight =1620
                     ColumnStart =8
                     ColumnEnd =8
                     LayoutGroup =1
@@ -338,10 +338,10 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =9072
-                    Top =1236
+                    Left =9030
+                    Top =1230
                     Width =2160
-                    Height =396
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -349,10 +349,10 @@ Begin Form
                     Name ="lbl_ServingSize"
                     Caption ="Serving Size"
                     GroupTable =1
-                    LayoutCachedLeft =9072
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =11232
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =9030
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =11190
+                    LayoutCachedHeight =1620
                     ColumnStart =3
                     ColumnEnd =3
                     LayoutGroup =1
@@ -447,16 +447,16 @@ Begin Form
                     QuickStyleMask =-631
                 End
                 Begin EmptyCell
-                    Left =26796
-                    Top =1236
+                    Left =26685
+                    Top =1230
                     Width =1800
-                    Height =396
+                    Height =390
                     Name ="EmptyCell39"
                     GroupTable =1
-                    LayoutCachedLeft =26796
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =28596
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =26685
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =28485
+                    LayoutCachedHeight =1620
                     ColumnStart =9
                     ColumnEnd =9
                     LayoutGroup =1
@@ -480,10 +480,10 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =11304
-                    Top =1236
-                    Width =2172
-                    Height =396
+                    Left =11250
+                    Top =1230
+                    Width =2175
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -491,10 +491,10 @@ Begin Form
                     Name ="Label43"
                     Caption ="ServingsPerContainer"
                     GroupTable =1
-                    LayoutCachedLeft =11304
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =13476
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =11250
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =13425
+                    LayoutCachedHeight =1620
                     ColumnStart =4
                     ColumnEnd =4
                     LayoutGroup =1
@@ -573,16 +573,16 @@ Begin Form
                     QuickStyleMask =-631
                 End
                 Begin EmptyCell
-                    Left =28668
-                    Top =1236
+                    Left =28545
+                    Top =1230
                     Width =1860
-                    Height =396
+                    Height =390
                     Name ="EmptyCell54"
                     GroupTable =1
-                    LayoutCachedLeft =28668
-                    LayoutCachedTop =1236
-                    LayoutCachedWidth =30528
-                    LayoutCachedHeight =1632
+                    LayoutCachedLeft =28545
+                    LayoutCachedTop =1230
+                    LayoutCachedWidth =30405
+                    LayoutCachedHeight =1620
                     ColumnStart =10
                     ColumnEnd =10
                     LayoutGroup =1
@@ -744,8 +744,8 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     Left =360
-                    Top =36
-                    Height =432
+                    Top =30
+                    Height =435
                     ColumnWidth =1605
                     LeftMargin =44
                     TopMargin =22
@@ -756,9 +756,9 @@ Begin Form
                     GroupTable =1
 
                     LayoutCachedLeft =360
-                    LayoutCachedTop =36
+                    LayoutCachedTop =30
                     LayoutCachedWidth =1800
-                    LayoutCachedHeight =468
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
@@ -767,10 +767,10 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =1872
-                    Top =36
-                    Width =3528
-                    Height =432
+                    Left =1860
+                    Top =30
+                    Width =3525
+                    Height =435
                     ColumnWidth =4380
                     TabIndex =1
                     LeftMargin =44
@@ -781,10 +781,10 @@ Begin Form
                     ControlSource ="FoodName"
                     GroupTable =1
 
-                    LayoutCachedLeft =1872
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =5400
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =1860
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =5385
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -795,10 +795,10 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =5472
-                    Top =36
-                    Width =3528
-                    Height =432
+                    Left =5445
+                    Top =30
+                    Width =3525
+                    Height =435
                     TabIndex =2
                     LeftMargin =44
                     TopMargin =22
@@ -808,10 +808,10 @@ Begin Form
                     ControlSource ="Manufacturer"
                     GroupTable =1
 
-                    LayoutCachedLeft =5472
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =9000
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =5445
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8970
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =2
@@ -822,9 +822,9 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =13548
-                    Top =36
-                    Height =432
+                    Left =13485
+                    Top =30
+                    Height =435
                     ColumnWidth =1125
                     TabIndex =5
                     LeftMargin =44
@@ -835,10 +835,10 @@ Begin Form
                     ControlSource ="Protein"
                     GroupTable =1
 
-                    LayoutCachedLeft =13548
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =14988
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =13485
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =14925
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =5
@@ -849,9 +849,9 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =15060
-                    Top =36
-                    Height =432
+                    Left =14985
+                    Top =30
+                    Height =435
                     TabIndex =6
                     LeftMargin =44
                     TopMargin =22
@@ -861,10 +861,10 @@ Begin Form
                     ControlSource ="AddedSugar"
                     GroupTable =1
 
-                    LayoutCachedLeft =15060
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =16500
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =14985
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =16425
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =6
@@ -875,9 +875,9 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =16572
-                    Top =36
-                    Height =432
+                    Left =16485
+                    Top =30
+                    Height =435
                     ColumnWidth =1215
                     TabIndex =7
                     LeftMargin =44
@@ -888,10 +888,10 @@ Begin Form
                     ControlSource ="Calories"
                     GroupTable =1
 
-                    LayoutCachedLeft =16572
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =18012
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =16485
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =17925
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =7
@@ -904,10 +904,10 @@ Begin Form
                     ScrollBars =2
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =18084
-                    Top =36
+                    Left =17985
+                    Top =30
                     Width =8640
-                    Height =432
+                    Height =435
                     ColumnWidth =7425
                     TabIndex =8
                     LeftMargin =44
@@ -919,10 +919,10 @@ Begin Form
                     StatusBarText ="The URL for this food item if applicable."
                     GroupTable =1
 
-                    LayoutCachedLeft =18084
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =26724
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =17985
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =26625
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =8
@@ -934,10 +934,10 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =9072
-                    Top =36
+                    Left =9030
+                    Top =30
                     Width =2160
-                    Height =432
+                    Height =435
                     TabIndex =3
                     LeftMargin =44
                     TopMargin =22
@@ -947,10 +947,10 @@ Begin Form
                     ControlSource ="ServingSize"
                     GroupTable =1
 
-                    LayoutCachedLeft =9072
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =11232
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =9030
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =11190
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =3
@@ -960,10 +960,10 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =26796
-                    Top =36
+                    Left =26685
+                    Top =30
                     Width =1800
-                    Height =432
+                    Height =435
                     FontSize =12
                     TabIndex =9
                     Name ="cmd_OpenIngredients"
@@ -1020,10 +1020,10 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =26796
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =28596
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =26685
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =28485
+                    LayoutCachedHeight =465
                     PictureCaptionArrangement =5
                     RowStart =1
                     RowEnd =1
@@ -1057,10 +1057,10 @@ Begin Form
                     OverlapFlags =85
                     TextAlign =2
                     IMESentenceMode =3
-                    Left =11304
-                    Top =36
-                    Width =2172
-                    Height =432
+                    Left =11250
+                    Top =30
+                    Width =2175
+                    Height =435
                     TabIndex =4
                     LeftMargin =44
                     TopMargin =22
@@ -1070,10 +1070,10 @@ Begin Form
                     ControlSource ="ServingsPerContainer"
                     GroupTable =1
 
-                    LayoutCachedLeft =11304
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =13476
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =11250
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =13425
+                    LayoutCachedHeight =465
                     RowStart =1
                     RowEnd =1
                     ColumnStart =4
@@ -1083,10 +1083,10 @@ Begin Form
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =28668
-                    Top =36
+                    Left =28545
+                    Top =30
                     Width =1860
-                    Height =432
+                    Height =435
                     FontSize =12
                     TabIndex =10
                     Name ="cmd_AllNutrients"
@@ -1131,10 +1131,10 @@ Begin Form
                     End
 
                     CursorOnHover =1
-                    LayoutCachedLeft =28668
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =30528
-                    LayoutCachedHeight =468
+                    LayoutCachedLeft =28545
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =30405
+                    LayoutCachedHeight =465
                     PictureCaptionArrangement =5
                     RowStart =1
                     RowEnd =1

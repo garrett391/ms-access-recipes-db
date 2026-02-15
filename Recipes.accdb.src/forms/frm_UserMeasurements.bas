@@ -126,7 +126,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =2172
+                    Left =2160
                     Top =660
                     Width =1800
                     Height =390
@@ -137,9 +137,9 @@ Begin Form
                     Name ="Label1"
                     Caption ="UserID"
                     GroupTable =1
-                    LayoutCachedLeft =2172
+                    LayoutCachedLeft =2160
                     LayoutCachedTop =660
-                    LayoutCachedWidth =3972
+                    LayoutCachedWidth =3960
                     LayoutCachedHeight =1050
                     ColumnStart =1
                     ColumnEnd =1
@@ -148,9 +148,9 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =4044
+                    Left =4020
                     Top =660
-                    Width =1992
+                    Width =1995
                     Height =390
                     LeftMargin =44
                     TopMargin =22
@@ -159,9 +159,9 @@ Begin Form
                     Name ="Label2"
                     Caption ="MeasurementDate"
                     GroupTable =1
-                    LayoutCachedLeft =4044
+                    LayoutCachedLeft =4020
                     LayoutCachedTop =660
-                    LayoutCachedWidth =6036
+                    LayoutCachedWidth =6015
                     LayoutCachedHeight =1050
                     ColumnStart =2
                     ColumnEnd =2
@@ -170,9 +170,9 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =7620
+                    Left =7575
                     Top =660
-                    Width =3528
+                    Width =3525
                     Height =390
                     LeftMargin =44
                     TopMargin =22
@@ -181,9 +181,9 @@ Begin Form
                     Name ="Label4"
                     Caption ="Size"
                     GroupTable =1
-                    LayoutCachedLeft =7620
+                    LayoutCachedLeft =7575
                     LayoutCachedTop =660
-                    LayoutCachedWidth =11148
+                    LayoutCachedWidth =11100
                     LayoutCachedHeight =1050
                     ColumnStart =4
                     ColumnEnd =4
@@ -325,9 +325,9 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =1
-                    Left =1056
+                    Left =1050
                     Top =60
-                    Width =10068
+                    Width =10065
                     Height =460
                     FontSize =18
                     Name ="Auto_Header0"
@@ -335,9 +335,9 @@ Begin Form
                     FontName ="Segoe UI Semibold"
                     GroupTable =2
                     HorizontalAnchor =2
-                    LayoutCachedLeft =1056
+                    LayoutCachedLeft =1050
                     LayoutCachedTop =60
-                    LayoutCachedWidth =11124
+                    LayoutCachedWidth =11115
                     LayoutCachedHeight =520
                     ColumnStart =1
                     ColumnEnd =1
@@ -351,7 +351,7 @@ Begin Form
                 End
                 Begin Label
                     OverlapFlags =85
-                    Left =6108
+                    Left =6075
                     Top =660
                     Width =1440
                     Height =390
@@ -362,9 +362,9 @@ Begin Form
                     Name ="Label17"
                     Caption ="Location"
                     GroupTable =1
-                    LayoutCachedLeft =6108
+                    LayoutCachedLeft =6075
                     LayoutCachedTop =660
-                    LayoutCachedWidth =7548
+                    LayoutCachedWidth =7515
                     LayoutCachedHeight =1050
                     ColumnStart =3
                     ColumnEnd =3
@@ -384,9 +384,9 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     Left =360
-                    Top =36
+                    Top =30
                     Width =1738
-                    Height =384
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -396,7 +396,7 @@ Begin Form
                     GroupTable =1
 
                     LayoutCachedLeft =360
-                    LayoutCachedTop =36
+                    LayoutCachedTop =30
                     LayoutCachedWidth =2098
                     LayoutCachedHeight =420
                     RowStart =1
@@ -407,10 +407,10 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =4044
-                    Top =36
-                    Width =1992
-                    Height =384
+                    Left =4020
+                    Top =30
+                    Width =1995
+                    Height =390
                     ColumnWidth =2250
                     TabIndex =3
                     LeftMargin =44
@@ -421,9 +421,9 @@ Begin Form
                     ControlSource ="MeasurementDate"
                     GroupTable =1
 
-                    LayoutCachedLeft =4044
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =6036
+                    LayoutCachedLeft =4020
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =6015
                     LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
@@ -435,10 +435,10 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =7620
-                    Top =36
-                    Width =3528
-                    Height =384
+                    Left =7575
+                    Top =30
+                    Width =3525
+                    Height =390
                     TabIndex =4
                     LeftMargin =44
                     TopMargin =22
@@ -448,9 +448,9 @@ Begin Form
                     ControlSource ="Size"
                     GroupTable =1
 
-                    LayoutCachedLeft =7620
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =11148
+                    LayoutCachedLeft =7575
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =11100
                     LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
@@ -463,10 +463,10 @@ Begin Form
                     OverlapFlags =85
                     IMESentenceMode =3
                     ColumnCount =2
-                    Left =2172
-                    Top =36
+                    Left =2160
+                    Top =30
                     Width =1800
-                    Height =384
+                    Height =390
                     TabIndex =1
                     Name ="UserID"
                     ControlSource ="UserID"
@@ -480,9 +480,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =2172
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =3972
+                    LayoutCachedLeft =2160
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3960
                     LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
@@ -499,9 +499,9 @@ Begin Form
                     IMESentenceMode =3
                     ColumnCount =3
                     ListWidth =15840
-                    Left =6108
-                    Top =36
-                    Height =384
+                    Left =6075
+                    Top =30
+                    Height =390
                     TabIndex =2
                     Name ="MeasurementLocationID"
                     ControlSource ="MeasurementLocationID"
@@ -515,9 +515,9 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
-                    LayoutCachedLeft =6108
-                    LayoutCachedTop =36
-                    LayoutCachedWidth =7548
+                    LayoutCachedLeft =6075
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7515
                     LayoutCachedHeight =420
                     RowStart =1
                     RowEnd =1
