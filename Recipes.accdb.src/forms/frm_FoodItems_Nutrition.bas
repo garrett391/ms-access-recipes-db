@@ -3,7 +3,6 @@ VersionRequired =20
 Begin Form
     RecordSelectors = NotDefault
     DividingLines = NotDefault
-    FilterOn = NotDefault
     AllowDesignChanges = NotDefault
     DefaultView =0
     PictureAlignment =2
@@ -14,7 +13,7 @@ Begin Form
     Width =22560
     DatasheetFontHeight =11
     ItemSuffix =206
-    Right =23490
+    Right =23280
     Bottom =17445
     Filter ="FoodItemID = 80"
     RecSrcDt = Begin
@@ -586,7 +585,7 @@ Begin Form
                     Top =2580
                     Width =1740
                     Height =390
-                    TabIndex =13
+                    TabIndex =18
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -649,7 +648,7 @@ Begin Form
                     Top =2190
                     Width =1740
                     Height =390
-                    TabIndex =11
+                    TabIndex =17
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -769,7 +768,7 @@ Begin Form
                     Top =2190
                     Width =1740
                     Height =390
-                    TabIndex =10
+                    TabIndex =9
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -831,7 +830,7 @@ Begin Form
                     Top =2580
                     Width =1740
                     Height =390
-                    TabIndex =12
+                    TabIndex =10
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -893,7 +892,7 @@ Begin Form
                     Top =2970
                     Width =1740
                     Height =390
-                    TabIndex =14
+                    TabIndex =11
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -955,7 +954,7 @@ Begin Form
                     Top =3360
                     Width =1740
                     Height =390
-                    TabIndex =16
+                    TabIndex =12
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1017,7 +1016,7 @@ Begin Form
                     Top =3750
                     Width =1740
                     Height =390
-                    TabIndex =18
+                    TabIndex =13
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1079,7 +1078,7 @@ Begin Form
                     Top =4140
                     Width =1740
                     Height =390
-                    TabIndex =20
+                    TabIndex =14
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1141,7 +1140,7 @@ Begin Form
                     Top =4530
                     Width =1740
                     Height =390
-                    TabIndex =22
+                    TabIndex =15
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1203,7 +1202,7 @@ Begin Form
                     Top =1800
                     Width =1740
                     Height =390
-                    TabIndex =9
+                    TabIndex =16
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1265,7 +1264,7 @@ Begin Form
                     Top =2970
                     Width =1740
                     Height =390
-                    TabIndex =15
+                    TabIndex =19
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1329,7 +1328,7 @@ Begin Form
                     Top =3360
                     Width =1740
                     Height =390
-                    TabIndex =17
+                    TabIndex =20
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1393,7 +1392,7 @@ Begin Form
                     Top =3750
                     Width =1740
                     Height =390
-                    TabIndex =19
+                    TabIndex =21
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
@@ -1457,7 +1456,7 @@ Begin Form
                     Top =4140
                     Width =1740
                     Height =390
-                    TabIndex =21
+                    TabIndex =22
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44

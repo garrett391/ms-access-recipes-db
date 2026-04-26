@@ -12,14 +12,14 @@ Begin Form
     Width =19980
     DatasheetFontHeight =11
     ItemSuffix =51
-    Left =4740
+    Left =4950
     Top =3555
-    Right =28245
+    Right =28230
     Bottom =21000
     RecSrcDt = Begin
-        0x79853fd86b70e640
+        0x1b3a77805287e640
     End
-    RecordSource ="WorkoutPlanExerciseSets"
+    RecordSource ="WorkoutSessionExerciseSets"
     OnOpen ="[Event Procedure]"
     DatasheetFontName ="Segoe UI"
     AllowDatasheetView =0
@@ -504,8 +504,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="WorkoutPlanExerciseSetID"
-                    ControlSource ="WorkoutPlanExerciseSetID"
+                    Name ="WorkoutSessionExerciseSetID"
+                    ControlSource ="WorkoutSessionExerciseSetID"
 
                     LayoutCachedLeft =15780
                     LayoutCachedWidth =17790
@@ -522,8 +522,8 @@ Begin Form
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_WorkoutPlanExerciseID"
-                    ControlSource ="WorkoutPlanExerciseID"
+                    Name ="txt_WorkoutSessionExerciseID"
+                    ControlSource ="WorkoutSessionExerciseID"
 
                     LayoutCachedLeft =17790
                     LayoutCachedWidth =19485
@@ -869,4 +869,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "frm_WorkoutPlanExerciseSets.cls"
+' See "frm_WorkoutSessionExerciseSets.cls"

@@ -14,15 +14,15 @@ End Sub
 
 Private Sub Form_Load()
     If Nz(Me.OpenArgs) <> "" Then
-        Me.RecordSource = "SELECT * FROM WorkoutPlanExercises WHERE WorkoutPlanID = " & Me.OpenArgs
-        Me!txt_WorkoutPlanID.DefaultValue = Me.OpenArgs
+        Me.RecordSource = "SELECT * FROM WorkoutSessionExercises WHERE WorkoutSessionID = " & Me.OpenArgs
+        Me!txt_WorkoutSessionID.DefaultValue = Me.OpenArgs
     End If
 End Sub
 
 
 Private Sub cmd_ViewSets_Click()
     If Me.Dirty Then Me.Dirty = False
-    DoCmd.OpenForm "frm_WorkoutPlanExerciseSets", , , "WorkoutPlanExerciseID = " & Me!txt_WorkoutPlanExerciseID, , , Me!txt_WorkoutPlanExerciseID
+    DoCmd.OpenForm "frm_WorkoutSessionExerciseSets", , , "WorkoutSessionExerciseID = " & Me!txt_WorkoutSessionExerciseID, , , Me!txt_WorkoutSessionExerciseID
 End Sub
 
 Private Sub cmd_ViewMuscleGroups_Click()

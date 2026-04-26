@@ -4,9 +4,9 @@
     "Description": "Linked Table"
   },
   "Items": {
-    "Name": "vw_WorkoutPlanSummary",
+    "Name": "vw_WorkoutSessionSummary",
     "Connect": "ODBC;DRIVER=ODBC Driver 18 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=Microsoft Office;DATABASE=health-db;",
-    "SourceTableName": "dbo.vw_WorkoutPlanSummary",
+    "SourceTableName": "dbo.vw_WorkoutSessionSummary",
     "Attributes": 536870912
   }
 }

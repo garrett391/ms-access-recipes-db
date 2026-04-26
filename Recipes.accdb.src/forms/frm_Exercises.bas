@@ -2,6 +2,7 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
+    FilterOn = NotDefault
     AllowDesignChanges = NotDefault
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
@@ -10,8 +11,9 @@ Begin Form
     Width =27494
     DatasheetFontHeight =11
     ItemSuffix =28
-    Right =14175
-    Bottom =17430
+    Right =-32086
+    Bottom =17445
+    Filter ="([Exercises].[ExerciseName] Like '*Reverse Hyperextension*')"
     RecSrcDt = Begin
         0xeec340128f70e640
     End

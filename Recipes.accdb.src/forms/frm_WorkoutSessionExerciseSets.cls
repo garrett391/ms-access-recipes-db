@@ -5,6 +5,6 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-Private Sub cmd_ViewExercises_Click()
-    DoCmd.OpenForm "frm_WorkoutPlanExercises", , , , , , Me!txt_WorkoutPlanID
+Private Sub Form_Open(Cancel As Integer)
+    Me!txt_WorkoutSessionExerciseID.DefaultValue = Me.OpenArgs
 End Sub

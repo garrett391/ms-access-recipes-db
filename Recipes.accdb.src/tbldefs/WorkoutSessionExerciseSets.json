@@ -4,10 +4,10 @@
     "Description": "Linked Table"
   },
   "Items": {
-    "Name": "WorkoutPlans",
+    "Name": "WorkoutSessionExerciseSets",
     "Connect": "ODBC;DRIVER=ODBC Driver 18 for SQL Server;SERVER=tcp:gm-access-to-azure-test.database.windows.net;Trusted_Connection=No;APP=Microsoft Office;DATABASE=health-db;",
-    "SourceTableName": "dbo.WorkoutPlans",
+    "SourceTableName": "dbo.WorkoutSessionExerciseSets",
     "Attributes": 536870912,
-    "PrimaryKey": "[WorkoutPlanID]"
+    "PrimaryKey": "[WorkoutSessionExerciseSetID]"
   }
 }

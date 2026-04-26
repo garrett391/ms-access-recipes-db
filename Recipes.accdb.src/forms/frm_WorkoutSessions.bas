@@ -2,25 +2,21 @@
 VersionRequired =20
 Begin Form
     DividingLines = NotDefault
-    OrderByOn = NotDefault
     AllowDesignChanges = NotDefault
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =23726
+    Width =26738
     DatasheetFontHeight =11
-    ItemSuffix =57
-    Right =23505
+    ItemSuffix =63
+    Right =23280
     Bottom =17445
-    OrderBy ="OrderIndex"
     RecSrcDt = Begin
-        0x12b628ba5b73e640
+        0x48040b775287e640
     End
-    RecordSource ="WorkoutPlanExercises"
-    OnOpen ="[Event Procedure]"
+    RecordSource ="vw_WorkoutSessionSummary"
     DatasheetFontName ="Segoe UI"
-    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -129,28 +125,6 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
-        Begin Tab
-            FontSize =11
-            FontName ="Segoe UI Semibold"
-            ThemeFontIndex =0
-            GridlineThemeColorIndex =1
-            GridlineShade =65.0
-            UseTheme =1
-            Shape =3
-            BackThemeColorIndex =1
-            BackShade =85.0
-            BorderLineStyle =0
-            BorderThemeColorIndex =2
-            BorderTint =60.0
-            HoverThemeColorIndex =1
-            PressedThemeColorIndex =1
-            HoverForeThemeColorIndex =0
-            HoverForeTint =75.0
-            PressedForeThemeColorIndex =0
-            PressedForeTint =75.0
-            ForeThemeColorIndex =0
-            ForeTint =75.0
-        End
         Begin EmptyCell
             Height =240
             GridlineThemeColorIndex =1
@@ -165,187 +139,14 @@ Begin Form
             BackThemeColorIndex =2
             BackTint =20.0
             Begin
-                Begin Label
-                    OverlapFlags =85
-                    Left =360
-                    Top =660
-                    Width =1138
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label0"
-                    Caption ="WorkoutPlanExerciseID"
-                    GroupTable =1
-                    LayoutCachedLeft =360
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =1498
-                    LayoutCachedHeight =1050
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =3060
-                    Top =660
-                    Width =4620
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label2"
-                    Caption ="ExerciseID"
-                    GroupTable =1
-                    LayoutCachedLeft =3060
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =7680
-                    LayoutCachedHeight =1050
-                    ColumnStart =2
-                    ColumnEnd =2
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =1560
-                    Top =660
-                    Width =1440
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="lbl_OrderIndex"
-                    Caption ="Order"
-                    GroupTable =1
-                    LayoutCachedLeft =1560
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =3000
-                    LayoutCachedHeight =1050
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =7740
-                    Top =660
-                    Width =1200
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label4"
-                    Caption ="TargetSets"
-                    GroupTable =1
-                    LayoutCachedLeft =7740
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =8940
-                    LayoutCachedHeight =1050
-                    ColumnStart =3
-                    ColumnEnd =3
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =9000
-                    Top =660
-                    Width =1440
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label5"
-                    Caption ="TargetReps"
-                    GroupTable =1
-                    LayoutCachedLeft =9000
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =10440
-                    LayoutCachedHeight =1050
-                    ColumnStart =4
-                    ColumnEnd =4
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =10500
-                    Top =660
-                    Width =1440
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label6"
-                    Caption ="IsCompleted"
-                    GroupTable =1
-                    LayoutCachedLeft =10500
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =11940
-                    LayoutCachedHeight =1050
-                    ColumnStart =5
-                    ColumnEnd =5
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =12000
-                    Top =660
-                    Width =1755
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label7"
-                    Caption ="CompletedDate"
-                    GroupTable =1
-                    LayoutCachedLeft =12000
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =13755
-                    LayoutCachedHeight =1050
-                    ColumnStart =6
-                    ColumnEnd =6
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin Label
-                    OverlapFlags =85
-                    Left =13815
-                    Top =660
-                    Width =5265
-                    Height =390
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    Name ="Label8"
-                    Caption ="Notes"
-                    GroupTable =1
-                    LayoutCachedLeft =13815
-                    LayoutCachedTop =660
-                    LayoutCachedWidth =19080
-                    LayoutCachedHeight =1050
-                    ColumnStart =7
-                    ColumnEnd =7
-                    LayoutGroup =1
-                    GroupTable =1
-                End
                 Begin Image
                     SizeMode =0
                     Left =300
                     Top =60
                     Width =690
-                    Height =460
+                    Height =525
                     Name ="Auto_Logo0"
+                    GroupTable =2
                     ImageData = Begin
                         0x89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7a ,
                         0xf4000000097048597300000b1300000b1301009a9c1800000a4f694343505068 ,
@@ -466,102 +267,318 @@ Begin Form
                     LayoutCachedLeft =300
                     LayoutCachedTop =60
                     LayoutCachedWidth =990
-                    LayoutCachedHeight =520
-                    TabIndex =1
+                    LayoutCachedHeight =585
+                    LayoutGroup =2
+                    GroupTable =2
                 End
                 Begin Label
-                    OverlapFlags =93
+                    OverlapFlags =85
                     TextAlign =1
                     Left =1050
                     Top =60
-                    Width =18060
-                    Height =460
+                    Width =2985
+                    Height =525
                     FontSize =18
                     Name ="Auto_Header0"
-                    Caption ="WorkoutPlanExercises"
+                    Caption ="Workout Sessions"
                     FontName ="Segoe UI Semibold"
+                    GroupTable =2
                     HorizontalAnchor =2
                     LayoutCachedLeft =1050
                     LayoutCachedTop =60
-                    LayoutCachedWidth =19110
-                    LayoutCachedHeight =520
+                    LayoutCachedWidth =4035
+                    LayoutCachedHeight =585
                     ColumnStart =1
                     ColumnEnd =1
+                    LayoutGroup =2
                     ThemeFontIndex =0
                     BorderThemeColorIndex =2
                     BorderTint =100.0
                     ForeThemeColorIndex =2
                     ForeTint =100.0
+                    GroupTable =2
                 End
-                Begin TextBox
-                    OverlapFlags =215
-                    TextAlign =1
-                    IMESentenceMode =3
-                    Left =17100
-                    Width =1665
-                    Height =435
+                Begin Label
+                    OverlapFlags =85
+                    Left =360
+                    Top =660
+                    Width =1663
+                    Height =390
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_WorkoutPlanID"
-                    ControlSource ="WorkoutPlanID"
-
-                    LayoutCachedLeft =17100
-                    LayoutCachedWidth =18765
-                    LayoutCachedHeight =435
-                End
-                Begin EmptyCell
-                    Left =19140
-                    Top =660
-                    Height =390
-                    Name ="EmptyCell45"
+                    Name ="Label0"
+                    Caption ="WorkoutSessionID"
                     GroupTable =1
-                    LayoutCachedLeft =19140
+                    LayoutCachedLeft =360
                     LayoutCachedTop =660
-                    LayoutCachedWidth =20580
+                    LayoutCachedWidth =2023
+                    LayoutCachedHeight =1050
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =2085
+                    Top =660
+                    Width =1440
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label1"
+                    Caption ="UserID"
+                    GroupTable =1
+                    LayoutCachedLeft =2085
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =3525
+                    LayoutCachedHeight =1050
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =3585
+                    Top =660
+                    Width =1995
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label2"
+                    Caption ="DurationInMinutes"
+                    GroupTable =1
+                    LayoutCachedLeft =3585
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =5580
+                    LayoutCachedHeight =1050
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =5640
+                    Top =660
+                    Width =1440
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label3"
+                    Caption ="CreatedDate"
+                    GroupTable =1
+                    LayoutCachedLeft =5640
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =7080
+                    LayoutCachedHeight =1050
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =7140
+                    Top =660
+                    Width =5760
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label4"
+                    Caption ="PlanName"
+                    GroupTable =1
+                    LayoutCachedLeft =7140
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =12900
+                    LayoutCachedHeight =1050
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =12960
+                    Top =660
+                    Width =1440
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label5"
+                    Caption ="IsCompleted"
+                    GroupTable =1
+                    LayoutCachedLeft =12960
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =14400
+                    LayoutCachedHeight =1050
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =14460
+                    Top =660
+                    Width =1755
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label6"
+                    Caption ="CompletedDate"
+                    GroupTable =1
+                    LayoutCachedLeft =14460
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =16215
+                    LayoutCachedHeight =1050
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =16275
+                    Top =660
+                    Width =1470
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label28"
+                    Caption ="TotalExercises"
+                    GroupTable =1
+                    LayoutCachedLeft =16275
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =17745
+                    LayoutCachedHeight =1050
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =17805
+                    Top =660
+                    Width =2070
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label35"
+                    Caption ="CompletedExercises"
+                    GroupTable =1
+                    LayoutCachedLeft =17805
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =19875
                     LayoutCachedHeight =1050
                     ColumnStart =8
                     ColumnEnd =8
                     LayoutGroup =1
                     GroupTable =1
                 End
-                Begin EmptyCell
-                    Left =20640
+                Begin Label
+                    OverlapFlags =85
+                    Left =19935
                     Top =660
-                    Width =2160
+                    Width =1440
                     Height =390
-                    Name ="EmptyCell50"
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label42"
+                    Caption ="TotalSets"
                     GroupTable =1
-                    LayoutCachedLeft =20640
+                    LayoutCachedLeft =19935
                     LayoutCachedTop =660
-                    LayoutCachedWidth =22800
+                    LayoutCachedWidth =21375
                     LayoutCachedHeight =1050
                     ColumnStart =9
                     ColumnEnd =9
                     LayoutGroup =1
                     GroupTable =1
                 End
-                Begin EmptyCell
-                    Left =22860
+                Begin Label
+                    OverlapFlags =85
+                    Left =21435
                     Top =660
-                    Width =720
+                    Width =1590
                     Height =390
-                    Name ="EmptyCell55"
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label49"
+                    Caption ="CompletedSets"
                     GroupTable =1
-                    LayoutCachedLeft =22860
+                    LayoutCachedLeft =21435
                     LayoutCachedTop =660
-                    LayoutCachedWidth =23580
+                    LayoutCachedWidth =23025
                     LayoutCachedHeight =1050
                     ColumnStart =10
                     ColumnEnd =10
                     LayoutGroup =1
                     GroupTable =1
                 End
+                Begin Label
+                    OverlapFlags =85
+                    Left =23085
+                    Top =660
+                    Width =1965
+                    Height =390
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="Label56"
+                    Caption ="TotalMuscularLoad"
+                    GroupTable =1
+                    LayoutCachedLeft =23085
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =25050
+                    LayoutCachedHeight =1050
+                    ColumnStart =11
+                    ColumnEnd =11
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =25110
+                    Top =660
+                    Height =390
+                    Name ="EmptyCell26"
+                    GroupTable =1
+                    LayoutCachedLeft =25110
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =26550
+                    LayoutCachedHeight =1050
+                    ColumnStart =12
+                    ColumnEnd =12
+                    LayoutGroup =1
+                    GroupTable =1
+                End
             End
         End
         Begin Section
-            Height =506
+            Height =722
             Name ="Detail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -572,20 +589,20 @@ Begin Form
                     IMESentenceMode =3
                     Left =360
                     Top =30
-                    Width =1138
-                    Height =435
+                    Width =1663
+                    Height =645
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_WorkoutPlanExerciseID"
-                    ControlSource ="WorkoutPlanExerciseID"
+                    Name ="txt_WorkoutSessionID"
+                    ControlSource ="WorkoutSessionID"
                     GroupTable =1
 
                     LayoutCachedLeft =360
                     LayoutCachedTop =30
-                    LayoutCachedWidth =1498
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =2023
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     LayoutGroup =1
@@ -594,22 +611,22 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =1560
+                    Left =2085
                     Top =30
-                    Height =435
+                    Height =645
                     TabIndex =1
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="txt_OrderIndex"
-                    ControlSource ="OrderIndex"
+                    Name ="UserID"
+                    ControlSource ="FirstName"
                     GroupTable =1
 
-                    LayoutCachedLeft =1560
+                    LayoutCachedLeft =2085
                     LayoutCachedTop =30
-                    LayoutCachedWidth =3000
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =3525
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -620,23 +637,49 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =7740
+                    Left =3585
                     Top =30
-                    Width =1200
-                    Height =435
+                    Width =1995
+                    Height =645
+                    TabIndex =2
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="DurationInMinutes"
+                    ControlSource ="DurationInMinutes"
+                    GroupTable =1
+
+                    LayoutCachedLeft =3585
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =5580
+                    LayoutCachedHeight =675
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =5640
+                    Top =30
+                    Height =645
                     TabIndex =3
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="TargetSets"
-                    ControlSource ="TargetSets"
+                    Name ="CreatedDate"
+                    ControlSource ="CreatedDate"
                     GroupTable =1
 
-                    LayoutCachedLeft =7740
+                    LayoutCachedLeft =5640
                     LayoutCachedTop =30
-                    LayoutCachedWidth =8940
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =7080
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =3
@@ -647,22 +690,23 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =9000
+                    Left =7140
                     Top =30
-                    Height =435
+                    Width =5760
+                    Height =645
                     TabIndex =4
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="TargetReps"
-                    ControlSource ="TargetReps"
+                    Name ="PlanName"
+                    ControlSource ="PlanName"
                     GroupTable =1
 
-                    LayoutCachedLeft =9000
+                    LayoutCachedLeft =7140
                     LayoutCachedTop =30
-                    LayoutCachedWidth =10440
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =12900
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =4
@@ -672,19 +716,19 @@ Begin Form
                 End
                 Begin CheckBox
                     OverlapFlags =85
-                    Left =10500
+                    Left =12960
                     Top =30
                     Width =1440
-                    Height =435
+                    Height =645
                     TabIndex =5
                     Name ="IsCompleted"
-                    ControlSource ="IsCompleted"
+                    ControlSource ="PlanCompleted"
                     GroupTable =1
 
-                    LayoutCachedLeft =10500
+                    LayoutCachedLeft =12960
                     LayoutCachedTop =30
-                    LayoutCachedWidth =11940
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =14400
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =5
@@ -695,23 +739,23 @@ Begin Form
                 Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =12000
+                    Left =14460
                     Top =30
                     Width =1755
-                    Height =435
+                    Height =645
                     TabIndex =6
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
                     Name ="CompletedDate"
-                    ControlSource ="CompletedDate"
+                    ControlSource ="PlanCompletedDate"
                     GroupTable =1
 
-                    LayoutCachedLeft =12000
+                    LayoutCachedLeft =14460
                     LayoutCachedTop =30
-                    LayoutCachedWidth =13755
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =16215
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =6
@@ -719,28 +763,48 @@ Begin Form
                     LayoutGroup =1
                     GroupTable =1
                 End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =25110
+                    Top =30
+                    Height =645
+                    TabIndex =12
+                    Name ="cmd_ViewExercises"
+                    Caption ="View Exercises"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+
+                    LayoutCachedLeft =25110
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =26550
+                    LayoutCachedHeight =675
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =12
+                    ColumnEnd =12
+                    LayoutGroup =1
+                    GroupTable =1
+                End
                 Begin TextBox
-                    EnterKeyBehavior = NotDefault
-                    ScrollBars =2
                     OverlapFlags =85
                     IMESentenceMode =3
-                    Left =13815
+                    Left =16275
                     Top =30
-                    Width =5265
-                    Height =435
+                    Width =1470
+                    Height =645
                     TabIndex =7
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-                    Name ="Notes"
-                    ControlSource ="Notes"
+                    Name ="TotalExercises"
+                    ControlSource ="TotalExercises"
                     GroupTable =1
 
-                    LayoutCachedLeft =13815
+                    LayoutCachedLeft =16275
                     LayoutCachedTop =30
-                    LayoutCachedWidth =19080
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =17745
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =7
@@ -748,55 +812,26 @@ Begin Form
                     LayoutGroup =1
                     GroupTable =1
                 End
-                Begin ComboBox
+                Begin TextBox
                     OverlapFlags =85
                     IMESentenceMode =3
-                    ColumnCount =2
-                    Left =3060
+                    Left =17805
                     Top =30
-                    Width =4620
-                    Height =435
-                    TabIndex =2
-                    Name ="cbo_ExerciseID"
-                    ControlSource ="ExerciseID"
-                    RowSourceType ="Table/Query"
-                    RowSource ="Exercises"
-                    ColumnWidths ="0"
-                    GroupTable =1
+                    Width =2070
+                    Height =645
+                    TabIndex =8
                     LeftMargin =44
                     TopMargin =22
                     RightMargin =44
                     BottomMargin =22
-
-                    LayoutCachedLeft =3060
-                    LayoutCachedTop =30
-                    LayoutCachedWidth =7680
-                    LayoutCachedHeight =465
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =2
-                    ColumnEnd =2
-                    LayoutGroup =1
-                    ForeThemeColorIndex =0
-                    ForeTint =75.0
-                    ForeShade =100.0
-                    GroupTable =1
-                End
-                Begin CommandButton
-                    OverlapFlags =85
-                    Left =19140
-                    Top =30
-                    Height =435
-                    TabIndex =8
-                    Name ="cmd_ViewSets"
-                    Caption ="View Sets"
-                    OnClick ="[Event Procedure]"
+                    Name ="CompletedExercises"
+                    ControlSource ="CompletedExercises"
                     GroupTable =1
 
-                    LayoutCachedLeft =19140
+                    LayoutCachedLeft =17805
                     LayoutCachedTop =30
-                    LayoutCachedWidth =20580
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =19875
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =8
@@ -804,22 +839,25 @@ Begin Form
                     LayoutGroup =1
                     GroupTable =1
                 End
-                Begin CommandButton
+                Begin TextBox
                     OverlapFlags =85
-                    Left =20640
+                    IMESentenceMode =3
+                    Left =19935
                     Top =30
-                    Width =2160
-                    Height =435
+                    Height =645
                     TabIndex =9
-                    Name ="cmd_ViewMuscleGroups"
-                    Caption ="View Muscle Groups"
-                    OnClick ="[Event Procedure]"
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="TotalSets"
+                    ControlSource ="TotalSets"
                     GroupTable =1
 
-                    LayoutCachedLeft =20640
+                    LayoutCachedLeft =19935
                     LayoutCachedTop =30
-                    LayoutCachedWidth =22800
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =21375
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =9
@@ -827,76 +865,58 @@ Begin Form
                     LayoutGroup =1
                     GroupTable =1
                 End
-                Begin CommandButton
+                Begin TextBox
                     OverlapFlags =85
-                    Left =22860
+                    IMESentenceMode =3
+                    Left =21435
                     Top =30
-                    Width =720
-                    Height =435
+                    Width =1590
+                    Height =645
                     TabIndex =10
-                    Name ="cmd_Delete"
-                    Caption ="Command102"
-                    OnClick ="[Event Procedure]"
-                    ControlTipText ="Delete Record"
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="CompletedSets"
+                    ControlSource ="CompletedSets"
                     GroupTable =1
-                    ImageData = Begin
-                        0x2800000010000000100000000100200000000000000000000000000000000000 ,
-                        0x00000000000000000000000000000000000000008080803980808096868686d6 ,
-                        0x828282f7808080ff828282f8868686d68585859c808080390000000000000000 ,
-                        0x0000000000000000000000000000000000000000808080ff808080ff808080ff ,
-                        0x808080ff808080ff808080ff808080ff808080ff808080ff0000000000000000 ,
-                        0x0000000000000000000000000000000080808006818181fbcbcbcbffe6e6e6ff ,
-                        0xf9f9f9fffffffffff9f9f9ffe6e6e6ffcbcbcbff808080ff0000000000000000 ,
-                        0x000000000000000000000000000000008080801e898989edffffffffffffffff ,
-                        0xffffffffffffffffffffffffffffffffffffffff868686fc8080801500000000 ,
-                        0x0000000000000000000000000000000080808036939393e6ffffffffffffffff ,
-                        0xffffffffffffffffffffffffffffffffffffffff929292fc8080802d00000000 ,
-                        0x00000000000000000000000000000000808080519f9f9fe3ffffffffe0e5d4ff ,
-                        0x90a468ff90a468ff90a468ffdce2cfffffffffffa0a0a0fe8383834400000000 ,
-                        0x0000000000000000000000000000000080808069afafafe5ffffffffadbc8fff ,
-                        0xcfd7bdffffffffffd8dfcaffa6b686fffefefdffadadadff9393936a00000000 ,
-                        0x0000000000000000000000000000000080808081bebebeecfffffffff6f8f3ff ,
-                        0xa0b17dffc2cdacff9eb07cfff3f5efffffffffffb9b9b9ff9999998e00000000 ,
-                        0x000000000000000000000000000000008080809ccececef9ffffffffffffffff ,
-                        0xeff2eaffbbc7a3ffebefe4ffffffffffffffffffc5c5c5ff979797ad00000000 ,
-                        0x00000000000000000000000000000000838383b8ddddddffffffffffffffffff ,
-                        0xffffffffffffffffffffffffffffffffffffffffcfcfcfff969696c700000000 ,
-                        0x00000000000000000000000000000000848484d3e9e9e9ffffffffffffffffff ,
-                        0xffffffffffffffffffffffffffffffffffffffffddddddff929292dc00000000 ,
-                        0x00000000000000000000000000000000838383edccccccff9b9b9bff808080ff ,
-                        0x808080ff808080ff808080ff808080ff9b9b9bffc2c2c2ff8d8d8ded00000000 ,
-                        0x00000000000000000000000080808003808080ffa4a4a4ffdededeffffffffff ,
-                        0xffffffffffffffffffffffffffffffffdededeffa4a4a4ff808080ff00000000 ,
-                        0x00000000000000000000000000000000808080ff9c9c9ccddbdbdbe7ffffffff ,
-                        0xffffffffffffffffffffffffffffffffddddddf4a4a4a4dd808080ff00000000 ,
-                        0x00000000000000000000000000000000000000008080804e808080bd808080ff ,
-                        0x808080ff808080ff808080ff808080ff808080bd8080804e0000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x0000000000000000
-                    End
 
-                    LayoutCachedLeft =22860
+                    LayoutCachedLeft =21435
                     LayoutCachedTop =30
-                    LayoutCachedWidth =23580
-                    LayoutCachedHeight =465
+                    LayoutCachedWidth =23025
+                    LayoutCachedHeight =675
                     RowStart =1
                     RowEnd =1
                     ColumnStart =10
                     ColumnEnd =10
                     LayoutGroup =1
-                    Gradient =0
-                    BackThemeColorIndex =1
-                    BackTint =100.0
-                    BorderThemeColorIndex =1
-                    BorderTint =100.0
-                    BorderShade =65.0
-                    HoverColor =13816815
-                    HoverThemeColorIndex =-1
-                    HoverTint =100.0
-                    PressedColor =7961551
-                    PressedThemeColorIndex =-1
-                    PressedShade =100.0
+                    GroupTable =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =23085
+                    Top =30
+                    Width =1965
+                    Height =645
+                    TabIndex =11
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    Name ="TotalMuscularLoad"
+                    ControlSource ="TotalMuscularLoad"
+                    GroupTable =1
+
+                    LayoutCachedLeft =23085
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =25050
+                    LayoutCachedHeight =675
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =11
+                    ColumnEnd =11
+                    LayoutGroup =1
                     GroupTable =1
                 End
             End
@@ -912,4 +932,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "frm_WorkoutPlanExercises.cls"
+' See "frm_WorkoutSessions.cls"
